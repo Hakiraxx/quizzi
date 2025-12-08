@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzi - Ứng dụng Trắc Nghiệm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .quiz-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .quiz-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .quiz-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .quiz-card p {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+            flex: 1;
+        }
+
+        .quiz-info {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            transition: opacity 0.3s;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .quiz-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Quizzi</h1>
+            <p>Ứng dụng trắc nghiệm trực tuyến</p>
+        </div>
+
+        <div id="quizList" class="quiz-list"></div>
+
+        <div class="footer">
+            <p>Chọn một bộ câu hỏi để bắt đầu</p>
+        </div>
+    </div>
+
+    <script>
+        let quizData = [];
+
+        // Load quiz data
+        async function loadQuizData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                quizData = data.quizzes;
+                displayQuizzes();
+            } catch (error) {
+                console.error('Lỗi tải dữ liệu:', error);
+                document.getElementById('quizList').innerHTML = '<p style="color: white; text-align: center;">Không thể tải dữ liệu quiz</p>';
+            }
+        }
+
+        // Display quiz list
+        function displayQuizzes() {
+            const quizList = document.getElementById('quizList');
+            quizList.innerHTML = '';
+            
+            quizData.forEach((quiz, index) => {
+                const card = document.createElement('a');
+                card.href = `quiz.html?id=${index}`;
+                card.className = 'quiz-card';
+                
+                const questionCount = quiz.questions.length;
+                card.innerHTML = `
+                    <h3>${quiz.title}</h3>
+                    <p>${quiz.subject}</p>
+                    <div class="quiz-info">
+                        <strong>${questionCount}</strong> câu hỏi
+                    </div>
+                    <div class="btn">Bắt đầu →</div>
+                `;
+                quizList.appendChild(card);
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadQuizData);
+    </script>
+</body>
+</html>

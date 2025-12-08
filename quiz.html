@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Quizzi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid white;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: all 0.3s;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Quiz Screen */
+        .quiz-screen {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: none;
+        }
+
+        .quiz-screen.active {
+            display: block;
+        }
+
+        .quiz-screen h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        .quiz-meta {
+            color: #999;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        .progress-bar {
+            background: #e0e0e0;
+            height: 8px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 100%;
+            transition: width 0.3s;
+        }
+
+        .question-container {
+            margin-bottom: 30px;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .option:hover {
+            background: #efefef;
+            border-color: #667eea;
+        }
+
+        .option input[type="radio"] {
+            margin-right: 15px;
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+
+        .option.correct {
+            background: #e8f5e9;
+            border-color: #4caf50;
+        }
+
+        .option.incorrect {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+
+        .option.disabled {
+            pointer-events: none;
+        }
+
+        .feedback-icon {
+            margin-left: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            font-size: 1em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results Screen */
+        .results-screen {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            display: none;
+        }
+
+        .results-screen.active {
+            display: block;
+        }
+
+        .score-display {
+            font-size: 3em;
+            color: #667eea;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .score-percentage {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .results-message {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .results-details {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: left;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .result-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .result-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .result-item.correct {
+            color: #4caf50;
+        }
+
+        .result-item.incorrect {
+            color: #f44336;
+        }
+
+        @media (max-width: 600px) {
+            .quiz-screen {
+                padding: 20px;
+            }
+
+            .score-display {
+                font-size: 2.5em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Quay lại trang chủ</a>
+
+        <!-- Quiz Screen -->
+        <div class="quiz-screen active" id="quizScreen">
+            <h2 id="quizTitle"></h2>
+            <div class="quiz-meta">
+                <span id="questionCounter"></span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+
+            <div class="question-container">
+                <div class="question-number" id="questionNumber"></div>
+                <div class="question-text" id="questionText"></div>
+                <div id="optionsContainer" class="options"></div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn" onclick="prevQuestion()" id="prevBtn">← Câu trước</button>
+                <button class="btn" onclick="nextQuestion()" id="nextBtn">Câu tiếp →</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="results-screen" id="resultsScreen">
+            <h2>Kết quả của bạn</h2>
+            <div class="score-display" id="scoreDisplay"></div>
+            <div class="score-percentage" id="scorePercentage"></div>
+            <div class="results-message" id="resultsMessage"></div>
+            <div id="resultsDetails" class="results-details"></div>
+            <a href="index.html" class="btn">← Quay lại trang chủ</a>
+        </div>
+    </div>
+
+    <script>
+        let quizData = [];
+        let currentQuizIndex = 0;
+        let currentQuestionIndex = 0;
+        let userAnswers = {};
+        let randomizedQuestions = [];
+
+        // Get quiz ID from URL
+        function getQuizId() {
+            const params = new URLSearchParams(window.location.search);
+            return parseInt(params.get('id')) || 0;
+        }
+
+        // Shuffle array
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Load quiz data
+        async function loadQuizData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                quizData = data.quizzes;
+                currentQuizIndex = getQuizId();
+                
+                if (currentQuizIndex >= quizData.length) {
+                    currentQuizIndex = 0;
+                }
+                
+                // Randomize questions
+                randomizedQuestions = shuffleArray(quizData[currentQuizIndex].questions);
+                
+                displayQuestion();
+            } catch (error) {
+                console.error('Lỗi tải dữ liệu:', error);
+                document.getElementById('quizScreen').innerHTML = '<p style="color: red; text-align: center;">Không thể tải dữ liệu quiz</p>';
+            }
+        }
+
+        // Display current question
+        function displayQuestion() {
+            const quiz = quizData[currentQuizIndex];
+            const question = randomizedQuestions[currentQuestionIndex];
+            const questionNumber = currentQuestionIndex + 1;
+            const totalQuestions = randomizedQuestions.length;
+            
+            // Update title and meta
+            document.getElementById('quizTitle').textContent = quiz.title;
+            document.getElementById('questionCounter').textContent = `Câu ${questionNumber}/${totalQuestions}`;
+            document.getElementById('questionNumber').textContent = `Câu ${questionNumber}`;
+            document.getElementById('questionText').textContent = question.question;
+            
+            // Update progress bar
+            const progress = (questionNumber / totalQuestions) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+            
+            // Display options (shuffled)
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            // Create array of options with their indices
+            const optionsWithIndices = question.options.map((option, index) => ({
+                text: option,
+                originalIndex: index
+            }));
+            
+            // Shuffle options
+            const shuffledOptions = [...optionsWithIndices].sort(() => Math.random() - 0.5);
+            
+            shuffledOptions.forEach((optionData, displayIndex) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                
+                const isSelected = userAnswers[question.id] === optionData.originalIndex;
+                if (isSelected) optionDiv.style.borderColor = '#667eea';
+                
+                const inputEl = document.createElement('input');
+                inputEl.type = 'radio';
+                inputEl.id = `option${displayIndex}`;
+                inputEl.name = 'answer';
+                inputEl.value = optionData.originalIndex;
+                if (isSelected) inputEl.checked = true;
+                
+                const labelEl = document.createElement('label');
+                labelEl.htmlFor = `option${displayIndex}`;
+                labelEl.textContent = optionData.text;
+                
+                optionDiv.appendChild(inputEl);
+                optionDiv.appendChild(labelEl);
+                
+                // Click on entire option area to select
+                optionDiv.onclick = () => selectAnswer(optionData.originalIndex, question.id);
+                
+                optionsContainer.appendChild(optionDiv);
+            });
+            
+            // Update buttons
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            const isLastQuestion = currentQuestionIndex === totalQuestions - 1;
+            document.getElementById('nextBtn').textContent = isLastQuestion ? 'Kết thúc' : 'Câu tiếp →';
+        }
+
+        // Select an answer
+        function selectAnswer(optionIndex, questionId) {
+            userAnswers[questionId] = optionIndex;
+            
+            // Show feedback
+            const question = randomizedQuestions[currentQuestionIndex];
+            const isCorrect = optionIndex === question.correctAnswer;
+            
+            // Disable all options after selecting
+            const options = document.querySelectorAll('.option');
+            options.forEach(option => {
+                option.classList.add('disabled');
+                const input = option.querySelector('input');
+                input.disabled = true;
+            });
+            
+            // Highlight the selected option
+            const selectedOption = document.querySelector(`input[value="${optionIndex}"]`).parentElement;
+            if (isCorrect) {
+                selectedOption.classList.add('correct');
+                const feedback = document.createElement('span');
+                feedback.className = 'feedback-icon';
+                feedback.style.color = '#4caf50';
+                feedback.textContent = '✓';
+                selectedOption.appendChild(feedback);
+            } else {
+                selectedOption.classList.add('incorrect');
+                const feedback = document.createElement('span');
+                feedback.className = 'feedback-icon';
+                feedback.style.color = '#f44336';
+                feedback.textContent = '✗';
+                selectedOption.appendChild(feedback);
+                
+                // Show correct answer in green
+                const correctIndex = question.correctAnswer;
+                const correctOption = document.querySelector(`input[value="${correctIndex}"]`).parentElement;
+                correctOption.classList.add('correct');
+                const correctFeedback = document.createElement('span');
+                correctFeedback.className = 'feedback-icon';
+                correctFeedback.style.color = '#4caf50';
+                correctFeedback.textContent = '✓';
+                correctOption.appendChild(correctFeedback);
+            }
+        }
+
+        // Navigate to previous question
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        // Navigate to next question or finish quiz
+        function nextQuestion() {
+            const totalQuestions = randomizedQuestions.length;
+            const currentQuestion = randomizedQuestions[currentQuestionIndex];
+            
+            // Check if user answered
+            if (userAnswers[currentQuestion.id] === undefined) {
+                alert('Vui lòng chọn một đáp án!');
+                return;
+            }
+            
+            if (currentQuestionIndex < totalQuestions - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                finishQuiz();
+            }
+        }
+
+        // Finish quiz and show results
+        function finishQuiz() {
+            const quiz = quizData[currentQuizIndex];
+            let correctCount = 0;
+            
+            randomizedQuestions.forEach(question => {
+                if (userAnswers[question.id] === question.correctAnswer) {
+                    correctCount++;
+                }
+            });
+            
+            const totalQuestions = randomizedQuestions.length;
+            const percentage = Math.round((correctCount / totalQuestions) * 100);
+            
+            // Display results
+            document.getElementById('quizScreen').classList.remove('active');
+            document.getElementById('resultsScreen').classList.add('active');
+            
+            document.getElementById('scoreDisplay').textContent = `${correctCount}/${totalQuestions}`;
+            document.getElementById('scorePercentage').textContent = `${percentage}%`;
+            
+            // Message based on score
+            let message = '';
+            if (percentage === 100) {
+                message = '🎉 Tuyệt vời! Bạn đã trả lời đúng tất cả các câu hỏi!';
+            } else if (percentage >= 80) {
+                message = '🌟 Rất tốt! Bạn nắm vững kiến thức này.';
+            } else if (percentage >= 60) {
+                message = '👍 Khá tốt! Bạn cần ôn lại một số phần.';
+            } else if (percentage >= 40) {
+                message = '📚 Bạn cần ôn lại kỹ hơn.';
+            } else {
+                message = '💪 Hãy cố gắng thêm nữa! Ôn tập lại và thử lại.';
+            }
+            document.getElementById('resultsMessage').textContent = message;
+            
+            // Detailed results
+            const detailsHTML = randomizedQuestions.map((question, index) => {
+                const userAnswer = userAnswers[question.id];
+                const isCorrect = userAnswer === question.correctAnswer;
+                const answerText = question.options[userAnswer] || 'Không trả lời';
+                const correctText = question.options[question.correctAnswer];
+                
+                const resultDiv = document.createElement('div');
+                resultDiv.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
+                
+                const titleSpan = document.createElement('strong');
+                titleSpan.textContent = `Câu ${index + 1}: ${isCorrect ? '✓' : '✗'}`;
+                
+                const questionSpan = document.createElement('div');
+                questionSpan.textContent = question.question;
+                
+                const answerSpan = document.createElement('small');
+                answerSpan.textContent = `Câu trả lời của bạn: ${answerText}`;
+                
+                resultDiv.appendChild(titleSpan);
+                resultDiv.appendChild(document.createElement('br'));
+                resultDiv.appendChild(questionSpan);
+                resultDiv.appendChild(document.createElement('br'));
+                resultDiv.appendChild(answerSpan);
+                
+                if (!isCorrect) {
+                    resultDiv.appendChild(document.createElement('br'));
+                    const correctSpan = document.createElement('small');
+                    correctSpan.style.color = '#4caf50';
+                    correctSpan.textContent = `Đáp án đúng: ${correctText}`;
+                    resultDiv.appendChild(correctSpan);
+                }
+                
+                return resultDiv;
+            });
+            
+            document.getElementById('resultsDetails').innerHTML = '';
+            detailsHTML.forEach(element => {
+                document.getElementById('resultsDetails').appendChild(element);
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadQuizData);
+    </script>
+</body>
+</html>

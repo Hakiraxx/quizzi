@@ -1,0 +1,1672 @@
+{
+  "quizzes": [
+    {
+      "title": "HTML - Câu hỏi trắc nghiệm",
+      "subject": "Ứng dụng web",
+      "questions": [
+      {
+        "id": 1,
+        "question": "HTML là viết tắt của từ gì?",
+        "options": [
+          "HyperText Markup Language",
+          "HighText Markup Language",
+          "HyperText Markup Link",
+          "HighText Markup Link"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 2,
+        "question": "Thẻ nào được sử dụng để tạo tiêu đề trong HTML?",
+        "options": [
+          "<h1>",
+          "<title>",
+          "<header>",
+          "<heading>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 3,
+        "question": "Thẻ nào dùng để chèn hình ảnh?",
+        "options": [
+          "<img>",
+          "<image>",
+          "<picture>",
+          "<photo>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 4,
+        "question": "Để tạo một liên kết đến một trang web khác, ta sử dụng thẻ nào?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<url>",
+          "<href>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 5,
+        "question": "Thẻ nào được sử dụng để định dạng văn bản in đậm?",
+        "options": [
+          "<bold>",
+          "<b>",
+          "<strong>",
+          "Cả B và C đều đúng"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "Để tạo danh sách không thứ tự, ta sử dụng thẻ nào?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<list>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 7,
+        "question": "Thẻ nào dùng để chèn video vào trang HTML?",
+        "options": [
+          "<video>",
+          "<media>",
+          "<movie>",
+          "<iframe>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 8,
+        "question": "Để tạo một bảng, ta sử dụng thẻ nào?",
+        "options": [
+          "<table>",
+          "<tab>",
+          "<tbody>",
+          "<data>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 9,
+        "question": "Thẻ nào dùng để tạo một ô nhập liệu trong một biểu mẫu?",
+        "options": [
+          "<input>",
+          "<textarea>",
+          "<form>",
+          "<field>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 10,
+        "question": "Để thêm chú thích cho một đoạn mã HTML, ta sử dụng:",
+        "options": [
+          "<!-- comment -->",
+          "// comment",
+          "/* comment */",
+          "# comment"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 11,
+        "question": "Thẻ nào dùng để định dạng văn bản in nghiêng?",
+        "options": [
+          "<italic>",
+          "<i>",
+          "<em>",
+          "Cả B và C đều đúng"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "Thẻ nào được sử dụng để tạo đường kẻ phân cách trong HTML?",
+        "options": [
+          "<line>",
+          "<hr>",
+          "<divider>",
+          "<break>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 13,
+        "question": "Thẻ nào dùng để tạo một tiêu đề phụ?",
+        "options": [
+          "<h1>",
+          "<h2>",
+          "<subheading>",
+          "Cả A và B đều đúng"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 14,
+        "question": "Thẻ nào dùng để tạo một danh sách có thứ tự?",
+        "options": [
+          "<ul>",
+          "<ol>",
+          "<list>",
+          "<numbered>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 15,
+        "question": "Để tạo một khung nhúng (iframe) trong HTML, ta sử dụng thẻ nào?",
+        "options": [
+          "<embed>",
+          "<iframe>",
+          "<frame>",
+          "<object>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 16,
+        "question": "Để chèn một tập tin âm thanh vào trang web, ta sử dụng thẻ nào?",
+        "options": [
+          "<audio>",
+          "<sound>",
+          "<media>",
+          "<music>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 17,
+        "question": "Thẻ nào được sử dụng để tạo biểu mẫu trong HTML?",
+        "options": [
+          "<form>",
+          "<input>",
+          "<fieldset>",
+          "<section>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 18,
+        "question": "Thẻ nào được sử dụng để nhóm các mục trong danh sách?",
+        "options": [
+          "<list>",
+          "<group>",
+          "<li>",
+          "<ul>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 19,
+        "question": "Thẻ nào dùng để tạo nút bấm trong biểu mẫu?",
+        "options": [
+          "<button>",
+          "<input type=\"button\">",
+          "Cả A và B đều đúng",
+          "<click>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "Để tạo một liên kết mở trong một tab mới, ta thêm thuộc tính nào vào thẻ <a>?",
+        "options": [
+          "target=\"_self\"",
+          "target=\"_blank\"",
+          "target=\"_new\"",
+          "target=\"_tab\""
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 21,
+        "question": "Thẻ nào dùng để định nghĩa một khối văn bản trong HTML?",
+        "options": [
+          "<block>",
+          "<div>",
+          "<span>",
+          "<section>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 22,
+        "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản?",
+        "options": [
+          "<para>",
+          "<p>",
+          "<text>",
+          "<paragraph>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "Để tạo một đường dẫn đến một tài liệu PDF, ta sử dụng:",
+        "options": [
+          "<a href=\"file.pdf\">",
+          "<link file=\"file.pdf\">",
+          "<pdf src=\"file.pdf\">",
+          "<document href=\"file.pdf\">"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 24,
+        "question": "Thẻ nào được sử dụng để tạo một khối trích dẫn?",
+        "options": [
+          "<blockquote>",
+          "<quote>",
+          "<cite>",
+          "<quotation>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 25,
+        "question": "Để chỉ định ngôn ngữ cho tài liệu HTML, ta sử dụng thuộc tính nào trong thẻ <html>?",
+        "options": [
+          "lang",
+          "language",
+          "type",
+          "code"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 26,
+        "question": "Thẻ nào dùng để thêm biểu tượng favicon cho trang web?",
+        "options": [
+          "<favicon>",
+          "<icon>",
+          "<link rel=\"icon\">",
+          "<head>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 27,
+        "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản mạnh mẽ?",
+        "options": [
+          "<strong>",
+          "<b>",
+          "<em>",
+          "<bold>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 28,
+        "question": "Để tạo một đường dẫn tới một địa chỉ email, ta sử dụng:",
+        "options": [
+          "<a href=\"mailto:example@example.com\">",
+          "<a href=\"email:example@example.com\">",
+          "<link href=\"mailto:example@example.com\">",
+          "<email href=\"example@example.com\">"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 29,
+        "question": "Thẻ nào dùng để chỉ định một biểu thức điều kiện trong HTML?",
+        "options": [
+          "<if>",
+          "<condition>",
+          "<switch>",
+          "HTML không hỗ trợ điều kiện"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 30,
+        "question": "Để tạo một biểu thức truyền tham số trong thẻ <script>, ta sử dụng:",
+        "options": [
+          "<script src=\"file.js\">",
+          "<script href=\"file.js\">",
+          "<script link=\"file.js\">",
+          "<script import=\"file.js\">"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 31,
+        "question": "Thẻ nào dùng để định nghĩa một nhóm các lựa chọn trong biểu mẫu?",
+        "options": [
+          "<select>",
+          "<option>",
+          "<dropdown>",
+          "<list>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 32,
+        "question": "Thẻ nào dùng để tạo một ô chọn (checkbox)?",
+        "options": [
+          "<checkbox>",
+          "<input type=\"checkbox\">",
+          "<input type=\"check\">",
+          "<input type=\"select\">"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 33,
+        "question": "Thẻ nào dùng để định nghĩa phần đầu của một tài liệu HTML?",
+        "options": [
+          "<header>",
+          "<head>",
+          "<title>",
+          "<meta>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 34,
+        "question": "Để tạo một bảng có tiêu đề, ta sử dụng thẻ nào?",
+        "options": [
+          "<thead>",
+          "<header>",
+          "<caption>",
+          "<title>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 35,
+        "question": "Thẻ nào dùng để tạo một ô văn bản đa dòng?",
+        "options": [
+          "<textarea>",
+          "<input type=\"text\">",
+          "<multiline>",
+          "<textbox>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 36,
+        "question": "Để tạo một liên kết đến một phần trong cùng một trang, ta sử dụng:",
+        "options": [
+          "<a href=\"#section\">",
+          "<a link=\"#section\">",
+          "<a href=\"section\">",
+          "<a goto=\"#section\">"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 37,
+        "question": "Thẻ nào được sử dụng để chỉ định một liên kết đến một trang CSS?",
+        "options": [
+          "<style>",
+          "<link rel=\"stylesheet\">",
+          "<css>",
+          "<stylesheet>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 38,
+        "question": "Thẻ nào dùng để tạo một ô radio trong biểu mẫu?",
+        "options": [
+          "<radio>",
+          "<input type=\"radio\">",
+          "<select>",
+          "<input type=\"select\">"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 39,
+        "question": "Để thêm một đường viền xung quanh một hình ảnh, ta có thể sử dụng thuộc tính nào?",
+        "options": [
+          "border",
+          "outline",
+          "padding",
+          "margin"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 40,
+        "question": "Thẻ nào dùng để tạo một danh sách hình ảnh?",
+        "options": [
+          "<img-list>",
+          "<ul>",
+          "<ol>",
+          "HTML không hỗ trợ danh sách hình ảnh"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 41,
+        "question": "Để thêm văn bản nhúng vào hình ảnh, ta sử dụng thẻ nào?",
+        "options": [
+          "<figcaption>",
+          "<caption>",
+          "<label>",
+          "<text>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 42,
+        "question": "Thẻ nào dùng để tạo một đoạn văn bản gạch ngang?",
+        "options": [
+          "<s>",
+          "<strike>",
+          "<del>",
+          "Cả A và B đều đúng"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 43,
+        "question": "Thẻ nào được sử dụng để tạo danh sách định dạng?",
+        "options": [
+          "<deflist>",
+          "<dl>",
+          "<list>",
+          "<definition>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 44,
+        "question": "Thẻ nào dùng để thêm một thẻ meta trong phần đầu của tài liệu?",
+        "options": [
+          "<meta>",
+          "<head>",
+          "<link>",
+          "<title>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 45,
+        "question": "Để tạo một ô nhập liệu chỉ số nguyên, ta sử dụng:",
+        "options": [
+          "<input type=\"number\">",
+          "<input type=\"int\">",
+          "<input type=\"text\">",
+          "<input type=\"integer\">"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 46,
+        "question": "Thẻ nào dùng để tạo một phần giới thiệu trong tài liệu HTML?",
+        "options": [
+          "<intro>",
+          "<section>",
+          "<article>",
+          "Cả B và C đều đúng"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 47,
+        "question": "Thẻ nào dùng để định nghĩa một phần tử trong tài liệu HTML?",
+        "options": [
+          "<element>",
+          "<tag>",
+          "<div>",
+          "<section>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 48,
+        "question": "Để định nghĩa các thuộc tính cho một thẻ HTML, ta sử dụng:",
+        "options": [
+          "<attribute>",
+          "attribute=\"value\"",
+          "<property>",
+          "HTML không hỗ trợ thuộc tính"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 49,
+        "question": "Thẻ nào được sử dụng để chỉ định văn bản tóm tắt cho một hình ảnh?",
+        "options": [
+          "alt",
+          "title",
+          "description",
+          "Cả A và B đều đúng"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 50,
+        "question": "Thẻ nào dùng để nhúng một tài liệu khác vào một tài liệu HTML?",
+        "options": [
+          "<embed>",
+          "<iframe>",
+          "<object>",
+          "Cả A và B đều đúng"
+        ],
+        "correctAnswer": 3
+      }
+    ]
+    },
+    {
+      "title": "CSS - Câu hỏi trắc nghiệm",
+      "subject": "Ứng dụng web",
+      "questions": [
+        {
+          "id": 1,
+          "question": "CSS là viết tắt của từ gì?",
+          "options": [
+            "Cascading Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "Để định nghĩa một kiểu CSS trong HTML, ta sử dụng thẻ nào?",
+          "options": [
+            "<style>",
+            "<css>",
+            "<link>",
+            "<script>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "Để liên kết một tệp CSS bên ngoài, ta sử dụng thẻ nào trong phần <head>?",
+          "options": [
+            "<style src=\"style.css\">",
+            "<link rel=\"stylesheet\" href=\"style.css\">",
+            "<css src=\"style.css\">",
+            "<style href=\"style.css\">"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "Để thay đổi màu chữ, ta sử dụng thuộc tính nào?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "background-color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 5,
+          "question": "Để tạo khoảng cách giữa các phần tử trong CSS, ta sử dụng thuộc tính nào?",
+          "options": [
+            "margin",
+            "padding",
+            "spacing",
+            "border"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 6,
+          "question": "Để định nghĩa font chữ, ta sử dụng thuộc tính nào?",
+          "options": [
+            "font-family",
+            "font-type",
+            "font-style",
+            "text-family"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 7,
+          "question": "Để thay đổi kích thước chữ, ta sử dụng thuộc tính nào?",
+          "options": [
+            "font-size",
+            "text-size",
+            "size",
+            "text-font"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 8,
+          "question": "Để làm cho văn bản in đậm trong CSS, ta sử dụng thuộc tính nào?",
+          "options": [
+            "font-weight: bold;",
+            "font-style: bold;",
+            "text-weight: bold;",
+            "font: bold;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 9,
+          "question": "Để căn giữa văn bản, ta sử dụng thuộc tính nào?",
+          "options": [
+            "text-align: center;",
+            "align: center;",
+            "vertical-align: center;",
+            "center-text;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 10,
+          "question": "Để thêm đường viền xung quanh một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "border",
+            "outline",
+            "frame",
+            "line"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 11,
+          "question": "Để thay đổi màu nền của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "background-color",
+            "bg-color",
+            "background",
+            "color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 12,
+          "question": "Để tạo khoảng cách bên trong của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "padding",
+            "margin",
+            "spacing",
+            "border"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 13,
+          "question": "Để làm cho một phần tử trở nên vô hình, ta sử dụng thuộc tính nào?",
+          "options": [
+            "visibility: hidden;",
+            "display: none;",
+            "Cả A và B đều đúng",
+            "opacity: 0;"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 14,
+          "question": "Để tạo hiệu ứng khi di chuột qua một phần tử, ta sử dụng:",
+          "options": [
+            ":hover",
+            ":active",
+            ":focus",
+            ":click"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 15,
+          "question": "Để định vị một phần tử tuyệt đối, ta sử dụng thuộc tính nào?",
+          "options": [
+            "position: relative;",
+            "position: absolute;",
+            "position: fixed;",
+            "position: static;"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 16,
+          "question": "Để thay đổi độ trong suốt của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "opacity",
+            "transparent",
+            "visibility",
+            "alpha"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 17,
+          "question": "Để thay đổi kiểu đường viền, ta sử dụng thuộc tính nào?",
+          "options": [
+            "border-style",
+            "border-type",
+            "border-form",
+            "border-shape"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 18,
+          "question": "Để định nghĩa một lớp cho phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "class",
+            "id",
+            "style",
+            "attribute"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 19,
+          "question": "Để định nghĩa một phần tử duy nhất, ta sử dụng thuộc tính nào?",
+          "options": [
+            "class",
+            "id",
+            "name",
+            "type"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 20,
+          "question": "Để sử dụng một font chữ từ Google Fonts, ta cần thêm gì vào <head>?",
+          "options": [
+            "<link rel=\"stylesheet\" href=\"...\">",
+            "<style src=\"...\">",
+            "<font href=\"...\">",
+            "<import url=\"...\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 21,
+          "question": "Để tạo một danh sách không có kiểu đánh dấu, ta sử dụng:",
+          "options": [
+            "list-style: none;",
+            "list-style-type: none;",
+            "Cả A và B đều đúng",
+            "display: none;"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 22,
+          "question": "Để sử dụng nhiều lớp cho một phần tử, ta làm gì?",
+          "options": [
+            "Ngăn cách bằng dấu phẩy",
+            "Ngăn cách bằng dấu cách",
+            "Ngăn cách bằng dấu chấm",
+            "Ngăn cách bằng dấu chấm phẩy"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 23,
+          "question": "Để thay đổi hướng văn bản, ta sử dụng thuộc tính nào?",
+          "options": [
+            "direction",
+            "text-direction",
+            "writing-mode",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 24,
+          "question": "Để thay đổi màu đường viền, ta sử dụng thuộc tính nào?",
+          "options": [
+            "border-color",
+            "color-border",
+            "outline-color",
+            "line-color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 25,
+          "question": "Để tạo một hiệu ứng chuyển động mượt mà cho một thuộc tính, ta sử dụng:",
+          "options": [
+            "transition",
+            "animation",
+            "effect",
+            "motion"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 26,
+          "question": "Để định nghĩa một lớp CSS cho phần tử <div>, ta viết:",
+          "options": [
+            "<div class=\"classname\">",
+            "<div id=\"classname\">",
+            "<div style=\"classname\">",
+            "<div name=\"classname\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 27,
+          "question": "Để chỉ định kích thước của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "size",
+            "height và width",
+            "dimension",
+            "length"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 28,
+          "question": "Để tạo một hiệu ứng di chuyển khi cuộn trang, ta sử dụng thuộc tính nào?",
+          "options": [
+            "scroll-behavior",
+            "overflow",
+            "position",
+            "display"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 29,
+          "question": "Để thay đổi độ rộng của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "width",
+            "size",
+            "length",
+            "height"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 30,
+          "question": "Để tạo một phần tử có chiều cao tự động, ta có thể sử dụng:",
+          "options": [
+            "height: auto;",
+            "auto-height;",
+            "auto-size;",
+            "flex-height;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 31,
+          "question": "Để tạo một phần tử có thuộc tính hiển thị dưới dạng lưới, ta sử dụng:",
+          "options": [
+            "display: grid;",
+            "display: flex;",
+            "display: block;",
+            "display: inline;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 32,
+          "question": "Để ẩn một phần tử nhưng vẫn giữ vị trí của nó trong dòng, ta sử dụng:",
+          "options": [
+            "display: none;",
+            "visibility: hidden;",
+            "opacity: 0;",
+            "position: absolute;"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 33,
+          "question": "Để tạo một phần tử có vị trí cố định trong trang, ta sử dụng:",
+          "options": [
+            "position: fixed;",
+            "position: relative;",
+            "position: absolute;",
+            "position: static;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 34,
+          "question": "Để thay đổi chiều rộng tối thiểu của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "min-width",
+            "max-width",
+            "width",
+            "size"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 35,
+          "question": "Để thay đổi chiều cao tối thiểu của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "min-height",
+            "max-height",
+            "height",
+            "size"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 36,
+          "question": "Để tạo ra hiệu ứng chuyển động cho một phần tử, ta sử dụng:",
+          "options": [
+            "animation",
+            "transition",
+            "Cả A và B đều đúng",
+            "effect"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 37,
+          "question": "Để đặt một hình ảnh làm nền cho một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "background-image",
+            "image-background",
+            "background",
+            "image"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 38,
+          "question": "Để xác định vị trí của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "top, bottom, left, right",
+            "position",
+            "margin",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 39,
+          "question": "Để tạo một phần tử có chiều cao tối đa, ta sử dụng thuộc tính nào?",
+          "options": [
+            "max-height",
+            "min-height",
+            "height",
+            "size"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 40,
+          "question": "Để tạo một đường viền có kiểu chấm, ta sử dụng thuộc tính nào?",
+          "options": [
+            "border-style: dotted;",
+            "border: dotted;",
+            "border-type: dotted;",
+            "border-color: dotted;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 41,
+          "question": "Để tạo ra một đường viền rỗng, ta sử dụng thuộc tính nào?",
+          "options": [
+            "border: none;",
+            "border-style: none;",
+            "border-color: none;",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 42,
+          "question": "Để định nghĩa các kiểu cho một lớp CSS, ta sử dụng:",
+          "options": [
+            ".classname { }",
+            "#classname { }",
+            "classname { }",
+            "<classname> { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 43,
+          "question": "Để thay đổi kiểu hiển thị của một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "display",
+            "visibility",
+            "position",
+            "style"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 44,
+          "question": "Để tạo một lớp CSS với tên là \"active\", ta viết:",
+          "options": [
+            ".active { }",
+            "#active { }",
+            "active { }",
+            "<active> { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 45,
+          "question": "Để tạo hiệu ứng hover cho phần tử, ta sử dụng:",
+          "options": [
+            ".classname:hover { }",
+            "#classname:hover { }",
+            "classname:hover { }",
+            "<classname:hover> { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 46,
+          "question": "Để tạo một danh sách có kiểu đánh dấu, ta sử dụng thuộc tính nào?",
+          "options": [
+            "list-style-type",
+            "marker-style",
+            "bullet-style",
+            "list-style"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 47,
+          "question": "Để thiết lập khoảng cách giữa đường viền và nội dung bên trong một phần tử, ta sử dụng thuộc tính nào?",
+          "options": [
+            "padding",
+            "margin",
+            "border-spacing",
+            "space"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 48,
+          "question": "Để tạo một phần tử có chiều rộng tự động, ta sử dụng:",
+          "options": [
+            "width: auto;",
+            "auto-width;",
+            "size: auto;",
+            "width: fit-content;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 49,
+          "question": "Để chỉ định hướng văn bản từ trái sang phải, ta sử dụng thuộc tính nào?",
+          "options": [
+            "direction: ltr;",
+            "direction: rtl;",
+            "text-direction: ltr;",
+            "text-direction: rtl;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 50,
+          "question": "Để thêm hiệu ứng cho phần tử khi nó được cuộn vào trang, ta sử dụng thuộc tính nào?",
+          "options": [
+            "scroll-behavior",
+            "transition",
+            "animation",
+            "effect"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "title": "JavaScript - Câu hỏi trắc nghiệm",
+      "subject": "Ứng dụng web",
+      "questions": [
+        {
+          "id": 1,
+          "question": "JavaScript là một ngôn ngữ lập trình gì?",
+          "options": [
+            "Đối tượng",
+            "Hàm",
+            "Thủ tục",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "Để khai báo một biến trong JavaScript, ta sử dụng từ khóa nào?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 3,
+          "question": "Để kiểm tra kiểu dữ liệu của một biến, ta sử dụng hàm nào?",
+          "options": [
+            "typeof()",
+            "instanceof()",
+            "checkType()",
+            "dataType()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 4,
+          "question": "Hàm nào được gọi khi trang web được tải xong?",
+          "options": [
+            "onload",
+            "DOMContentLoaded",
+            "ready",
+            "load"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 5,
+          "question": "Để tạo một hàm trong JavaScript, ta sử dụng từ khóa nào?",
+          "options": [
+            "function",
+            "def",
+            "method",
+            "procedure"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 6,
+          "question": "Để kết nối hai chuỗi, ta sử dụng toán tử nào?",
+          "options": [
+            "+",
+            "&",
+            "|",
+            ","
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 7,
+          "question": "Để kiểm tra một điều kiện, ta sử dụng câu lệnh nào?",
+          "options": [
+            "if",
+            "switch",
+            "for",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 8,
+          "question": "Để lặp qua một mảng, ta có thể sử dụng vòng lặp nào?",
+          "options": [
+            "for",
+            "while",
+            "forEach",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 9,
+          "question": "Để tạo một mảng mới từ một mảng hiện có, ta sử dụng phương thức nào?",
+          "options": [
+            "slice()",
+            "splice()",
+            "concat()",
+            "Cả A và C đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 10,
+          "question": "Hàm nào được sử dụng để chuyển đổi một chuỗi thành số?",
+          "options": [
+            "parseInt()",
+            "Number()",
+            "parseFloat()",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 11,
+          "question": "Để thông báo một thông điệp đến người dùng, ta sử dụng hàm nào?",
+          "options": [
+            "alert()",
+            "console.log()",
+            "prompt()",
+            "confirm()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 12,
+          "question": "Để nhận input từ người dùng, ta sử dụng hàm nào?",
+          "options": [
+            "prompt()",
+            "alert()",
+            "confirm()",
+            "input()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 13,
+          "question": "Để gán giá trị cho thuộc tính của một đối tượng, ta sử dụng cú pháp nào?",
+          "options": [
+            "object.property = value;",
+            "object[property] = value;",
+            "Cả A và B đều đúng",
+            "object->property = value;"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 14,
+          "question": "Để kiểm tra xem một biến có phải là một mảng hay không, ta có thể sử dụng:",
+          "options": [
+            "Array.isArray()",
+            "instanceof Array",
+            "Cả A và B đều đúng",
+            "typeof array"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 15,
+          "question": "Để thêm một phần tử vào cuối mảng, ta sử dụng phương thức nào?",
+          "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 16,
+          "question": "Để xóa phần tử cuối cùng của một mảng, ta sử dụng phương thức nào?",
+          "options": [
+            "pop()",
+            "push()",
+            "shift()",
+            "splice()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 17,
+          "question": "Để tạo một đối tượng mới từ một đối tượng hiện có, ta sử dụng:",
+          "options": [
+            "Object.create()",
+            "new Object()",
+            "Object.assign()",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 18,
+          "question": "Để lặp qua các thuộc tính của một đối tượng, ta có thể sử dụng vòng lặp nào?",
+          "options": [
+            "for...in",
+            "for...of",
+            "while",
+            "do...while"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 19,
+          "question": "Để thay đổi một thuộc tính của đối tượng, ta có thể sử dụng cú pháp nào?",
+          "options": [
+            "object.property = value;",
+            "object['property'] = value;",
+            "Cả A và B đều đúng",
+            "object:property = value;"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 20,
+          "question": "Để định nghĩa một hàm ẩn danh, ta viết:",
+          "options": [
+            "function() { }",
+            "() => { }",
+            "Cả A và B đều đúng",
+            "function: { }"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 21,
+          "question": "Để gọi hàm sau một khoảng thời gian nhất định, ta sử dụng hàm nào?",
+          "options": [
+            "setTimeout()",
+            "setInterval()",
+            "callLater()",
+            "delay()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 22,
+          "question": "Để định nghĩa một hàm với tham số mặc định, ta viết:",
+          "options": [
+            "function myFunc(param = value) { }",
+            "function myFunc(param) { param = value; }",
+            "Cả A và B đều đúng",
+            "function myFunc(param: value) { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 23,
+          "question": "Để xử lý lỗi trong JavaScript, ta sử dụng cấu trúc nào?",
+          "options": [
+            "try...catch",
+            "if...else",
+            "switch",
+            "throw"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 24,
+          "question": "Để xác định một lớp trong JavaScript, ta sử dụng từ khóa nào?",
+          "options": [
+            "class",
+            "function",
+            "object",
+            "define"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 25,
+          "question": "Để thừa kế trong JavaScript, ta sử dụng từ khóa nào?",
+          "options": [
+            "extends",
+            "inherits",
+            "super",
+            "parent"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 26,
+          "question": "Để kết nối một tệp JavaScript bên ngoài, ta sử dụng thẻ nào?",
+          "options": [
+            "<script src=\"file.js\"></script>",
+            "<script file=\"file.js\"></script>",
+            "<link src=\"file.js\">",
+            "<javascript src=\"file.js\"></javascript>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 27,
+          "question": "Để định nghĩa một hằng số trong JavaScript, ta sử dụng từ khóa nào?",
+          "options": [
+            "const",
+            "let",
+            "var",
+            "final"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 28,
+          "question": "Để so sánh giá trị và kiểu dữ liệu của hai biến, ta sử dụng toán tử nào?",
+          "options": [
+            "===",
+            "==",
+            "!==",
+            "!="
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 29,
+          "question": "Để chuyển đổi một đối tượng thành chuỗi JSON, ta sử dụng hàm nào?",
+          "options": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.toString()",
+            "JSON.convert()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 30,
+          "question": "Để chuyển đổi chuỗi JSON thành đối tượng, ta sử dụng hàm nào?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.objectify()",
+            "JSON.decode()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 31,
+          "question": "Để định nghĩa một hàm kiểu Promise, ta sử dụng cú pháp nào?",
+          "options": [
+            "new Promise((resolve, reject) => { })",
+            "Promise((resolve, reject) => { })",
+            "function Promise() { }",
+            "async function Promise() { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 32,
+          "question": "Để sử dụng một hàm bất đồng bộ, ta sử dụng từ khóa nào?",
+          "options": [
+            "async",
+            "await",
+            "promise",
+            "then"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 33,
+          "question": "Để khai báo một hàm dạng arrow, ta viết:",
+          "options": [
+            "const myFunc = () => { }",
+            "function myFunc() { }",
+            "myFunc() => { }",
+            "arrow myFunc() { }"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 34,
+          "question": "Để tạo một đối tượng từ một lớp, ta sử dụng từ khóa nào?",
+          "options": [
+            "new",
+            "create",
+            "instance",
+            "class"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 35,
+          "question": "Để xác định một biến trong phạm vi toàn cục, ta có thể sử dụng từ khóa nào?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 36,
+          "question": "Để chuyển đổi từ một mảng thành một chuỗi, ta sử dụng phương thức nào?",
+          "options": [
+            "join()",
+            "toString()",
+            "concat()",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 37,
+          "question": "Để lấy một phần tử từ một mảng tại vị trí nhất định, ta sử dụng phương thức nào?",
+          "options": [
+            "array[index]",
+            "array.get(index)",
+            "array[index]",
+            "array.at(index)"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 38,
+          "question": "Để thêm một phần tử vào đầu mảng, ta sử dụng phương thức nào?",
+          "options": [
+            "unshift()",
+            "push()",
+            "shift()",
+            "splice()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 39,
+          "question": "Để xóa phần tử đầu tiên trong mảng, ta sử dụng phương thức nào?",
+          "options": [
+            "shift()",
+            "unshift()",
+            "pop()",
+            "splice()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 40,
+          "question": "Để tạo một vòng lặp qua các phần tử của mảng, ta sử dụng phương thức nào?",
+          "options": [
+            "forEach()",
+            "map()",
+            "filter()",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 41,
+          "question": "Để so sánh hai mảng, ta sử dụng:",
+          "options": [
+            "===",
+            "==",
+            "compare()",
+            "every()"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 42,
+          "question": "Để kiểm tra xem một biến có phải là một đối tượng hay không, ta có thể sử dụng:",
+          "options": [
+            "typeof",
+            "instanceof",
+            "isObject()",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 43,
+          "question": "Để lấy ra một phần tử ngẫu nhiên từ mảng, ta có thể sử dụng:",
+          "options": [
+            "Math.random()",
+            "Math.floor()",
+            "array[Math.floor(Math.random() * array.length)]",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 44,
+          "question": "Để tạm dừng thực hiện một hàm bất đồng bộ cho đến khi Promise được hoàn thành, ta sử dụng từ khóa nào?",
+          "options": [
+            "await",
+            "async",
+            "then",
+            "promise"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 45,
+          "question": "Để truyền tham số vào một hàm, ta sử dụng cú pháp nào?",
+          "options": [
+            "myFunc(param1, param2)",
+            "myFunc{param1, param2}",
+            "myFunc[param1, param2]",
+            "myFunc: param1, param2"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 46,
+          "question": "Để gọi hàm sau một khoảng thời gian liên tục, ta sử dụng hàm nào?",
+          "options": [
+            "setInterval()",
+            "setTimeout()",
+            "callLater()",
+            "repeat()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 47,
+          "question": "Để dừng một hàm được gọi bởi setInterval(), ta sử dụng hàm nào?",
+          "options": [
+            "clearInterval()",
+            "stopInterval()",
+            "clearTimeout()",
+            "cancelInterval()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 48,
+          "question": "Để lấy ra giá trị từ một biến, ta sử dụng cú pháp nào?",
+          "options": [
+            "varName",
+            "get(varName)",
+            "var.get()",
+            "getValue(varName)"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 49,
+          "question": "Để định nghĩa một biến trong phạm vi cục bộ, ta sử dụng từ khóa nào?",
+          "options": [
+            "let",
+            "const",
+            "var",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 50,
+          "question": "Để kiểm tra xem một giá trị có phải là undefined hay không, ta có thể sử dụng:",
+          "options": [
+            "typeof value === 'undefined'",
+            "value === undefined",
+            "value == null",
+            "Tất cả đều đúng"
+          ],
+          "correctAnswer": 3
+        }
+      ]
+    }
+  ]
+}
