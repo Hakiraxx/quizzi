@@ -1674,29 +1674,29 @@
       "questions": [
         {
           "id": 1,
-          "question": "Computers communicate with each other using which protocol?",
+          "question": "Computers communicate with each other using which protocol? (Máy tính giao tiếp với nhau bằng giao thức nào?)",
           "options": [
-            "Network Protocol",
-            "Internet Protocol",
-            "Mobile Protocol",
-            "Mail Protocol"
+            "Network Protocol (Giao thức mạng)",
+            "Internet Protocol (Giao thức Internet)",
+            "Mobile Protocol (Giao thức di động)",
+            "Mail Protocol (Giao thức thư)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 2,
-          "question": "What is the significance of using an Integrated Development Environment (IDE) in web development?",
+          "question": "What is the significance of using an Integrated Development Environment (IDE) in web development? (Ý nghĩa của việc sử dụng Môi trường phát triển tích hợp (IDE) trong phát triển web là gì?)",
           "options": [
-            "Reduces the need for manual testing",
-            "Limits the ability to use third-party libraries",
-            "Restricts coding to a single language",
-            "Provides a comprehensive environment for coding, debugging, and testing"
+            "Reduces the need for manual testing (Giảm nhu cầu kiểm thử thủ công)",
+            "Limits the ability to use third-party libraries (Hạn chế khả năng sử dụng thư viện bên thứ ba)",
+            "Restricts coding to a single language (Giới hạn lập trình ở một ngôn ngữ duy nhất)",
+            "Provides a comprehensive environment for coding, debugging, and testing (Cung cấp môi trường toàn diện cho lập trình, gỡ lỗi và kiểm thử)"
           ],
           "correctAnswer": 3
         },
         {
           "id": 3,
-          "question": "Which of the following tools and technologies are commonly used in front-end development?",
+          "question": "Which of the following tools and technologies are commonly used in front-end development? (Công cụ và công nghệ nào sau đây thường được sử dụng trong phát triển front-end?)",
           "options": [
             "Node.js",
             "React.js",
@@ -1708,7 +1708,7 @@
         },
         {
           "id": 4,
-          "question": "What is the correct syntax of doctype in HTML5?",
+          "question": "What is the correct syntax of doctype in HTML5? (Cú pháp đúng của doctype trong HTML5 là gì?)",
           "options": [
             "<doctype html!>",
             "</doctype html>",
@@ -1719,7 +1719,7 @@
         },
         {
           "id": 5,
-          "question": "Select the technologies that are commonly used in the frontend development of web projects.",
+          "question": "Select the technologies that are commonly used in the frontend development of web projects. (Chọn các công nghệ thường được sử dụng trong phát triển frontend của các dự án web.)",
           "options": [
             "CSS",
             "SQL",
@@ -1731,7 +1731,7 @@
         },
         {
           "id": 6,
-          "question": "Which element is used to get highlighted text in HTML5?",
+          "question": "Which element is used to get highlighted text in HTML5? (Phần tử nào được sử dụng để tạo văn bản được đánh dấu trong HTML5?)",
           "options": [
             "<mark>",
             "<highlight>",
@@ -1742,7 +1742,7 @@
         },
         {
           "id": 7,
-          "question": "Which of the following are popular front-end frameworks?",
+          "question": "Which of the following are popular front-end frameworks? (Những framework front-end nào sau đây phổ biến?)",
           "options": [
             "Vue.js",
             "Django",
@@ -1754,18 +1754,18 @@
         },
         {
           "id": 8,
-          "question": "Which of the following is used to read an HTML page and render it?",
+          "question": "Which of the following is used to read an HTML page and render it? (Cái nào sau đây được sử dụng để đọc và hiển thị trang HTML?)",
           "options": [
-            "Web matrix",
-            "Web browser",
-            "Web server",
-            "Web network"
+            "Web matrix (Ma trận web)",
+            "Web browser (Trình duyệt web)",
+            "Web server (Máy chủ web)",
+            "Web network (Mạng web)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 9,
-          "question": "Which popular front-end framework was created by Facebook?",
+          "question": "Which popular front-end framework was created by Facebook? (Framework front-end phổ biến nào được tạo bởi Facebook?)",
           "options": [
             "React.js",
             "Angular",
@@ -1776,17 +1776,17 @@
         },
         {
           "id": 10,
-          "question": "To communicate with another computer on a network, your computer sends a message called an…",
+          "question": "To communicate with another computer on a network, your computer sends a message called an… (Để giao tiếp với máy tính khác trên mạng, máy tính của bạn gửi một thông điệp gọi là…)",
           "options": [
-            "IP Packet",
-            "IP Mail",
-            "IP Container"
+            "IP Packet (Gói IP)",
+            "IP Mail (Thư IP)",
+            "IP Container (Container IP)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 11,
-          "question": "Which HTML5 element defines video or movie content?",
+          "question": "Which HTML5 element defines video or movie content? (Phần tử HTML5 nào định nghĩa nội dung video hoặc phim?)",
           "options": [
             "<movie>",
             "<audio>",
@@ -1797,29 +1797,29 @@
         },
         {
           "id": 12,
-          "question": "Why is hands-on experience significant in web application development?",
+          "question": "Why is hands-on experience significant in web application development? (Tại sao kinh nghiệm thực hành quan trọng trong phát triển ứng dụng web?)",
           "options": [
-            "It helps in mastering practical skills",
-            "It negates the need for project management",
-            "It eliminates the need for understanding customer requirements",
-            "It allows developers to avoid technical skills"
+            "It helps in mastering practical skills (Giúp thành thạo các kỹ năng thực hành)",
+            "It negates the need for project management (Loại bỏ nhu cầu quản lý dự án)",
+            "It eliminates the need for understanding customer requirements (Loại bỏ nhu cầu hiểu yêu cầu khách hàng)",
+            "It allows developers to avoid technical skills (Cho phép lập trình viên tránh các kỹ năng kỹ thuật)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 13,
-          "question": "Which of the following best describes HTML5?",
+          "question": "Which of the following best describes HTML5? (Mô tả nào sau đây đúng nhất về HTML5?)",
           "options": [
-            "A protocol for transferring hypertext",
-            "A database management system",
-            "Markup language used for structuring and presenting content on the web",
-            "A scripting language"
+            "A protocol for transferring hypertext (Một giao thức để truyền siêu văn bản)",
+            "A database management system (Một hệ quản trị cơ sở dữ liệu)",
+            "Markup language used for structuring and presenting content on the web (Ngôn ngữ đánh dấu dùng để cấu trúc và trình bày nội dung trên web)",
+            "A scripting language (Một ngôn ngữ kịch bản)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 14,
-          "question": "Which HTML5 input type is designed for entering a telephone number?",
+          "question": "Which HTML5 input type is designed for entering a telephone number? (Loại input HTML5 nào được thiết kế để nhập số điện thoại?)",
           "options": [
             "url",
             "number",
@@ -1830,51 +1830,51 @@
         },
         {
           "id": 15,
-          "question": "Which HTML5 input attribute defines a number range?",
+          "question": "Which HTML5 input attribute defines a number range? (Thuộc tính input HTML5 nào định nghĩa phạm vi số?)",
           "options": [
-            "Step",
-            "Min",
-            "Range",
-            "Max"
+            "Step (Bước)",
+            "Min (Tối thiểu)",
+            "Range (Phạm vi)",
+            "Max (Tối đa)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 16,
-          "question": "What is the purpose of the <header> tag in HTML5?",
+          "question": "What is the purpose of the <header> tag in HTML5? (Mục đích của thẻ <header> trong HTML5 là gì?)",
           "options": [
-            "Define main content",
-            "Define introductory content or navigational links",
-            "Define footer",
-            "Define navigation only"
+            "Define main content (Định nghĩa nội dung chính)",
+            "Define introductory content or navigational links (Định nghĩa nội dung giới thiệu hoặc liên kết điều hướng)",
+            "Define footer (Định nghĩa chân trang)",
+            "Define navigation only (Chỉ định nghĩa điều hướng)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 17,
-          "question": "What is a primary challenge when working with HTML and CSS?",
+          "question": "What is a primary challenge when working with HTML and CSS? (Thách thức chính khi làm việc với HTML và CSS là gì?)",
           "options": [
-            "Centering elements across browsers",
-            "Managing databases",
-            "Setting up Git",
-            "Writing animations"
+            "Centering elements across browsers (Căn giữa phần tử trên các trình duyệt)",
+            "Managing databases (Quản lý cơ sở dữ liệu)",
+            "Setting up Git (Cài đặt Git)",
+            "Writing animations (Viết hoạt ảnh)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 18,
-          "question": "What distinguishes front-end from back-end development?",
+          "question": "What distinguishes front-end from back-end development? (Điều gì phân biệt phát triển front-end với back-end?)",
           "options": [
-            "Front-end handles server scripts",
-            "Front-end manages databases",
-            "Front-end deals with visual aspects users interact with",
-            "Front-end manages APIs"
+            "Front-end handles server scripts (Front-end xử lý các script máy chủ)",
+            "Front-end manages databases (Front-end quản lý cơ sở dữ liệu)",
+            "Front-end deals with visual aspects users interact with (Front-end xử lý các khía cạnh trực quan mà người dùng tương tác)",
+            "Front-end manages APIs (Front-end quản lý APIs)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 19,
-          "question": "How to create a checkbox in HTML form?",
+          "question": "How to create a checkbox in HTML form? (Làm thế nào để tạo checkbox trong form HTML?)",
           "options": [
             "<input type=\"text\">",
             "<input type=\"button\">",
@@ -1885,7 +1885,7 @@
         },
         {
           "id": 20,
-          "question": "Which HTML5 input type allows selecting date and time?",
+          "question": "Which HTML5 input type allows selecting date and time? (Loại input HTML5 nào cho phép chọn ngày và giờ?)",
           "options": [
             "<input type='datetime'>",
             "<input type='time'>",
@@ -1896,7 +1896,7 @@
         },
         {
           "id": 21,
-          "question": "What defines the structure of a web page?",
+          "question": "What defines the structure of a web page? (Cái gì định nghĩa cấu trúc của một trang web?)",
           "options": [
             "CSS",
             "HTML",
@@ -1906,30 +1906,30 @@
         },
         {
           "id": 22,
-          "question": "Which HTTP methods are used when submitting an HTML form?",
+          "question": "Which HTTP methods are used when submitting an HTML form? (Phương thức HTTP nào được sử dụng khi gửi form HTML?)",
           "options": [
-            "DELETE",
-            "PUT",
-            "GET",
-            "POST"
+            "DELETE (Xóa)",
+            "PUT (Đặt)",
+            "GET (Lấy)",
+            "POST (Gửi)"
           ],
           "correctAnswer": [2, 3],
           "isMultiple": true
         },
         {
           "id": 23,
-          "question": "What is full-stack development?",
+          "question": "What is full-stack development? (Phát triển full-stack là gì?)",
           "options": [
-            "Only client-side",
-            "Only cloud services",
-            "Only server-side",
-            "Both front-end and back-end"
+            "Only client-side (Chỉ phía client)",
+            "Only cloud services (Chỉ dịch vụ đám mây)",
+            "Only server-side (Chỉ phía server)",
+            "Both front-end and back-end (Cả front-end và back-end)"
           ],
           "correctAnswer": 3
         },
         {
           "id": 24,
-          "question": "Which tag creates a numbered list in HTML?",
+          "question": "Which tag creates a numbered list in HTML? (Thẻ nào tạo danh sách có đánh số trong HTML?)",
           "options": [
             "<ul>",
             "<ol>",
@@ -1940,96 +1940,96 @@
         },
         {
           "id": 25,
-          "question": "Identify the roles of front-end developers.",
+          "question": "Identify the roles of front-end developers. (Xác định vai trò của các lập trình viên front-end.)",
           "options": [
-            "Ensuring cross-browser compatibility",
-            "Designing user interfaces",
-            "Implementing server-side logic",
-            "Creating interactive user experiences"
+            "Ensuring cross-browser compatibility (Đảm bảo tương thích đa trình duyệt)",
+            "Designing user interfaces (Thiết kế giao diện người dùng)",
+            "Implementing server-side logic (Triển khai logic phía máy chủ)",
+            "Creating interactive user experiences (Tạo trải nghiệm người dùng tương tác)"
           ],
           "correctAnswer": [0, 1, 3],
           "isMultiple": true
         },
         {
           "id": 26,
-          "question": "In CSS, 'purple' in h1 { color: purple; } is called what?",
+          "question": "In CSS, 'purple' in h1 { color: purple; } is called what? (Trong CSS, 'purple' trong h1 { color: purple; } được gọi là gì?)",
           "options": [
-            "CSS Selector",
-            "CSS Value",
-            "CSS Rule",
-            "CSS Property"
+            "CSS Selector (Bộ chọn CSS)",
+            "CSS Value (Giá trị CSS)",
+            "CSS Rule (Quy tắc CSS)",
+            "CSS Property (Thuộc tính CSS)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 27,
-          "question": "CSS opacity property is used to?",
+          "question": "CSS opacity property is used to? (Thuộc tính opacity của CSS được sử dụng để?)",
           "options": [
-            "Set size",
-            "Set position",
-            "Set transparency",
-            "Set font"
+            "Set size (Đặt kích thước)",
+            "Set position (Đặt vị trí)",
+            "Set transparency (Đặt độ trong suốt)",
+            "Set font (Đặt phông chữ)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 28,
-          "question": "Which CSS property moves or transforms an element?",
+          "question": "Which CSS property moves or transforms an element? (Thuộc tính CSS nào di chuyển hoặc biến đổi một phần tử?)",
           "options": [
-            "Transition",
-            "Move",
-            "Transform",
-            "Animation"
+            "Transition (Chuyển tiếp)",
+            "Move (Di chuyển)",
+            "Transform (Biến đổi)",
+            "Animation (Hoạt ảnh)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 29,
-          "question": "In CSS, { color: purple; } is called?",
+          "question": "In CSS, { color: purple; } is called? (Trong CSS, { color: purple; } được gọi là?)",
           "options": [
-            "CSS Rule",
-            "CSS Attribute",
-            "CSS Selector",
-            "CSS Property"
+            "CSS Rule (Quy tắc CSS)",
+            "CSS Attribute (Thuộc tính CSS)",
+            "CSS Selector (Bộ chọn CSS)",
+            "CSS Property (Thuộc tính CSS)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 30,
-          "question": "What distinguishes block-level from inline elements?",
+          "question": "What distinguishes block-level from inline elements? (Điều gì phân biệt phần tử block-level với inline?)",
           "options": [
-            "No margin allowed",
-            "Block elements take full width",
-            "Always new line",
-            "Restricted tags"
+            "No margin allowed (Không cho phép margin)",
+            "Block elements take full width (Phần tử block chiếm toàn bộ chiều rộng)",
+            "Always new line (Luôn xuống dòng mới)",
+            "Restricted tags (Thẻ bị hạn chế)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 31,
-          "question": "Which skill is essential for web application development?",
+          "question": "Which skill is essential for web application development? (Kỹ năng nào cần thiết cho phát triển ứng dụng web?)",
           "options": [
-            "Only front-end",
-            "Ignore security",
-            "Understanding customer requirements",
-            "Avoid learning"
+            "Only front-end (Chỉ front-end)",
+            "Ignore security (Bỏ qua bảo mật)",
+            "Understanding customer requirements (Hiểu yêu cầu khách hàng)",
+            "Avoid learning (Tránh học hỏi)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 32,
-          "question": "Purpose of input type='date'?",
+          "question": "Purpose of input type='date'? (Mục đích của input type='date'?)",
           "options": [
-            "Text numbers",
-            "Select a date from calendar",
-            "Dropdown list",
-            "Link page"
+            "Text numbers (Nhập số văn bản)",
+            "Select a date from calendar (Chọn ngày từ lịch)",
+            "Dropdown list (Danh sách thả xuống)",
+            "Link page (Liên kết trang)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 33,
-          "question": "Which image element syntax is correct?",
+          "question": "Which image element syntax is correct? (Cú pháp phần tử hình ảnh nào đúng?)",
           "options": [
             "<image src=\"dog.png\">",
             "<img src=\"mouse.png\">",
@@ -2039,107 +2039,107 @@
         },
         {
           "id": 34,
-          "question": "Relevant skills for cloud apps with Node.js & React?",
+          "question": "Relevant skills for cloud apps with Node.js & React? (Kỹ năng liên quan cho ứng dụng đám mây với Node.js & React?)",
           "options": [
-            "Understanding JavaScript",
+            "Understanding JavaScript (Hiểu JavaScript)",
             "HTML & CSS",
-            "Database management",
-            "Ignoring security"
+            "Database management (Quản lý cơ sở dữ liệu)",
+            "Ignoring security (Bỏ qua bảo mật)"
           ],
           "correctAnswer": [0, 1, 2],
           "isMultiple": true
         },
         {
           "id": 35,
-          "question": "Which best describes HTML5?",
+          "question": "Which best describes HTML5? (Mô tả nào đúng nhất về HTML5?)",
           "options": [
-            "Protocol",
-            "Markup language",
-            "Database system",
-            "Scripting language"
+            "Protocol (Giao thức)",
+            "Markup language (Ngôn ngữ đánh dấu)",
+            "Database system (Hệ thống cơ sở dữ liệu)",
+            "Scripting language (Ngôn ngữ kịch bản)"
           ],
           "correctAnswer": 1
         },
         {
           "id": 36,
-          "question": "CSS property to rotate an element?",
+          "question": "CSS property to rotate an element? (Thuộc tính CSS để xoay một phần tử?)",
           "options": [
-            "Rotate",
-            "Transition",
-            "Transform",
-            "Animation"
+            "Rotate (Xoay)",
+            "Transition (Chuyển tiếp)",
+            "Transform (Biến đổi)",
+            "Animation (Hoạt ảnh)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 37,
-          "question": "overflow value always shows scrollbar?",
+          "question": "overflow value always shows scrollbar? (Giá trị overflow nào luôn hiển thị thanh cuộn?)",
           "options": [
-            "Visible",
-            "Hidden",
-            "Scroll",
-            "Auto"
+            "Visible (Hiển thị)",
+            "Hidden (Ẩn)",
+            "Scroll (Cuộn)",
+            "Auto (Tự động)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 38,
-          "question": "align-items value that stretches items?",
+          "question": "align-items value that stretches items? (Giá trị align-items nào kéo giãn các phần tử?)",
           "options": [
-            "Center",
-            "Flex-end",
-            "Flex-start",
-            "Stretch"
+            "Center (Căn giữa)",
+            "Flex-end (Cuối flex)",
+            "Flex-start (Đầu flex)",
+            "Stretch (Kéo giãn)"
           ],
           "correctAnswer": 3
         },
         {
           "id": 39,
-          "question": "CSS property to change text color?",
+          "question": "CSS property to change text color? (Thuộc tính CSS để thay đổi màu chữ?)",
           "options": [
-            "Font-color",
-            "Bgcolor",
-            "Color",
-            "Text-color"
+            "Font-color (Màu phông)",
+            "Bgcolor (Màu nền)",
+            "Color (Màu)",
+            "Text-color (Màu văn bản)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 40,
-          "question": "Meaning of h1 { color: \"green\"; }?",
+          "question": "Meaning of h1 { color: \"green\"; }? (Ý nghĩa của h1 { color: \"green\"; }?)",
           "options": [
-            "All <h1> are green",
-            "Error occurs",
-            "No effect",
-            "All headings green"
+            "All <h1> are green (Tất cả <h1> có màu xanh lá)",
+            "Error occurs (Xảy ra lỗi)",
+            "No effect (Không có hiệu ứng)",
+            "All headings green (Tất cả tiêu đề màu xanh lá)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 41,
-          "question": "Correct CSS unit statement?",
+          "question": "Correct CSS unit statement? (Phát biểu đúng về đơn vị CSS?)",
           "options": [
-            "px is percentage",
-            "vh/vw static",
-            "rem relative to html font-size",
-            "em always 16px"
+            "px is percentage (px là phần trăm)",
+            "vh/vw static (vh/vw tĩnh)",
+            "rem relative to html font-size (rem tương đối với font-size của html)",
+            "em always 16px (em luôn là 16px)"
           ],
           "correctAnswer": 2
         },
         {
           "id": 42,
-          "question": "In h1 { color: purple; }, 'color' is?",
+          "question": "In h1 { color: purple; }, 'color' is? (Trong h1 { color: purple; }, 'color' là?)",
           "options": [
-            "CSS Property",
-            "CSS Selector",
-            "CSS Value",
-            "CSS Rule"
+            "CSS Property (Thuộc tính CSS)",
+            "CSS Selector (Bộ chọn CSS)",
+            "CSS Value (Giá trị CSS)",
+            "CSS Rule (Quy tắc CSS)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 43,
-          "question": "Valid CSS property-value pairs?",
+          "question": "Valid CSS property-value pairs? (Các cặp thuộc tính-giá trị CSS hợp lệ?)",
           "options": [
             "bgcolor: red",
             "color: blue",
@@ -2151,7 +2151,7 @@
         },
         {
           "id": 44,
-          "question": "Correct way to define a JS function?",
+          "question": "Correct way to define a JS function? (Cách đúng để định nghĩa hàm JS?)",
           "options": [
             "function myFunc() { }",
             "myFunc function() { }",
@@ -2162,7 +2162,7 @@
         },
         {
           "id": 45,
-          "question": "Access element by ID in JavaScript?",
+          "question": "Access element by ID in JavaScript? (Truy cập phần tử bằng ID trong JavaScript?)",
           "options": [
             "getElementsByClassName",
             "getElementsByTagName",
@@ -2173,28 +2173,28 @@
         },
         {
           "id": 46,
-          "question": "jQuery method to attach event handler?",
+          "question": "jQuery method to attach event handler? (Phương thức jQuery để gắn trình xử lý sự kiện?)",
           "options": [
-            "bind()",
-            "unbind()",
-            "attach()"
+            "bind() (gắn)",
+            "unbind() (bỏ gắn)",
+            "attach() (đính kèm)"
           ],
           "correctAnswer": 0
         },
         {
           "id": 47,
-          "question": "jQuery method to hide elements?",
+          "question": "jQuery method to hide elements? (Phương thức jQuery để ẩn phần tử?)",
           "options": [
             "display(none)",
             "visible(false)",
-            "hide()",
+            "hide() (ẩn)",
             "hidden()"
           ],
           "correctAnswer": 2
         },
         {
           "id": 48,
-          "question": "Correct jQuery syntax to set h1 background yellow?",
+          "question": "Correct jQuery syntax to set h1 background yellow? (Cú pháp jQuery đúng để đặt nền h1 màu vàng?)",
           "options": [
             "$(\"h1\").css(\"background-color\",\"yellow\");",
             "$(h1).layout(...)",
