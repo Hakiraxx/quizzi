@@ -118,11 +118,48 @@
             border-color: #667eea;
         }
 
-        .option input[type="radio"] {
+        .option input[type="radio"],
+        .option input[type="checkbox"] {
             margin-right: 15px;
             cursor: pointer;
             width: 20px;
             height: 20px;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f0f0ff;
+        }
+
+        .question-type-hint {
+            background: #fff3cd;
+            color: #856404;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            display: inline-block;
+        }
+
+        .btn-confirm {
+            padding: 10px 25px;
+            font-size: 0.95em;
+            background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+            margin-right: 10px;
+        }
+
+        .btn-confirm:hover {
+            opacity: 0.9;
+        }
+
+        .btn-confirm:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
 
         .option.correct {
@@ -446,12 +483,18 @@
             }
         }
 
+        // Check if question has multiple correct answers
+        function isMultipleChoice(question) {
+            return Array.isArray(question.correctAnswer);
+        }
+
         // Display current question
         function displayQuestion() {
             const question = randomizedQuestions[currentQuestionIndex];
             const questionNumber = currentQuestionIndex + 1;
             const totalQuestions = randomizedQuestions.length;
             const quiz = quizData[currentQuizIndex];
+            const isMultiple = isMultipleChoice(question);
             
             // Update title and meta
             document.getElementById('quizTitle').textContent = quiz.title;
@@ -467,6 +510,14 @@
             const optionsContainer = document.getElementById('optionsContainer');
             optionsContainer.innerHTML = '';
             
+            // Add hint for multiple choice questions
+            if (isMultiple) {
+                const hintDiv = document.createElement('div');
+                hintDiv.className = 'question-type-hint';
+                hintDiv.textContent = `⚠️ Câu hỏi này có nhiều đáp án đúng (chọn ${question.correctAnswer.length} đáp án)`;
+                optionsContainer.appendChild(hintDiv);
+            }
+            
             // Create array of options with their indices
             const optionsWithIndices = question.options.map((option, index) => ({
                 text: option,
@@ -480,15 +531,28 @@
                 const optionDiv = document.createElement('div');
                 optionDiv.className = 'option';
                 
-                const isSelected = userAnswers[question.id] === optionData.originalIndex;
-                if (isSelected) optionDiv.style.borderColor = '#667eea';
-                
                 const inputEl = document.createElement('input');
-                inputEl.type = 'radio';
                 inputEl.id = `option${displayIndex}`;
-                inputEl.name = 'answer';
                 inputEl.value = optionData.originalIndex;
-                if (isSelected) inputEl.checked = true;
+                
+                if (isMultiple) {
+                    // Checkbox for multiple answers
+                    inputEl.type = 'checkbox';
+                    inputEl.name = 'answer[]';
+                    const currentAnswers = userAnswers[question.id] || [];
+                    if (currentAnswers.includes(optionData.originalIndex)) {
+                        inputEl.checked = true;
+                        optionDiv.classList.add('selected');
+                    }
+                } else {
+                    // Radio for single answer
+                    inputEl.type = 'radio';
+                    inputEl.name = 'answer';
+                    if (userAnswers[question.id] === optionData.originalIndex) {
+                        inputEl.checked = true;
+                        optionDiv.classList.add('selected');
+                    }
+                }
                 
                 const labelEl = document.createElement('label');
                 labelEl.htmlFor = `option${displayIndex}`;
@@ -498,10 +562,29 @@
                 optionDiv.appendChild(labelEl);
                 
                 // Click on entire option area to select
-                optionDiv.onclick = () => selectAnswer(optionData.originalIndex, question.id);
+                optionDiv.onclick = (e) => {
+                    if (isMultiple) {
+                        toggleMultipleAnswer(optionData.originalIndex, question.id, optionDiv, inputEl);
+                    } else {
+                        selectAnswer(optionData.originalIndex, question.id);
+                    }
+                };
                 
                 optionsContainer.appendChild(optionDiv);
             });
+            
+            // Add confirm button for multiple choice
+            if (isMultiple) {
+                const confirmBtnContainer = document.createElement('div');
+                confirmBtnContainer.style.marginTop = '15px';
+                const confirmBtn = document.createElement('button');
+                confirmBtn.className = 'btn-confirm';
+                confirmBtn.id = 'confirmBtn';
+                confirmBtn.textContent = 'Xác nhận đáp án';
+                confirmBtn.onclick = () => confirmMultipleAnswer(question);
+                confirmBtnContainer.appendChild(confirmBtn);
+                optionsContainer.appendChild(confirmBtnContainer);
+            }
             
             // Update buttons
             document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
@@ -509,7 +592,7 @@
             document.getElementById('nextBtn').textContent = isLastQuestion ? 'Kết thúc' : 'Câu tiếp →';
         }
 
-        // Select an answer
+        // Select an answer (for single choice)
         function selectAnswer(optionIndex, questionId) {
             userAnswers[questionId] = optionIndex;
             
@@ -521,6 +604,7 @@
             const options = document.querySelectorAll('.option');
             options.forEach(option => {
                 option.classList.add('disabled');
+                option.classList.remove('selected');
                 const input = option.querySelector('input');
                 input.disabled = true;
             });
@@ -554,6 +638,88 @@
             }
         }
 
+        // Toggle answer for multiple choice questions
+        function toggleMultipleAnswer(optionIndex, questionId, optionDiv, inputEl) {
+            if (!userAnswers[questionId]) {
+                userAnswers[questionId] = [];
+            }
+            
+            const currentAnswers = userAnswers[questionId];
+            const index = currentAnswers.indexOf(optionIndex);
+            
+            if (index > -1) {
+                // Remove from selection
+                currentAnswers.splice(index, 1);
+                optionDiv.classList.remove('selected');
+                inputEl.checked = false;
+            } else {
+                // Add to selection
+                currentAnswers.push(optionIndex);
+                optionDiv.classList.add('selected');
+                inputEl.checked = true;
+            }
+            
+            userAnswers[questionId] = currentAnswers;
+        }
+
+        // Confirm multiple choice answer
+        function confirmMultipleAnswer(question) {
+            const selectedAnswers = userAnswers[question.id] || [];
+            const correctAnswers = question.correctAnswer;
+            
+            if (selectedAnswers.length === 0) {
+                alert('Vui lòng chọn ít nhất một đáp án!');
+                return;
+            }
+            
+            // Check if answers match
+            const isCorrect = arraysEqual(selectedAnswers.sort(), [...correctAnswers].sort());
+            
+            // Disable all options and confirm button
+            const options = document.querySelectorAll('.option');
+            options.forEach(option => {
+                option.classList.add('disabled');
+                option.classList.remove('selected');
+                const input = option.querySelector('input');
+                input.disabled = true;
+                
+                const inputValue = parseInt(input.value);
+                const isSelectedByUser = selectedAnswers.includes(inputValue);
+                const isCorrectAnswer = correctAnswers.includes(inputValue);
+                
+                if (isCorrectAnswer) {
+                    option.classList.add('correct');
+                    const feedback = document.createElement('span');
+                    feedback.className = 'feedback-icon';
+                    feedback.style.color = '#4caf50';
+                    feedback.textContent = '✓';
+                    option.appendChild(feedback);
+                } else if (isSelectedByUser && !isCorrectAnswer) {
+                    option.classList.add('incorrect');
+                    const feedback = document.createElement('span');
+                    feedback.className = 'feedback-icon';
+                    feedback.style.color = '#f44336';
+                    feedback.textContent = '✗';
+                    option.appendChild(feedback);
+                }
+            });
+            
+            // Disable confirm button
+            const confirmBtn = document.getElementById('confirmBtn');
+            if (confirmBtn) {
+                confirmBtn.disabled = true;
+            }
+        }
+
+        // Helper function to compare arrays
+        function arraysEqual(a, b) {
+            if (a.length !== b.length) return false;
+            for (let i = 0; i < a.length; i++) {
+                if (a[i] !== b[i]) return false;
+            }
+            return true;
+        }
+
         // Navigate to previous question
         function prevQuestion() {
             if (currentQuestionIndex > 0) {
@@ -566,11 +732,20 @@
         function nextQuestion() {
             const totalQuestions = randomizedQuestions.length;
             const currentQuestion = randomizedQuestions[currentQuestionIndex];
+            const isMultiple = isMultipleChoice(currentQuestion);
             
             // Check if user answered
-            if (userAnswers[currentQuestion.id] === undefined) {
-                alert('Vui lòng chọn một đáp án!');
-                return;
+            if (isMultiple) {
+                const answers = userAnswers[currentQuestion.id];
+                if (!answers || answers.length === 0) {
+                    alert('Vui lòng chọn ít nhất một đáp án!');
+                    return;
+                }
+            } else {
+                if (userAnswers[currentQuestion.id] === undefined) {
+                    alert('Vui lòng chọn một đáp án!');
+                    return;
+                }
             }
             
             if (currentQuestionIndex < totalQuestions - 1) {
@@ -588,7 +763,17 @@
             wrongQuestionsIndices = [];
             
             randomizedQuestions.forEach((question, index) => {
-                if (userAnswers[question.id] === question.correctAnswer) {
+                const isMultiple = isMultipleChoice(question);
+                let isCorrect = false;
+                
+                if (isMultiple) {
+                    const userAns = userAnswers[question.id] || [];
+                    isCorrect = arraysEqual([...userAns].sort(), [...question.correctAnswer].sort());
+                } else {
+                    isCorrect = userAnswers[question.id] === question.correctAnswer;
+                }
+                
+                if (isCorrect) {
                     correctCount++;
                 } else {
                     wrongQuestionsIndices.push(index);
@@ -630,16 +815,30 @@
             
             // Detailed results
             const detailsHTML = randomizedQuestions.map((question, index) => {
+                const isMultiple = isMultipleChoice(question);
                 const userAnswer = userAnswers[question.id];
-                const isCorrect = userAnswer === question.correctAnswer;
-                const answerText = question.options[userAnswer] || 'Không trả lời';
-                const correctText = question.options[question.correctAnswer];
+                let isCorrect = false;
+                let answerText = '';
+                let correctText = '';
+                
+                if (isMultiple) {
+                    const userAns = userAnswer || [];
+                    isCorrect = arraysEqual([...userAns].sort(), [...question.correctAnswer].sort());
+                    answerText = userAns.length > 0 
+                        ? userAns.map(i => question.options[i]).join(', ') 
+                        : 'Không trả lời';
+                    correctText = question.correctAnswer.map(i => question.options[i]).join(', ');
+                } else {
+                    isCorrect = userAnswer === question.correctAnswer;
+                    answerText = userAnswer !== undefined ? question.options[userAnswer] : 'Không trả lời';
+                    correctText = question.options[question.correctAnswer];
+                }
                 
                 const resultDiv = document.createElement('div');
                 resultDiv.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
                 
                 const titleSpan = document.createElement('strong');
-                titleSpan.textContent = `Câu ${index + 1}: ${isCorrect ? '✓ Đúng' : '✗ Sai'}`;
+                titleSpan.textContent = `Câu ${index + 1}: ${isCorrect ? '✓ Đúng' : '✗ Sai'}${isMultiple ? ' (Nhiều đáp án)' : ''}`;
                 
                 const questionSpan = document.createElement('div');
                 questionSpan.textContent = question.question;
