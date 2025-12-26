@@ -230,6 +230,88 @@
             color: #f44336;
         }
 
+        .results-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn-retry {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .btn-retry:hover {
+            opacity: 0.9;
+        }
+
+        .btn-home {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .btn-home:hover {
+            opacity: 0.9;
+        }
+
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-box {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .stat-box.correct .stat-number {
+            color: #4caf50;
+        }
+
+        .stat-box.incorrect .stat-number {
+            color: #f44336;
+        }
+
         @media (max-width: 600px) {
             .quiz-screen {
                 padding: 20px;
@@ -241,6 +323,15 @@
 
             .button-group {
                 flex-direction: column;
+            }
+
+            .results-buttons {
+                flex-direction: column;
+            }
+
+            .btn-retry,
+            .btn-home {
+                width: 100%;
             }
         }
     </style>
@@ -278,8 +369,32 @@
             <div class="score-display" id="scoreDisplay"></div>
             <div class="score-percentage" id="scorePercentage"></div>
             <div class="results-message" id="resultsMessage"></div>
+            
+            <div class="summary-stats">
+                <div class="stat-box correct">
+                    <div class="stat-number" id="correctCount">0</div>
+                    <div class="stat-label">Câu đúng</div>
+                </div>
+                <div class="stat-box incorrect">
+                    <div class="stat-number" id="incorrectCount">0</div>
+                    <div class="stat-label">Câu sai</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" id="totalCount">0</div>
+                    <div class="stat-label">Tổng câu</div>
+                </div>
+            </div>
+            
             <div id="resultsDetails" class="results-details"></div>
-            <a href="index.html" class="btn">← Quay lại trang chủ</a>
+            
+            <div id="retrySection" style="display: none;">
+                <h3 style="color: #f44336; margin: 20px 0; text-align: center;">Làm lại những câu sai</h3>
+            </div>
+            
+            <div class="results-buttons">
+                <button class="btn-retry" onclick="retryWrongQuestions()" id="retryBtn" style="display: none;">🔄 Làm lại câu sai</button>
+                <a href="index.html" class="btn-home">← Quay lại trang chủ</a>
+            </div>
         </div>
     </div>
 
@@ -289,6 +404,8 @@
         let currentQuestionIndex = 0;
         let userAnswers = {};
         let randomizedQuestions = [];
+        let wrongQuestionsIndices = [];
+        let isRetryMode = false;
 
         // Get quiz ID from URL
         function getQuizId() {
@@ -320,6 +437,7 @@
                 
                 // Randomize questions
                 randomizedQuestions = shuffleArray(quizData[currentQuizIndex].questions);
+                isRetryMode = false;
                 
                 displayQuestion();
             } catch (error) {
@@ -330,10 +448,10 @@
 
         // Display current question
         function displayQuestion() {
-            const quiz = quizData[currentQuizIndex];
             const question = randomizedQuestions[currentQuestionIndex];
             const questionNumber = currentQuestionIndex + 1;
             const totalQuestions = randomizedQuestions.length;
+            const quiz = quizData[currentQuizIndex];
             
             // Update title and meta
             document.getElementById('quizTitle').textContent = quiz.title;
@@ -467,10 +585,13 @@
         function finishQuiz() {
             const quiz = quizData[currentQuizIndex];
             let correctCount = 0;
+            wrongQuestionsIndices = [];
             
-            randomizedQuestions.forEach(question => {
+            randomizedQuestions.forEach((question, index) => {
                 if (userAnswers[question.id] === question.correctAnswer) {
                     correctCount++;
+                } else {
+                    wrongQuestionsIndices.push(index);
                 }
             });
             
@@ -483,6 +604,9 @@
             
             document.getElementById('scoreDisplay').textContent = `${correctCount}/${totalQuestions}`;
             document.getElementById('scorePercentage').textContent = `${percentage}%`;
+            document.getElementById('correctCount').textContent = correctCount;
+            document.getElementById('incorrectCount').textContent = totalQuestions - correctCount;
+            document.getElementById('totalCount').textContent = totalQuestions;
             
             // Message based on score
             let message = '';
@@ -499,6 +623,11 @@
             }
             document.getElementById('resultsMessage').textContent = message;
             
+            // Show retry button only if there are wrong answers
+            if (wrongQuestionsIndices.length > 0) {
+                document.getElementById('retryBtn').style.display = 'inline-block';
+            }
+            
             // Detailed results
             const detailsHTML = randomizedQuestions.map((question, index) => {
                 const userAnswer = userAnswers[question.id];
@@ -510,24 +639,26 @@
                 resultDiv.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
                 
                 const titleSpan = document.createElement('strong');
-                titleSpan.textContent = `Câu ${index + 1}: ${isCorrect ? '✓' : '✗'}`;
+                titleSpan.textContent = `Câu ${index + 1}: ${isCorrect ? '✓ Đúng' : '✗ Sai'}`;
                 
                 const questionSpan = document.createElement('div');
                 questionSpan.textContent = question.question;
+                questionSpan.style.marginTop = '10px';
                 
                 const answerSpan = document.createElement('small');
                 answerSpan.textContent = `Câu trả lời của bạn: ${answerText}`;
+                answerSpan.style.display = 'block';
+                answerSpan.style.marginTop = '5px';
                 
                 resultDiv.appendChild(titleSpan);
-                resultDiv.appendChild(document.createElement('br'));
                 resultDiv.appendChild(questionSpan);
-                resultDiv.appendChild(document.createElement('br'));
                 resultDiv.appendChild(answerSpan);
                 
                 if (!isCorrect) {
-                    resultDiv.appendChild(document.createElement('br'));
                     const correctSpan = document.createElement('small');
                     correctSpan.style.color = '#4caf50';
+                    correctSpan.style.display = 'block';
+                    correctSpan.style.marginTop = '5px';
                     correctSpan.textContent = `Đáp án đúng: ${correctText}`;
                     resultDiv.appendChild(correctSpan);
                 }
@@ -539,6 +670,34 @@
             detailsHTML.forEach(element => {
                 document.getElementById('resultsDetails').appendChild(element);
             });
+        }
+
+        // Retry only wrong questions
+        function retryWrongQuestions() {
+            if (wrongQuestionsIndices.length === 0) {
+                alert('Không có câu sai để làm lại!');
+                return;
+            }
+            
+            // Create new array with only wrong questions
+            randomizedQuestions = wrongQuestionsIndices.map(index => {
+                return quizData[currentQuizIndex].questions.find(q => q.id === randomizedQuestions[index].id);
+            });
+            
+            // Shuffle the wrong questions
+            randomizedQuestions = shuffleArray(randomizedQuestions);
+            
+            // Reset for retry
+            currentQuestionIndex = 0;
+            userAnswers = {};
+            wrongQuestionsIndices = [];
+            isRetryMode = true;
+            
+            // Switch back to quiz screen
+            document.getElementById('resultsScreen').classList.remove('active');
+            document.getElementById('quizScreen').classList.add('active');
+            
+            displayQuestion();
         }
 
         // Initialize
