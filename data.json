@@ -2204,6 +2204,252 @@
           "correctAnswer": 0
         }
       ]
+    },
+    {
+      "title": "Mạng máy tính - Câu hỏi trắc nghiệm",
+      "subject": "Mạng máy tính",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Một máy tính có địa chỉ IP là 10.10.0.100/24. Khi cần quảng bá một gói tin trong mạng, địa chỉ đích được sử dụng là:",
+          "options": ["10.10.0.0", "10.10.0.255", "10.10.255.0", "10.10.255.255"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "Bước đầu tiên trong quá trình truyền gói tin của bộ định tuyến là gì?",
+          "options": ["Bộ định tuyến nhận gói dữ liệu", "Kiểm tra bảng định tuyến", "Gửi phản hồi ARP", "Kiểm tra IP đích"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "Kỹ thuật nào sau đây dùng để chuyển đổi từ IPv4 sang IPv6?",
+          "options": ["NAT", "DHCP", "IP tunneling", "ARP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "Giao thức nào được sử dụng để thông báo lỗi đến nút nguồn?",
+          "options": ["ICMP", "ARP", "RAPR", "DNS"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 5,
+          "question": "Kỹ thuật nào cho phép cấu hình port đích luôn chuyển tới nút cụ thể?",
+          "options": ["Ephemeral ports", "Port forwarding", "IP translation", "IP masquerading"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 6,
+          "question": "Kỹ thuật cân bằng lưu lượng trên nhiều IP cho cùng tên miền?",
+          "options": ["Round robin", "CNAME", "Cycling records", "Quad A record"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 7,
+          "question": "Thiết bị nào chuyển tiếp lưu lượng giữa các mạng khác nhau?",
+          "options": ["Switch", "Router", "Client", "Hub"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 8,
+          "question": "Gói tin IPv6 được phép phân mảnh tại:",
+          "options": ["Nút gửi", "Router trung gian", "Cả hai", "Không được phép"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 9,
+          "question": "Thành phần nào có chức năng gửi tín hiệu giữa các thiết bị?",
+          "options": ["Điều chế", "Tầng mạng", "Tầng vật lý", "Tầng liên kết dữ liệu"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 10,
+          "question": "Thành phần cần thiết để thiết lập kết nối không dây?",
+          "options": ["Ethernet Switch", "Wireless Access Point", "Modem", "DSL Splitter"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 11,
+          "question": "Vai trò của modem trong mạng máy tính?",
+          "options": ["Chuyển đổi tín hiệu số sang tương tự và ngược lại", "Khuếch đại tín hiệu", "Nén dữ liệu", "Định tuyến gói tin"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 12,
+          "question": "Công nghệ KHÔNG thuộc cốt lõi của Internet quay số?",
+          "options": ["PSTN", "Packet Switching", "Modem", "LAN Ethernet"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 13,
+          "question": "Loại cáp mạng phổ biến nhất hiện nay?",
+          "options": ["Cáp nguồn", "Cáp VGA", "Cáp SATA", "Cáp Twisted Pair"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 14,
+          "question": "Thiết bị lọc gói tin tại vùng biên dựa trên IP/Port?",
+          "options": ["Server", "Firewall", "Router", "Switching Hub"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 15,
+          "question": "Giao thức ứng dụng bảo mật dữ liệu mặc định?",
+          "options": ["HTTP", "HTTPS", "DNS", "FTP"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 16,
+          "question": "Đơn vị dữ liệu (PDU) tại tầng Giao vận gọi là gì?",
+          "options": ["Frame", "Packet", "Segment", "Bit"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 17,
+          "question": "Giao thức ARP dùng để làm gì?",
+          "options": ["Tìm IP từ MAC", "Tìm MAC từ IP", "Cấp IP tự động", "Phân giải tên miền"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 18,
+          "question": "Địa chỉ Loopback mặc định trong IPv4?",
+          "options": ["127.0.0.1", "192.168.1.1", "255.255.255.255", "0.0.0.0"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 19,
+          "question": "Cổng (Port) mặc định của giao thức HTTP là?",
+          "options": ["443", "21", "25", "80"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 20,
+          "question": "Đặc điểm của giao thức UDP?",
+          "options": ["Có thiết lập kết nối", "Tin cậy cao", "Nhanh, không kiểm soát lỗi", "Bắt tay 3 bước"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 21,
+          "question": "Địa chỉ MAC có độ dài bao nhiêu bit?",
+          "options": ["32 bit", "48 bit", "64 bit", "128 bit"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 22,
+          "question": "Tầng nào trong OSI mã hóa và nén dữ liệu?",
+          "options": ["Tầng Phiên", "Tầng Trình diễn", "Tầng Ứng dụng", "Tầng Giao vận"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 23,
+          "question": "Thiết bị Hub hoạt động ở tầng nào của OSI?",
+          "options": ["Tầng Vật lý", "Tầng Liên kết dữ liệu", "Tầng Mạng", "Tầng Giao vận"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 24,
+          "question": "Giao thức cấp phát IP tự động?",
+          "options": ["DNS", "DHCP", "ICMP", "SNMP"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 25,
+          "question": "Khoảng cách tối đa của cáp UTP truyền thống?",
+          "options": ["50m", "100m", "500m", "1000m"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 26,
+          "question": "Giao thức dùng để gửi thư điện tử (Email)?",
+          "options": ["POP3", "IMAP", "SMTP", "SNMP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 27,
+          "question": "Kiểu hình mạng (Topology) phổ biến nhất hiện nay?",
+          "options": ["Bus", "Ring", "Star", "Mesh"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 28,
+          "question": "Subnet mask mặc định của địa chỉ lớp C?",
+          "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 29,
+          "question": "Giao thức CSMA/CD dùng để làm gì?",
+          "options": ["Mã hóa", "Định tuyến", "Xử lý xung đột", "Phân giải IP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 30,
+          "question": "Tầng nào quản lý truy cập môi trường và địa chỉ MAC?",
+          "options": ["Tầng Mạng", "Tầng Liên kết dữ liệu", "Tầng Vật lý", "Tầng Phiên"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 31,
+          "question": "Độ dài bit của địa chỉ IPv6?",
+          "options": ["32 bit", "48 bit", "128 bit", "256 bit"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 32,
+          "question": "Miền xung đột (Collision Domain) trên mỗi cổng Switch?",
+          "options": ["1 miền cho tất cả", "Mỗi cổng là 1 miền riêng", "2 cổng chung 1 miền", "Không có miền xung đột"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 33,
+          "question": "Mục đích của tấn công DoS?",
+          "options": ["Đánh cắp pass", "Làm tê liệt hệ thống", "Sửa dữ liệu", "Đọc trộm tin nhắn"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 34,
+          "question": "Tại sao dùng SSH thay vì Telnet?",
+          "options": ["Nhanh hơn", "Có giao diện đẹp", "Mã hóa dữ liệu", "Miễn phí"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 35,
+          "question": "Thiết bị chủ động yêu cầu trong mô hình Client-Server?",
+          "options": ["Server", "Client", "Router", "Firewall"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 36,
+          "question": "Chức năng của Proxy Server?",
+          "options": ["Tăng CPU", "Trung gian, Cache, Bảo mật", "Thay Router", "Cấp nguồn"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 37,
+          "question": "Lệnh 'ping' sử dụng giao thức nào?",
+          "options": ["TCP", "UDP", "ICMP", "IGMP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 38,
+          "question": "Băng tần chính của chuẩn Wi-Fi 802.11ac?",
+          "options": ["2.4 GHz", "5 GHz", "900 MHz", "60 GHz"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 39,
+          "question": "Router dựa vào thông tin gì để chuyển gói tin?",
+          "options": ["MAC nguồn", "IP đích", "Tên máy", "Kích thước gói"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 40,
+          "question": "Công dụng chính của VPN?",
+          "options": ["Tăng tốc mạng", "Tạo kết nối an toàn qua Internet", "Thay Card Wi-Fi", "Quản lý file"],
+          "correctAnswer": 1
+        }
+      ]
     }
   ]
 }
