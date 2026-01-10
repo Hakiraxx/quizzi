@@ -2450,6 +2450,264 @@
           "correctAnswer": 1
         }
       ]
+    },
+    {
+      "title": "Mạng máy tính 2 - Câu hỏi trắc nghiệm",
+      "subject": "Mạng máy tính",
+      "questions": [
+        {
+          "id": 1,
+          "question": "H3 là phần header của tầng nào trong mô hình OSI?",
+          "options": ["Application layer", "Network layer", "Transport layer", "Physical layer"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "question": "H1 là phần header của tầng nào?",
+          "options": ["Data Link layer", "Network layer", "Transport layer", "Application layer"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "Thành phần có chức năng gửi tín hiệu giữa các thiết bị là tầng nào?",
+          "options": ["Application layer", "Physical layer", "Network layer", "Transport layer"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "Thành phần nào hoạt động tại tầng ứng dụng?",
+          "options": ["Router", "Switch", "Web browser", "NIC"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "Bản ghi DNS loại NS chứa thông tin gì?",
+          "options": ["Địa chỉ IPv4", "Mail server", "Tên authoritative name server", "Địa chỉ MAC"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 6,
+          "question": "Máy chủ quản lý domain như .com, .edu là loại DNS nào?",
+          "options": ["Root DNS", "Local DNS", "Authoritative DNS", "TLD DNS"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 7,
+          "question": "Máy chủ DNS liên lạc với các DNS khác để trả lời cho host cục bộ là gì?",
+          "options": ["Root DNS", "Local DNS", "TLD DNS", "Authoritative DNS"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 8,
+          "question": "Bản ghi DNS kiểu A chứa thông tin gì?",
+          "options": ["Tên miền", "IPv6 address", "IPv4 address", "Mail server"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 9,
+          "question": "Bản ghi DNS dùng để tìm mail server là loại nào?",
+          "options": ["A", "NS", "CNAME", "MX"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 10,
+          "question": "Mục đích chính của NAT là gì?",
+          "options": ["Tăng tốc mạng", "Mã hóa dữ liệu", "Chia sẻ một IP công cộng cho nhiều thiết bị", "Chuyển IPv6 sang IPv4"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 11,
+          "question": "Kỹ thuật chuyển đổi IPv4 sang IPv6 là gì?",
+          "options": ["NAT", "CIDR", "IP Tunneling", "ARP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 12,
+          "question": "Ưu điểm chính của NAT là gì?",
+          "options": ["Tăng băng thông", "Tiết kiệm địa chỉ IP", "Giảm độ trễ", "Tăng bảo mật WiFi"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 13,
+          "question": "Gói tin DHCP gửi cấu hình cho client là giai đoạn nào?",
+          "options": ["DHCP Discover", "DHCP Offer", "DHCP Request", "DHCP ACK"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 14,
+          "question": "Đặc điểm của TCP socket là gì?",
+          "options": ["Không đảm bảo dữ liệu", "Truyền dữ liệu không thứ tự", "Dịch vụ tin cậy, byte-stream", "Chỉ dùng cho multicast"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 15,
+          "question": "Giai đoạn Slow Start của TCP Reno có đặc điểm gì?",
+          "options": ["Tăng tuyến tính", "Tăng theo hàm mũ", "Giảm đột ngột", "Giữ nguyên"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 16,
+          "question": "Thành phần TCP đảm bảo dữ liệu đúng thứ tự là gì?",
+          "options": ["Checksum", "ACK", "Sequence Number", "Window Size"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 17,
+          "question": "Thành phần nào KHÔNG thuộc TCP header?",
+          "options": ["Source Port", "Destination Port", "Sequence Number", "Destination IP Address"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 18,
+          "question": "UDP cung cấp dịch vụ truyền tải loại nào?",
+          "options": ["Reliable", "Connection-oriented", "Best effort", "Ordered delivery"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 19,
+          "question": "Thuật ngữ nào KHÔNG liên quan đến TCP?",
+          "options": ["ACK", "Sequence Number", "Congestion Control", "Network Switch"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 20,
+          "question": "Lợi ích chính của CIDR là gì?",
+          "options": ["Tăng tốc Internet", "Giảm độ trễ", "Phân bổ IP hiệu quả", "Tăng bảo mật"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 21,
+          "question": "Tổng số địa chỉ IPv4 là bao nhiêu?",
+          "options": ["2^16", "2^24", "2^32", "2^64"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 22,
+          "question": "IP 140.16.10.123/28 thuộc mạng nào?",
+          "options": ["140.16.10.96/28", "140.16.10.112/28", "140.16.10.128/28", "140.16.10.0/28"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 23,
+          "question": "Địa chỉ mạng của dải /12 là gì?",
+          "options": ["172.16.0.0/12", "172.32.0.0/12", "172.64.0.0/12", "172.0.0.0/12"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 24,
+          "question": "Địa chỉ broadcast của 192.168.10.210/27 là gì?",
+          "options": ["192.168.10.192", "192.168.10.223", "192.168.10.255", "192.168.10.224"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 25,
+          "question": "Subnet ID của 192.168.8.34 với mask 255.255.0.0 là phần nào?",
+          "options": ["1 octet đầu", "2 octet đầu", "3 octet đầu", "4 octet"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 26,
+          "question": "Giao thức thông báo lỗi trong IP là gì?",
+          "options": ["ARP", "ICMP", "RIP", "BGP"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 27,
+          "question": "Giao thức truyền dữ liệu giữa các AS là gì?",
+          "options": ["RIP", "OSPF", "BGP", "ICMP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 28,
+          "question": "Kỹ thuật cấu hình port đến nút cụ thể gọi là gì?",
+          "options": ["NAT", "Port forwarding", "Tunneling", "CIDR"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 29,
+          "question": "Giải pháp tạo gần như vô hạn địa chỉ IP công cộng là gì?",
+          "options": ["NAT", "CIDR", "IPv6", "VPN"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 30,
+          "question": "IGP được dùng để chia sẻ thông tin trong đâu?",
+          "options": ["Internet", "LAN", "Autonomous System", "WAN"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 31,
+          "question": "Kỹ thuật cân bằng tải DNS phổ biến là gì?",
+          "options": ["NAT", "Round Robin", "ARP", "CIDR"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 32,
+          "question": "Cáp xoắn đôi hỗ trợ Gigabit Ethernet là loại nào?",
+          "options": ["CAT3", "CAT5", "CAT5e", "CAT4"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 33,
+          "question": "Vai trò chính của modem là gì?",
+          "options": ["Định tuyến", "Chuyển mạch", "Chuyển đổi số ↔ tương tự", "Mã hóa dữ liệu"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 34,
+          "question": "Thiết bị cần để thiết lập kết nối không dây là gì?",
+          "options": ["Router", "Switch", "Wireless Access Point", "Modem"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 35,
+          "question": "Công nghệ KHÔNG thuộc thời Internet quay số?",
+          "options": ["Dial-up", "Modem", "LAN Ethernet", "PSTN"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 36,
+          "question": "Địa chỉ không đổi khi kết nối sang mạng khác là gì?",
+          "options": ["IP address", "MAC address", "Subnet mask", "Gateway"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 37,
+          "question": "Mục đích chính của VPN là gì?",
+          "options": ["Tăng tốc mạng", "Truy cập từ xa an toàn", "Giảm chi phí", "Cân bằng tải"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 38,
+          "question": "Giao thức truyền file an toàn là gì?",
+          "options": ["FTP", "HTTP", "FTPS", "TFTP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 39,
+          "question": "Thiết bị chuyển tiếp gói tin dựa trên IP đích là gì?",
+          "options": ["Hub", "Switch", "Router", "Repeater"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 40,
+          "question": "Giao thức ánh xạ IP sang MAC là gì?",
+          "options": ["DNS", "ICMP", "ARP", "RARP"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 41,
+          "question": "Trong OSI, nén và mã hóa dữ liệu thuộc tầng nào?",
+          "options": ["Application", "Presentation", "Session", "Transport"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 42,
+          "question": "PDU của tầng Network gọi là gì?",
+          "options": ["Frame", "Segment", "Packet", "Bit"],
+          "correctAnswer": 2
+        }
+      ]
     }
   ]
 }

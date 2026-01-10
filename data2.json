@@ -1,558 +1,282 @@
-{
-  "quizTitle": "Web Development Quiz (48 câu)",
-  "source": "PDF - Ứng dụng web",
-  "questions": [
-    {
-      "id": 1,
-      "question": "Computers communicate with each other using which protocol?",
-      "options": [
-        "Network Protocol",
-        "**Internet Protocol**",
-        "Mobile Protocol",
-        "Mail Protocol"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": 2,
-      "question": "What is the significance of using an Integrated Development Environment (IDE) in web development?",
-      "options": [
-        "Reduces the need for manual testing",
-        "Limits the ability to use third-party libraries",
-        "Restricts coding to a single language",
-        "**Provides a comprehensive environment for coding, debugging, and testing**"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": 3,
-      "question": "Which of the following tools and technologies are commonly used in front-end development?",
-      "options": [
-        "Node.js",
-        "**React.js**",
-        "**CSS**",
-        "Django"
-      ],
-      "correctAnswer": [1,2]
-    },
-    {
-      "id": 4,
-      "question": "What is the correct syntax of doctype in HTML5?",
-      "options": [
-        "<doctype html!>",
-        "</doctype html>",
-        "<doctype html>",
-        "**<!doctype html>**"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": 5,
-      "question": "Select the technologies that are commonly used in the frontend development of web projects.",
-      "options": [
-        "**CSS**",
-        "SQL",
-        "Python",
-        "**HTML**"
-      ],
-      "correctAnswer": [0,3]
-    },
-    {
-      "id": 6,
-      "question": "Which element is used to get highlighted text in HTML5?",
-      "options": [
-        "**<mark>**",
-        "<highlight>",
-        "<b>",
-        "<u>"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": 7,
-      "question": "Which of the following are popular front-end frameworks?",
-      "options": [
-        "**Vue.js**",
-        "Django",
-        "**React.js**",
-        "**Angular**"
-      ],
-      "correctAnswer": [0,2,3]
-    },
-    {
-      "id": 8,
-      "question": "Which of the following is used to read an HTML page and render it?",
-      "options": [
-        "Web matrix",
-        "**Web browser**",
-        "Web server",
-        "Web network"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": 9,
-      "question": "Which popular front-end framework was created by Facebook?",
-      "options": [
-        "**React.js**",
-        "Angular",
-        "Vue.js",
-        "Ember.js"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": 10,
-      "question": "To communicate with another computer on a network, your computer sends a message called an…",
-      "options": [
-        "**IP Packet**",
-        "IP Mail",
-        "IP Container"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": 11,
-      "question": "Which HTML5 element defines video or movie content?",
-      "options": [
-        "<movie>",
-        "<audio>",
-        "<media>",
-        "**<video>**"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": 12,
-      "question": "Why is hands-on experience significant in web application development?",
-      "options": [
-        "**It helps in mastering practical skills**",
-        "It negates the need for project management",
-        "It eliminates the need for understanding customer requirements",
-        "It allows developers to avoid technical skills"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": 13,
-      "question": "Which of the following best describes HTML5?",
-      "options": [
-        "A protocol for transferring hypertext",
-        "A database management system",
-        "**Markup language used for structuring and presenting content on the web**",
-        "A scripting language"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": 14,
-      "question": "Which HTML5 input type is designed for entering a telephone number?",
-      "options": [
-        "url",
-        "number",
-        "**tel**",
-        "email"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": 15,
-      "question": "Which HTML5 input attribute defines a number range?",
-      "options": [
-        "Step",
-        "**Min**",
-        "Range",
-        "Max"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": 16,
-      "question": "What is the purpose of the <header> tag in HTML5?",
-      "options": [
-        "Define main content",
-        "**Define introductory content or navigational links**",
-        "Define footer",
-        "Define navigation only"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "id": 17,
-      "question": "What is a primary challenge when working with HTML and CSS?",
-      "options": [
-        "**Centering elements across browsers**",
-        "Managing databases",
-        "Setting up Git",
-        "Writing animations"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "id": 18,
-      "question": "What distinguishes front-end from back-end development?",
-      "options": [
-        "Front-end handles server scripts",
-        "Front-end manages databases",
-        "**Front-end deals with visual aspects users interact with**",
-        "Front-end manages APIs"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": 19,
-      "question": "How to create a checkbox in HTML form?",
-      "options": [
-        "<input type=\"text\">",
-        "<input type=\"button\">",
-        "**<input type=\"checkbox\">**",
-        "<input type=\"textarea\">"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": 20,
-      "question": "Which HTML5 input type allows selecting date and time?",
-      "options": [
-        "<input type='datetime'>",
-        "<input type='time'>",
-        "**<input type='datetime-local'>**",
-        "<input type='date'>"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 21,
-      "question": "What defines the structure of a web page?",
-      "options": [
-        "CSS",
-        "**HTML**",
-        "JavaScript"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 22,
-      "question": "Which HTTP methods are used when submitting an HTML form?",
-      "options": [
-        "DELETE",
-        "PUT",
-        "**GET**",
-        "**POST**"
-      ],
-      "correctAnswer": [2,3]
-    },
-
-    {
-      "id": 23,
-      "question": "What is full-stack development?",
-      "options": [
-        "Only client-side",
-        "Only cloud services",
-        "Only server-side",
-        "**Both front-end and back-end**"
-      ],
-      "correctAnswer": 3
-    },
-
-    {
-      "id": 24,
-      "question": "Which tag creates a numbered list in HTML?",
-      "options": [
-        "<ul>",
-        "**<ol>**",
-        "<li>",
-        "<dl>"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 25,
-      "question": "Identify the roles of front-end developers.",
-      "options": [
-        "**Ensuring cross-browser compatibility**",
-        "**Designing user interfaces**",
-        "Implementing server-side logic",
-        "**Creating interactive user experiences**"
-      ],
-      "correctAnswer": [0,1,3]
-    },
-
-    {
-      "id": 26,
-      "question": "In CSS, 'purple' in h1 { color: purple; } is called what?",
-      "options": [
-        "CSS Selector",
-        "**CSS Value**",
-        "CSS Rule",
-        "CSS Property"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 27,
-      "question": "CSS opacity property is used to?",
-      "options": [
-        "Set size",
-        "Set position",
-        "**Set transparency**",
-        "Set font"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 28,
-      "question": "Which CSS property moves or transforms an element?",
-      "options": [
-        "Transition",
-        "Move",
-        "**Transform**",
-        "Animation"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 29,
-      "question": "In CSS, { color: purple; } is called?",
-      "options": [
-        "**CSS Rule**",
-        "CSS Attribute",
-        "CSS Selector",
-        "CSS Property"
-      ],
-      "correctAnswer": 0
-    },
-
-    {
-      "id": 30,
-      "question": "What distinguishes block-level from inline elements?",
-      "options": [
-        "No margin allowed",
-        "**Block elements take full width**",
-        "Always new line",
-        "Restricted tags"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 31,
-      "question": "Which skill is essential for web application development?",
-      "options": [
-        "Only front-end",
-        "Ignore security",
-        "**Understanding customer requirements**",
-        "Avoid learning"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 32,
-      "question": "Purpose of input type='date'?",
-      "options": [
-        "Text numbers",
-        "**Select a date from calendar**",
-        "Dropdown list",
-        "Link page"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 33,
-      "question": "Which image element syntax is correct?",
-      "options": [
-        "<image src=\"dog.png\">",
-        "**<img src=\"mouse.png\">**",
-        "<img href=\"cat.png\">"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 34,
-      "question": "Relevant skills for cloud apps with Node.js & React?",
-      "options": [
-        "**Understanding JavaScript**",
-        "**HTML & CSS**",
-        "**Database management**",
-        "Ignoring security"
-      ],
-      "correctAnswer": [0,1,2]
-    },
-
-    {
-      "id": 35,
-      "question": "Which best describes HTML5?",
-      "options": [
-        "Protocol",
-        "**Markup language**",
-        "Database system",
-        "Scripting language"
-      ],
-      "correctAnswer": 1
-    },
-
-    {
-      "id": 36,
-      "question": "CSS property to rotate an element?",
-      "options": [
-        "Rotate",
-        "Transition",
-        "**Transform**",
-        "Animation"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 37,
-      "question": "overflow value always shows scrollbar?",
-      "options": [
-        "Visible",
-        "Hidden",
-        "**Scroll**",
-        "Auto"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 38,
-      "question": "align-items value that stretches items?",
-      "options": [
-        "Center",
-        "Flex-end",
-        "Flex-start",
-        "**Stretch**"
-      ],
-      "correctAnswer": 3
-    },
-
-    {
-      "id": 39,
-      "question": "CSS property to change text color?",
-      "options": [
-        "Font-color",
-        "Bgcolor",
-        "**Color**",
-        "Text-color"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 40,
-      "question": "Meaning of h1 { color: \"green\"; }?",
-      "options": [
-        "**All <h1> are green**",
-        "Error occurs",
-        "No effect",
-        "All headings green"
-      ],
-      "correctAnswer": 0
-    },
-
-    {
-      "id": 41,
-      "question": "Correct CSS unit statement?",
-      "options": [
-        "px is percentage",
-        "vh/vw static",
-        "**rem relative to html font-size**",
-        "em always 16px"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 42,
-      "question": "In h1 { color: purple; }, 'color' is?",
-      "options": [
-        "**CSS Property**",
-        "CSS Selector",
-        "CSS Value",
-        "CSS Rule"
-      ],
-      "correctAnswer": 0
-    },
-
-    {
-      "id": 43,
-      "question": "Valid CSS property-value pairs?",
-      "options": [
-        "bgcolor: red",
-        "**color: blue**",
-        "**font-size: 16px**",
-        "**text-align: center**"
-      ],
-      "correctAnswer": [1,2,3]
-    },
-
-    {
-      "id": 44,
-      "question": "Correct way to define a JS function?",
-      "options": [
-        "**function myFunc() { }**",
-        "myFunc function() { }",
-        "define myFunc() { }",
-        "function: myFunc() { }"
-      ],
-      "correctAnswer": 0
-    },
-
-    {
-      "id": 45,
-      "question": "Access element by ID in JavaScript?",
-      "options": [
-        "getElementsByClassName",
-        "getElementsByTagName",
-        "querySelector",
-        "**getElementById**"
-      ],
-      "correctAnswer": 3
-    },
-
-    {
-      "id": 46,
-      "question": "jQuery method to attach event handler?",
-      "options": [
-        "**bind()**",
-        "unbind()",
-        "attach()"
-      ],
-      "correctAnswer": 0
-    },
-
-    {
-      "id": 47,
-      "question": "jQuery method to hide elements?",
-      "options": [
-        "display(none)",
-        "visible(false)",
-        "**hide()**",
-        "hidden()"
-      ],
-      "correctAnswer": 2
-    },
-
-    {
-      "id": 48,
-      "question": "Correct jQuery syntax to set h1 background yellow?",
-      "options": [
-        "**$(\"h1\").css(\"background-color\",\"yellow\");**",
-        "$(h1).layout(...)",
-        "$(h1).style(...)",
-        "$(h1).html(...)"
-      ],
-      "correctAnswer": 0
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "question": "Một máy tính có địa chỉ IP là 10.10.0.100/24. Khi cần quảng bá một gói tin trong mạng, địa chỉ đích được sử dụng là:",
+    "options": ["10.10.0.0", "10.10.0.255", "10.10.255.0", "10.10.255.255"],
+    "answer": "10.10.0.255",
+    "explanation": "Với prefix /24, phần host chiếm 8 bit cuối. Địa chỉ quảng bá có các bit phần host bằng 1 (255)."
+  },
+  {
+    "id": 2,
+    "question": "Bước đầu tiên trong quá trình truyền gói tin của bộ định tuyến là gì?",
+    "options": ["Bộ định tuyến nhận gói dữ liệu", "Kiểm tra bảng định tuyến", "Gửi phản hồi ARP", "Kiểm tra IP đích"],
+    "answer": "Bộ định tuyến nhận gói dữ liệu",
+    "explanation": "Router phải tiếp nhận dữ liệu vật lý từ cổng vào bộ nhớ đệm trước khi xử lý logic."
+  },
+  {
+    "id": 3,
+    "question": "Kỹ thuật nào sau đây dùng để chuyển đổi từ IPv4 sang IPv6?",
+    "options": ["NAT", "DHCP", "IP tunneling", "ARP"],
+    "answer": "IP tunneling",
+    "explanation": "Tunneling đóng gói gói tin IPv6 vào IPv4 để đi qua hạ tầng cũ."
+  },
+  {
+    "id": 4,
+    "question": "Giao thức nào được sử dụng để thông báo lỗi đến nút nguồn?",
+    "options": ["ICMP", "ARP", "RAPR", "DNS"],
+    "answer": "ICMP",
+    "explanation": "ICMP (Internet Control Message Protocol) chuyên trách báo cáo lỗi và chẩn đoán mạng."
+  },
+  {
+    "id": 5,
+    "question": "Kỹ thuật nào cho phép cấu hình port đích luôn chuyển tới nút cụ thể?",
+    "options": ["Ephemeral ports", "Port forwarding", "IP translation", "IP masquerading"],
+    "answer": "Port forwarding",
+    "explanation": "Port forwarding ánh xạ cổng IP công cộng vào IP nội bộ cụ thể."
+  },
+  {
+    "id": 6,
+    "question": "Kỹ thuật cân bằng lưu lượng trên nhiều IP cho cùng tên miền?",
+    "options": ["Round robin", "CNAME", "Cycling records", "Quad A record"],
+    "answer": "Round robin",
+    "explanation": "DNS Round Robin xoay vòng các địa chỉ IP trong danh sách trả về."
+  },
+  {
+    "id": 7,
+    "question": "Thiết bị nào chuyển tiếp lưu lượng giữa các mạng khác nhau?",
+    "options": ["Switch", "Router", "Client", "Hub"],
+    "answer": "Router",
+    "explanation": "Router hoạt động ở tầng 3 để kết nối các mạng con khác nhau."
+  },
+  {
+    "id": 8,
+    "question": "Gói tin IPv6 được phép phân mảnh tại:",
+    "options": ["Nút gửi", "Router trung gian", "Cả hai", "Không được phép"],
+    "answer": "Nút gửi",
+    "explanation": "IPv6 cấm router trung gian phân mảnh để tăng tốc độ xử lý mạng."
+  },
+  {
+    "id": 9,
+    "question": "Thành phần nào có chức năng gửi tín hiệu giữa các thiết bị?",
+    "options": ["Điều chế", "Tầng mạng", "Tầng vật lý", "Tầng liên kết dữ liệu"],
+    "answer": "Tầng vật lý",
+    "explanation": "Tầng vật lý chịu trách nhiệm truyền tải dòng bit dưới dạng tín hiệu vật lý."
+  },
+  {
+    "id": 10,
+    "question": "Thành phần cần thiết để thiết lập kết nối không dây?",
+    "options": ["Ethernet Switch", "Wireless Access Point", "Modem", "DSL Splitter"],
+    "answer": "Wireless Access Point",
+    "explanation": "WAP là thiết bị phát sóng Wi-Fi cho các máy trạm kết nối."
+  },
+  {
+    "id": 11,
+    "question": "Vai trò của modem trong mạng máy tính?",
+    "options": ["Chuyển đổi tín hiệu số sang tương tự và ngược lại", "Khuếch đại tín hiệu", "Nén dữ liệu", "Định tuyến gói tin"],
+    "answer": "Chuyển đổi tín hiệu số sang tương tự và ngược lại",
+    "explanation": "Modem giúp truyền dữ liệu số qua hạ tầng truyền dẫn tương tự."
+  },
+  {
+    "id": 12,
+    "question": "Công nghệ KHÔNG thuộc cốt lõi của Internet quay số?",
+    "options": ["PSTN", "Packet Switching", "Modem", "LAN Ethernet"],
+    "answer": "LAN Ethernet",
+    "explanation": "Ethernet là mạng LAN, Dial-up dựa trên mạng điện thoại PSTN."
+  },
+  {
+    "id": 13,
+    "question": "Loại cáp mạng phổ biến nhất hiện nay?",
+    "options": ["Cáp nguồn", "Cáp VGA", "Cáp SATA", "Cáp Twisted Pair"],
+    "answer": "Cáp Twisted Pair",
+    "explanation": "Cáp xoắn đôi (UTP/STP) là tiêu chuẩn kết nối mạng LAN phổ biến."
+  },
+  {
+    "id": 14,
+    "question": "Thiết bị lọc gói tin tại vùng biên dựa trên IP/Port?",
+    "options": ["Server", "Firewall", "Router", "Switching Hub"],
+    "answer": "Firewall",
+    "explanation": "Firewall kiểm soát lưu lượng ra vào dựa trên các quy tắc bảo mật."
+  },
+  {
+    "id": 15,
+    "question": "Giao thức ứng dụng bảo mật dữ liệu mặc định?",
+    "options": ["HTTP", "HTTPS", "DNS", "FTP"],
+    "answer": "HTTPS",
+    "explanation": "HTTPS sử dụng SSL/TLS để mã hóa dữ liệu mặc định."
+  },
+  {
+    "id": 16,
+    "question": "Đơn vị dữ liệu (PDU) tại tầng Giao vận gọi là gì?",
+    "options": ["Frame", "Packet", "Segment", "Bit"],
+    "answer": "Segment",
+    "explanation": "Tầng Giao vận đóng gói dữ liệu thành các Segment (đoạn)."
+  },
+  {
+    "id": 17,
+    "question": "Giao thức ARP dùng để làm gì?",
+    "options": ["Tìm IP từ MAC", "Tìm MAC từ IP", "Cấp IP tự động", "Phân giải tên miền"],
+    "answer": "Tìm MAC từ IP",
+    "explanation": "ARP ánh xạ địa chỉ logic (IP) sang địa chỉ vật lý (MAC)."
+  },
+  {
+    "id": 18,
+    "question": "Địa chỉ Loopback mặc định trong IPv4?",
+    "options": ["127.0.0.1", "192.168.1.1", "255.255.255.255", "0.0.0.0"],
+    "answer": "127.0.0.1",
+    "explanation": "Dùng để kiểm tra ngăn xếp TCP/IP trên chính thiết bị đó."
+  },
+  {
+    "id": 19,
+    "question": "Cổng (Port) mặc định của giao thức HTTP là?",
+    "options": ["443", "21", "25", "80"],
+    "answer": "80",
+    "explanation": "HTTP sử dụng cổng 80, trong khi HTTPS sử dụng 443."
+  },
+  {
+    "id": 20,
+    "question": "Đặc điểm của giao thức UDP?",
+    "options": ["Có thiết lập kết nối", "Tin cậy cao", "Nhanh, không kiểm soát lỗi", "Bắt tay 3 bước"],
+    "answer": "Nhanh, không kiểm soát lỗi",
+    "explanation": "UDP là giao thức không kết nối, phù hợp cho truyền phát thời gian thực."
+  },
+  {
+    "id": 21,
+    "question": "Địa chỉ MAC có độ dài bao nhiêu bit?",
+    "options": ["32 bit", "48 bit", "64 bit", "128 bit"],
+    "answer": "48 bit",
+    "explanation": "MAC address gồm 6 octet (48 bit), ghi dưới dạng hexa."
+  },
+  {
+    "id": 22,
+    "question": "Tầng nào trong OSI mã hóa và nén dữ liệu?",
+    "options": ["Tầng Phiên", "Tầng Trình diễn", "Tầng Ứng dụng", "Tầng Giao vận"],
+    "answer": "Tầng Trình diễn",
+    "explanation": "Tầng Presentation (Tầng 6) lo việc định dạng và mã hóa dữ liệu."
+  },
+  {
+    "id": 23,
+    "question": "Thiết bị Hub hoạt động ở tầng nào của OSI?",
+    "options": ["Tầng Vật lý", "Tầng Liên kết dữ liệu", "Tầng Mạng", "Tầng Giao vận"],
+    "answer": "Tầng Vật lý",
+    "explanation": "Hub là thiết bị tầng 1, chỉ lặp lại tín hiệu điện thô."
+  },
+  {
+    "id": 24,
+    "question": "Giao thức cấp phát IP tự động?",
+    "options": ["DNS", "DHCP", "ICMP", "SNMP"],
+    "answer": "DHCP",
+    "explanation": "DHCP giúp gán IP động cho các thiết bị khi tham gia mạng."
+  },
+  {
+    "id": 25,
+    "question": "Khoảng cách tối đa của cáp UTP truyền thống?",
+    "options": ["50m", "100m", "500m", "1000m"],
+    "answer": "100m",
+    "explanation": "Cáp đồng xoắn đôi Ethernet bị giới hạn hiệu dụng trong 100 mét."
+  },
+  {
+    "id": 26,
+    "question": "Giao thức dùng để gửi thư điện tử (Email)?",
+    "options": ["POP3", "IMAP", "SMTP", "SNMP"],
+    "answer": "SMTP",
+    "explanation": "Simple Mail Transfer Protocol (SMTP) chuyên dùng để gửi thư."
+  },
+  {
+    "id": 27,
+    "question": "Kiểu hình mạng (Topology) phổ biến nhất hiện nay?",
+    "options": ["Bus", "Ring", "Star", "Mesh"],
+    "answer": "Star",
+    "explanation": "Mạng hình sao dễ mở rộng và cô lập lỗi tại Switch trung tâm."
+  },
+  {
+    "id": 28,
+    "question": "Subnet mask mặc định của địa chỉ lớp C?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+    "answer": "255.255.255.0",
+    "explanation": "Lớp C có mask mặc định là /24 (255.255.255.0)."
+  },
+  {
+    "id": 29,
+    "question": "Giao thức CSMA/CD dùng để làm gì?",
+    "options": ["Mã hóa", "Định tuyến", "Xử lý xung đột", "Phân giải IP"],
+    "answer": "Xử lý xung đột",
+    "explanation": "Dùng trong Ethernet để kiểm soát việc gửi dữ liệu tránh va chạm."
+  },
+  {
+    "id": 30,
+    "question": "Tầng nào quản lý truy cập môi trường và địa chỉ MAC?",
+    "options": ["Tầng Mạng", "Tầng Liên kết dữ liệu", "Tầng Vật lý", "Tầng Phiên"],
+    "answer": "Tầng Liên kết dữ liệu",
+    "explanation": "Tầng 2 (Data Link) xử lý Frame và địa chỉ vật lý MAC."
+  },
+  {
+    "id": 31,
+    "question": "Độ dài bit của địa chỉ IPv6?",
+    "options": ["32 bit", "48 bit", "128 bit", "256 bit"],
+    "answer": "128 bit",
+    "explanation": "IPv6 mở rộng không gian địa chỉ lên tới 128 bit."
+  },
+  {
+    "id": 32,
+    "question": "Miền xung đột (Collision Domain) trên mỗi cổng Switch?",
+    "options": ["1 miền cho tất cả", "Mỗi cổng là 1 miền riêng", "2 cổng chung 1 miền", "Không có miền xung đột"],
+    "answer": "Mỗi cổng là 1 miền riêng",
+    "explanation": "Switch chia nhỏ miền xung đột giúp tăng hiệu năng mạng."
+  },
+  {
+    "id": 33,
+    "question": "Mục đích của tấn công DoS?",
+    "options": ["Đánh cắp pass", "Làm tê liệt hệ thống", "Sửa dữ liệu", "Đọc trộm tin nhắn"],
+    "answer": "Làm tê liệt hệ thống",
+    "explanation": "Denial of Service gây quá tải khiến dịch vụ không thể truy cập."
+  },
+  {
+    "id": 34,
+    "question": "Tại sao dùng SSH thay vì Telnet?",
+    "options": ["Nhanh hơn", "Có giao diện đẹp", "Mã hóa dữ liệu", "Miễn phí"],
+    "answer": "Mã hóa dữ liệu",
+    "explanation": "SSH bảo mật hơn vì mã hóa thông tin truyền tải, tránh bị nghe lén."
+  },
+  {
+    "id": 35,
+    "question": "Thiết bị chủ động yêu cầu trong mô hình Client-Server?",
+    "options": ["Server", "Client", "Router", "Firewall"],
+    "answer": "Client",
+    "explanation": "Client luôn là bên bắt đầu phiên làm việc bằng cách gửi yêu cầu."
+  },
+  {
+    "id": 36,
+    "question": "Chức năng của Proxy Server?",
+    "options": ["Tăng CPU", "Trung gian, Cache, Bảo mật", "Thay Router", "Cấp nguồn"],
+    "answer": "Trung gian, Cache, Bảo mật",
+    "explanation": "Proxy đóng vai trò đại diện và lưu trữ đệm dữ liệu cho máy trạm."
+  },
+  {
+    "id": 37,
+    "question": "Lệnh 'ping' sử dụng giao thức nào?",
+    "options": ["TCP", "UDP", "ICMP", "IGMP"],
+    "answer": "ICMP",
+    "explanation": "Ping sử dụng bản tin ICMP Echo Request/Reply."
+  },
+  {
+    "id": 38,
+    "question": "Băng tần chính của chuẩn Wi-Fi 802.11ac?",
+    "options": ["2.4 GHz", "5 GHz", "900 MHz", "60 GHz"],
+    "answer": "5 GHz",
+    "explanation": "Wi-Fi 5 (802.11ac) hoạt động chuyên biệt trên băng tần 5GHz."
+  },
+  {
+    "id": 39,
+    "question": "Router dựa vào thông tin gì để chuyển gói tin?",
+    "options": ["MAC nguồn", "IP đích", "Tên máy", "Kích thước gói"],
+    "answer": "IP đích",
+    "explanation": "Router tra bảng định tuyến dựa trên Network ID của IP đích."
+  },
+  {
+    "id": 40,
+    "question": "Công dụng chính của VPN?",
+    "options": ["Tăng tốc mạng", "Tạo kết nối an toàn qua Internet", "Thay Card Wi-Fi", "Quản lý file"],
+    "answer": "Tạo kết nối an toàn qua Internet",
+    "explanation": "VPN tạo đường hầm mã hóa bảo vệ dữ liệu trên môi trường công cộng."
+  }
+]
