@@ -3,6 +3,7 @@ let currentQuizIndex = 0;
 let currentQuestionIndex = 0;
 let userAnswers = {};
 let isAnswered = false;
+let shuffledQuestions = []; // Mảng lưu câu hỏi đã xáo trộn
 
 // Load quiz data
 async function loadQuizData() {
@@ -47,6 +48,11 @@ function startQuiz(quizIndex) {
     currentQuestionIndex = 0;
     userAnswers = {};
     isAnswered = false;
+    
+    // Xáo trộn câu hỏi để không trùng lặp và mỗi câu chỉ xuất hiện 1 lần
+    const quiz = quizData[currentQuizIndex];
+    shuffledQuestions = [...quiz.questions].sort(() => Math.random() - 0.5);
+    
     switchScreen('quizScreen');
     displayQuestion();
 }
@@ -54,9 +60,9 @@ function startQuiz(quizIndex) {
 // Display current question
 function displayQuestion() {
     const quiz = quizData[currentQuizIndex];
-    const question = quiz.questions[currentQuestionIndex];
+    const question = shuffledQuestions[currentQuestionIndex]; // Sử dụng câu hỏi đã xáo trộn
     const questionNumber = currentQuestionIndex + 1;
-    const totalQuestions = quiz.questions.length;
+    const totalQuestions = shuffledQuestions.length;
     
     // Update title and meta
     document.getElementById('quizTitle').textContent = quiz.title;
@@ -120,8 +126,7 @@ function prevQuestion() {
 
 // Navigate to next question or finish quiz
 function nextQuestion() {
-    const quiz = quizData[currentQuizIndex];
-    const totalQuestions = quiz.questions.length;
+    const totalQuestions = shuffledQuestions.length;
     
     if (currentQuestionIndex < totalQuestions - 1) {
         currentQuestionIndex++;
@@ -133,16 +138,15 @@ function nextQuestion() {
 
 // Finish quiz and show results
 function finishQuiz() {
-    const quiz = quizData[currentQuizIndex];
     let correctCount = 0;
     
-    quiz.questions.forEach(question => {
+    shuffledQuestions.forEach(question => {
         if (userAnswers[question.id] === question.correctAnswer) {
             correctCount++;
         }
     });
     
-    const totalQuestions = quiz.questions.length;
+    const totalQuestions = shuffledQuestions.length;
     const percentage = Math.round((correctCount / totalQuestions) * 100);
     
     // Display results
@@ -165,8 +169,8 @@ function finishQuiz() {
     }
     document.getElementById('resultsMessage').textContent = message;
     
-    // Detailed results
-    const detailsHTML = quiz.questions.map((question, index) => {
+    // Detailed results - hiển thị theo thứ tự đã xáo trộn
+    const detailsHTML = shuffledQuestions.map((question, index) => {
         const userAnswer = userAnswers[question.id];
         const isCorrect = userAnswer === question.correctAnswer;
         const answerText = question.options[userAnswer] || 'Không trả lời';
