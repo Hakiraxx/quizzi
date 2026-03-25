@@ -4,557 +4,557 @@
       "title": "HTML - Câu hỏi trắc nghiệm",
       "subject": "Ứng dụng web",
       "questions": [
-      {
-        "id": 1,
-        "question": "HTML là viết tắt của từ gì?",
-        "options": [
-          "HyperText Markup Language",
-          "HighText Markup Language",
-          "HyperText Markup Link",
-          "HighText Markup Link"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 2,
-        "question": "Thẻ nào được sử dụng để tạo tiêu đề trong HTML?",
-        "options": [
-          "<h1>",
-          "<title>",
-          "<header>",
-          "<heading>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 3,
-        "question": "Thẻ nào dùng để chèn hình ảnh?",
-        "options": [
-          "<img>",
-          "<image>",
-          "<picture>",
-          "<photo>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 4,
-        "question": "Để tạo một liên kết đến một trang web khác, ta sử dụng thẻ nào?",
-        "options": [
-          "<link>",
-          "<a>",
-          "<url>",
-          "<href>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 5,
-        "question": "Thẻ nào được sử dụng để định dạng văn bản in đậm?",
-        "options": [
-          "<bold>",
-          "<b>",
-          "<strong>",
-          "Cả B và C đều đúng"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 6,
-        "question": "Để tạo danh sách không thứ tự, ta sử dụng thẻ nào?",
-        "options": [
-          "<ol>",
-          "<ul>",
-          "<li>",
-          "<list>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 7,
-        "question": "Thẻ nào dùng để chèn video vào trang HTML?",
-        "options": [
-          "<video>",
-          "<media>",
-          "<movie>",
-          "<iframe>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 8,
-        "question": "Để tạo một bảng, ta sử dụng thẻ nào?",
-        "options": [
-          "<table>",
-          "<tab>",
-          "<tbody>",
-          "<data>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 9,
-        "question": "Thẻ nào dùng để tạo một ô nhập liệu trong một biểu mẫu?",
-        "options": [
-          "<input>",
-          "<textarea>",
-          "<form>",
-          "<field>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 10,
-        "question": "Để thêm chú thích cho một đoạn mã HTML, ta sử dụng:",
-        "options": [
-          "<!-- comment -->",
-          "// comment",
-          "/* comment */",
-          "# comment"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 11,
-        "question": "Thẻ nào dùng để định dạng văn bản in nghiêng?",
-        "options": [
-          "<italic>",
-          "<i>",
-          "<em>",
-          "Cả B và C đều đúng"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 12,
-        "question": "Thẻ nào được sử dụng để tạo đường kẻ phân cách trong HTML?",
-        "options": [
-          "<line>",
-          "<hr>",
-          "<divider>",
-          "<break>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 13,
-        "question": "Thẻ nào dùng để tạo một tiêu đề phụ?",
-        "options": [
-          "<h1>",
-          "<h2>",
-          "<subheading>",
-          "Cả A và B đều đúng"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 14,
-        "question": "Thẻ nào dùng để tạo một danh sách có thứ tự?",
-        "options": [
-          "<ul>",
-          "<ol>",
-          "<list>",
-          "<numbered>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 15,
-        "question": "Để tạo một khung nhúng (iframe) trong HTML, ta sử dụng thẻ nào?",
-        "options": [
-          "<embed>",
-          "<iframe>",
-          "<frame>",
-          "<object>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 16,
-        "question": "Để chèn một tập tin âm thanh vào trang web, ta sử dụng thẻ nào?",
-        "options": [
-          "<audio>",
-          "<sound>",
-          "<media>",
-          "<music>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 17,
-        "question": "Thẻ nào được sử dụng để tạo biểu mẫu trong HTML?",
-        "options": [
-          "<form>",
-          "<input>",
-          "<fieldset>",
-          "<section>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 18,
-        "question": "Thẻ nào được sử dụng để nhóm các mục trong danh sách?",
-        "options": [
-          "<list>",
-          "<group>",
-          "<li>",
-          "<ul>"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 19,
-        "question": "Thẻ nào dùng để tạo nút bấm trong biểu mẫu?",
-        "options": [
-          "<button>",
-          "<input type=\"button\">",
-          "Cả A và B đều đúng",
-          "<click>"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 20,
-        "question": "Để tạo một liên kết mở trong một tab mới, ta thêm thuộc tính nào vào thẻ <a>?",
-        "options": [
-          "target=\"_self\"",
-          "target=\"_blank\"",
-          "target=\"_new\"",
-          "target=\"_tab\""
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 21,
-        "question": "Thẻ nào dùng để định nghĩa một khối văn bản trong HTML?",
-        "options": [
-          "<block>",
-          "<div>",
-          "<span>",
-          "<section>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 22,
-        "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản?",
-        "options": [
-          "<para>",
-          "<p>",
-          "<text>",
-          "<paragraph>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 23,
-        "question": "Để tạo một đường dẫn đến một tài liệu PDF, ta sử dụng:",
-        "options": [
-          "<a href=\"file.pdf\">",
-          "<link file=\"file.pdf\">",
-          "<pdf src=\"file.pdf\">",
-          "<document href=\"file.pdf\">"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 24,
-        "question": "Thẻ nào được sử dụng để tạo một khối trích dẫn?",
-        "options": [
-          "<blockquote>",
-          "<quote>",
-          "<cite>",
-          "<quotation>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 25,
-        "question": "Để chỉ định ngôn ngữ cho tài liệu HTML, ta sử dụng thuộc tính nào trong thẻ <html>?",
-        "options": [
-          "lang",
-          "language",
-          "type",
-          "code"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 26,
-        "question": "Thẻ nào dùng để thêm biểu tượng favicon cho trang web?",
-        "options": [
-          "<favicon>",
-          "<icon>",
-          "<link rel=\"icon\">",
-          "<head>"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 27,
-        "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản mạnh mẽ?",
-        "options": [
-          "<strong>",
-          "<b>",
-          "<em>",
-          "<bold>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 28,
-        "question": "Để tạo một đường dẫn tới một địa chỉ email, ta sử dụng:",
-        "options": [
-          "<a href=\"mailto:example@example.com\">",
-          "<a href=\"email:example@example.com\">",
-          "<link href=\"mailto:example@example.com\">",
-          "<email href=\"example@example.com\">"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 29,
-        "question": "Thẻ nào dùng để chỉ định một biểu thức điều kiện trong HTML?",
-        "options": [
-          "<if>",
-          "<condition>",
-          "<switch>",
-          "HTML không hỗ trợ điều kiện"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 30,
-        "question": "Để tạo một biểu thức truyền tham số trong thẻ <script>, ta sử dụng:",
-        "options": [
-          "<script src=\"file.js\">",
-          "<script href=\"file.js\">",
-          "<script link=\"file.js\">",
-          "<script import=\"file.js\">"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 31,
-        "question": "Thẻ nào dùng để định nghĩa một nhóm các lựa chọn trong biểu mẫu?",
-        "options": [
-          "<select>",
-          "<option>",
-          "<dropdown>",
-          "<list>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 32,
-        "question": "Thẻ nào dùng để tạo một ô chọn (checkbox)?",
-        "options": [
-          "<checkbox>",
-          "<input type=\"checkbox\">",
-          "<input type=\"check\">",
-          "<input type=\"select\">"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 33,
-        "question": "Thẻ nào dùng để định nghĩa phần đầu của một tài liệu HTML?",
-        "options": [
-          "<header>",
-          "<head>",
-          "<title>",
-          "<meta>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 34,
-        "question": "Để tạo một bảng có tiêu đề, ta sử dụng thẻ nào?",
-        "options": [
-          "<thead>",
-          "<header>",
-          "<caption>",
-          "<title>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 35,
-        "question": "Thẻ nào dùng để tạo một ô văn bản đa dòng?",
-        "options": [
-          "<textarea>",
-          "<input type=\"text\">",
-          "<multiline>",
-          "<textbox>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 36,
-        "question": "Để tạo một liên kết đến một phần trong cùng một trang, ta sử dụng:",
-        "options": [
-          "<a href=\"#section\">",
-          "<a link=\"#section\">",
-          "<a href=\"section\">",
-          "<a goto=\"#section\">"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 37,
-        "question": "Thẻ nào được sử dụng để chỉ định một liên kết đến một trang CSS?",
-        "options": [
-          "<style>",
-          "<link rel=\"stylesheet\">",
-          "<css>",
-          "<stylesheet>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 38,
-        "question": "Thẻ nào dùng để tạo một ô radio trong biểu mẫu?",
-        "options": [
-          "<radio>",
-          "<input type=\"radio\">",
-          "<select>",
-          "<input type=\"select\">"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 39,
-        "question": "Để thêm một đường viền xung quanh một hình ảnh, ta có thể sử dụng thuộc tính nào?",
-        "options": [
-          "border",
-          "outline",
-          "padding",
-          "margin"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 40,
-        "question": "Thẻ nào dùng để tạo một danh sách hình ảnh?",
-        "options": [
-          "<img-list>",
-          "<ul>",
-          "<ol>",
-          "HTML không hỗ trợ danh sách hình ảnh"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 41,
-        "question": "Để thêm văn bản nhúng vào hình ảnh, ta sử dụng thẻ nào?",
-        "options": [
-          "<figcaption>",
-          "<caption>",
-          "<label>",
-          "<text>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 42,
-        "question": "Thẻ nào dùng để tạo một đoạn văn bản gạch ngang?",
-        "options": [
-          "<s>",
-          "<strike>",
-          "<del>",
-          "Cả A và B đều đúng"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 43,
-        "question": "Thẻ nào được sử dụng để tạo danh sách định dạng?",
-        "options": [
-          "<deflist>",
-          "<dl>",
-          "<list>",
-          "<definition>"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 44,
-        "question": "Thẻ nào dùng để thêm một thẻ meta trong phần đầu của tài liệu?",
-        "options": [
-          "<meta>",
-          "<head>",
-          "<link>",
-          "<title>"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 45,
-        "question": "Để tạo một ô nhập liệu chỉ số nguyên, ta sử dụng:",
-        "options": [
-          "<input type=\"number\">",
-          "<input type=\"int\">",
-          "<input type=\"text\">",
-          "<input type=\"integer\">"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "id": 46,
-        "question": "Thẻ nào dùng để tạo một phần giới thiệu trong tài liệu HTML?",
-        "options": [
-          "<intro>",
-          "<section>",
-          "<article>",
-          "Cả B và C đều đúng"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 47,
-        "question": "Thẻ nào dùng để định nghĩa một phần tử trong tài liệu HTML?",
-        "options": [
-          "<element>",
-          "<tag>",
-          "<div>",
-          "<section>"
-        ],
-        "correctAnswer": 2
-      },
-      {
-        "id": 48,
-        "question": "Để định nghĩa các thuộc tính cho một thẻ HTML, ta sử dụng:",
-        "options": [
-          "<attribute>",
-          "attribute=\"value\"",
-          "<property>",
-          "HTML không hỗ trợ thuộc tính"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "id": 49,
-        "question": "Thẻ nào được sử dụng để chỉ định văn bản tóm tắt cho một hình ảnh?",
-        "options": [
-          "alt",
-          "title",
-          "description",
-          "Cả A và B đều đúng"
-        ],
-        "correctAnswer": 3
-      },
-      {
-        "id": 50,
-        "question": "Thẻ nào dùng để nhúng một tài liệu khác vào một tài liệu HTML?",
-        "options": [
-          "<embed>",
-          "<iframe>",
-          "<object>",
-          "Cả A và B đều đúng"
-        ],
-        "correctAnswer": 3
-      }
-    ]
+        {
+          "id": 1,
+          "question": "HTML là viết tắt của từ gì?",
+          "options": [
+            "HyperText Markup Language",
+            "HighText Markup Language",
+            "HyperText Markup Link",
+            "HighText Markup Link"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "question": "Thẻ nào được sử dụng để tạo tiêu đề trong HTML?",
+          "options": [
+            "<h1>",
+            "<title>",
+            "<header>",
+            "<heading>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "Thẻ nào dùng để chèn hình ảnh?",
+          "options": [
+            "<img>",
+            "<image>",
+            "<picture>",
+            "<photo>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 4,
+          "question": "Để tạo một liên kết đến một trang web khác, ta sử dụng thẻ nào?",
+          "options": [
+            "<link>",
+            "<a>",
+            "<url>",
+            "<href>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 5,
+          "question": "Thẻ nào được sử dụng để định dạng văn bản in đậm?",
+          "options": [
+            "<bold>",
+            "<b>",
+            "<strong>",
+            "Cả B và C đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 6,
+          "question": "Để tạo danh sách không thứ tự, ta sử dụng thẻ nào?",
+          "options": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<list>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 7,
+          "question": "Thẻ nào dùng để chèn video vào trang HTML?",
+          "options": [
+            "<video>",
+            "<media>",
+            "<movie>",
+            "<iframe>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 8,
+          "question": "Để tạo một bảng, ta sử dụng thẻ nào?",
+          "options": [
+            "<table>",
+            "<tab>",
+            "<tbody>",
+            "<data>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 9,
+          "question": "Thẻ nào dùng để tạo một ô nhập liệu trong một biểu mẫu?",
+          "options": [
+            "<input>",
+            "<textarea>",
+            "<form>",
+            "<field>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 10,
+          "question": "Để thêm chú thích cho một đoạn mã HTML, ta sử dụng:",
+          "options": [
+            "<!-- comment -->",
+            "// comment",
+            "/* comment */",
+            "# comment"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 11,
+          "question": "Thẻ nào dùng để định dạng văn bản in nghiêng?",
+          "options": [
+            "<italic>",
+            "<i>",
+            "<em>",
+            "Cả B và C đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 12,
+          "question": "Thẻ nào được sử dụng để tạo đường kẻ phân cách trong HTML?",
+          "options": [
+            "<line>",
+            "<hr>",
+            "<divider>",
+            "<break>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 13,
+          "question": "Thẻ nào dùng để tạo một tiêu đề phụ?",
+          "options": [
+            "<h1>",
+            "<h2>",
+            "<subheading>",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 14,
+          "question": "Thẻ nào dùng để tạo một danh sách có thứ tự?",
+          "options": [
+            "<ul>",
+            "<ol>",
+            "<list>",
+            "<numbered>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 15,
+          "question": "Để tạo một khung nhúng (iframe) trong HTML, ta sử dụng thẻ nào?",
+          "options": [
+            "<embed>",
+            "<iframe>",
+            "<frame>",
+            "<object>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 16,
+          "question": "Để chèn một tập tin âm thanh vào trang web, ta sử dụng thẻ nào?",
+          "options": [
+            "<audio>",
+            "<sound>",
+            "<media>",
+            "<music>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 17,
+          "question": "Thẻ nào được sử dụng để tạo biểu mẫu trong HTML?",
+          "options": [
+            "<form>",
+            "<input>",
+            "<fieldset>",
+            "<section>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 18,
+          "question": "Thẻ nào được sử dụng để nhóm các mục trong danh sách?",
+          "options": [
+            "<list>",
+            "<group>",
+            "<li>",
+            "<ul>"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 19,
+          "question": "Thẻ nào dùng để tạo nút bấm trong biểu mẫu?",
+          "options": [
+            "<button>",
+            "<input type=\"button\">",
+            "Cả A và B đều đúng",
+            "<click>"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 20,
+          "question": "Để tạo một liên kết mở trong một tab mới, ta thêm thuộc tính nào vào thẻ <a>?",
+          "options": [
+            "target=\"_self\"",
+            "target=\"_blank\"",
+            "target=\"_new\"",
+            "target=\"_tab\""
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 21,
+          "question": "Thẻ nào dùng để định nghĩa một khối văn bản trong HTML?",
+          "options": [
+            "<block>",
+            "<div>",
+            "<span>",
+            "<section>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 22,
+          "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản?",
+          "options": [
+            "<para>",
+            "<p>",
+            "<text>",
+            "<paragraph>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 23,
+          "question": "Để tạo một đường dẫn đến một tài liệu PDF, ta sử dụng:",
+          "options": [
+            "<a href=\"file.pdf\">",
+            "<link file=\"file.pdf\">",
+            "<pdf src=\"file.pdf\">",
+            "<document href=\"file.pdf\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 24,
+          "question": "Thẻ nào được sử dụng để tạo một khối trích dẫn?",
+          "options": [
+            "<blockquote>",
+            "<quote>",
+            "<cite>",
+            "<quotation>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 25,
+          "question": "Để chỉ định ngôn ngữ cho tài liệu HTML, ta sử dụng thuộc tính nào trong thẻ <html>?",
+          "options": [
+            "lang",
+            "language",
+            "type",
+            "code"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 26,
+          "question": "Thẻ nào dùng để thêm biểu tượng favicon cho trang web?",
+          "options": [
+            "<favicon>",
+            "<icon>",
+            "<link rel=\"icon\">",
+            "<head>"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 27,
+          "question": "Thẻ nào dùng để định nghĩa một đoạn văn bản mạnh mẽ?",
+          "options": [
+            "<strong>",
+            "<b>",
+            "<em>",
+            "<bold>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 28,
+          "question": "Để tạo một đường dẫn tới một địa chỉ email, ta sử dụng:",
+          "options": [
+            "<a href=\"mailto:example@example.com\">",
+            "<a href=\"email:example@example.com\">",
+            "<link href=\"mailto:example@example.com\">",
+            "<email href=\"example@example.com\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 29,
+          "question": "Thẻ nào dùng để chỉ định một biểu thức điều kiện trong HTML?",
+          "options": [
+            "<if>",
+            "<condition>",
+            "<switch>",
+            "HTML không hỗ trợ điều kiện"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 30,
+          "question": "Để tạo một biểu thức truyền tham số trong thẻ <script>, ta sử dụng:",
+          "options": [
+            "<script src=\"file.js\">",
+            "<script href=\"file.js\">",
+            "<script link=\"file.js\">",
+            "<script import=\"file.js\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 31,
+          "question": "Thẻ nào dùng để định nghĩa một nhóm các lựa chọn trong biểu mẫu?",
+          "options": [
+            "<select>",
+            "<option>",
+            "<dropdown>",
+            "<list>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 32,
+          "question": "Thẻ nào dùng để tạo một ô chọn (checkbox)?",
+          "options": [
+            "<checkbox>",
+            "<input type=\"checkbox\">",
+            "<input type=\"check\">",
+            "<input type=\"select\">"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 33,
+          "question": "Thẻ nào dùng để định nghĩa phần đầu của một tài liệu HTML?",
+          "options": [
+            "<header>",
+            "<head>",
+            "<title>",
+            "<meta>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 34,
+          "question": "Để tạo một bảng có tiêu đề, ta sử dụng thẻ nào?",
+          "options": [
+            "<thead>",
+            "<header>",
+            "<caption>",
+            "<title>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 35,
+          "question": "Thẻ nào dùng để tạo một ô văn bản đa dòng?",
+          "options": [
+            "<textarea>",
+            "<input type=\"text\">",
+            "<multiline>",
+            "<textbox>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 36,
+          "question": "Để tạo một liên kết đến một phần trong cùng một trang, ta sử dụng:",
+          "options": [
+            "<a href=\"#section\">",
+            "<a link=\"#section\">",
+            "<a href=\"section\">",
+            "<a goto=\"#section\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 37,
+          "question": "Thẻ nào được sử dụng để chỉ định một liên kết đến một trang CSS?",
+          "options": [
+            "<style>",
+            "<link rel=\"stylesheet\">",
+            "<css>",
+            "<stylesheet>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 38,
+          "question": "Thẻ nào dùng để tạo một ô radio trong biểu mẫu?",
+          "options": [
+            "<radio>",
+            "<input type=\"radio\">",
+            "<select>",
+            "<input type=\"select\">"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 39,
+          "question": "Để thêm một đường viền xung quanh một hình ảnh, ta có thể sử dụng thuộc tính nào?",
+          "options": [
+            "border",
+            "outline",
+            "padding",
+            "margin"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 40,
+          "question": "Thẻ nào dùng để tạo một danh sách hình ảnh?",
+          "options": [
+            "<img-list>",
+            "<ul>",
+            "<ol>",
+            "HTML không hỗ trợ danh sách hình ảnh"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 41,
+          "question": "Để thêm văn bản nhúng vào hình ảnh, ta sử dụng thẻ nào?",
+          "options": [
+            "<figcaption>",
+            "<caption>",
+            "<label>",
+            "<text>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 42,
+          "question": "Thẻ nào dùng để tạo một đoạn văn bản gạch ngang?",
+          "options": [
+            "<s>",
+            "<strike>",
+            "<del>",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 43,
+          "question": "Thẻ nào được sử dụng để tạo danh sách định dạng?",
+          "options": [
+            "<deflist>",
+            "<dl>",
+            "<list>",
+            "<definition>"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 44,
+          "question": "Thẻ nào dùng để thêm một thẻ meta trong phần đầu của tài liệu?",
+          "options": [
+            "<meta>",
+            "<head>",
+            "<link>",
+            "<title>"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 45,
+          "question": "Để tạo một ô nhập liệu chỉ số nguyên, ta sử dụng:",
+          "options": [
+            "<input type=\"number\">",
+            "<input type=\"int\">",
+            "<input type=\"text\">",
+            "<input type=\"integer\">"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 46,
+          "question": "Thẻ nào dùng để tạo một phần giới thiệu trong tài liệu HTML?",
+          "options": [
+            "<intro>",
+            "<section>",
+            "<article>",
+            "Cả B và C đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 47,
+          "question": "Thẻ nào dùng để định nghĩa một phần tử trong tài liệu HTML?",
+          "options": [
+            "<element>",
+            "<tag>",
+            "<div>",
+            "<section>"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 48,
+          "question": "Để định nghĩa các thuộc tính cho một thẻ HTML, ta sử dụng:",
+          "options": [
+            "<attribute>",
+            "attribute=\"value\"",
+            "<property>",
+            "HTML không hỗ trợ thuộc tính"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 49,
+          "question": "Thẻ nào được sử dụng để chỉ định văn bản tóm tắt cho một hình ảnh?",
+          "options": [
+            "alt",
+            "title",
+            "description",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 50,
+          "question": "Thẻ nào dùng để nhúng một tài liệu khác vào một tài liệu HTML?",
+          "options": [
+            "<embed>",
+            "<iframe>",
+            "<object>",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": 3
+        }
+      ]
     },
     {
       "title": "CSS - Câu hỏi trắc nghiệm",
@@ -1703,7 +1703,10 @@
             "CSS",
             "Django"
           ],
-          "correctAnswer": [1, 2],
+          "correctAnswer": [
+            1,
+            2
+          ],
           "isMultiple": true
         },
         {
@@ -1726,7 +1729,10 @@
             "Python",
             "HTML"
           ],
-          "correctAnswer": [0, 3],
+          "correctAnswer": [
+            0,
+            3
+          ],
           "isMultiple": true
         },
         {
@@ -1749,7 +1755,11 @@
             "React.js",
             "Angular"
           ],
-          "correctAnswer": [0, 2, 3],
+          "correctAnswer": [
+            0,
+            2,
+            3
+          ],
           "isMultiple": true
         },
         {
@@ -1913,7 +1923,10 @@
             "GET (Lấy)",
             "POST (Gửi)"
           ],
-          "correctAnswer": [2, 3],
+          "correctAnswer": [
+            2,
+            3
+          ],
           "isMultiple": true
         },
         {
@@ -1947,7 +1960,11 @@
             "Implementing server-side logic (Triển khai logic phía máy chủ)",
             "Creating interactive user experiences (Tạo trải nghiệm người dùng tương tác)"
           ],
-          "correctAnswer": [0, 1, 3],
+          "correctAnswer": [
+            0,
+            1,
+            3
+          ],
           "isMultiple": true
         },
         {
@@ -2046,7 +2063,11 @@
             "Database management (Quản lý cơ sở dữ liệu)",
             "Ignoring security (Bỏ qua bảo mật)"
           ],
-          "correctAnswer": [0, 1, 2],
+          "correctAnswer": [
+            0,
+            1,
+            2
+          ],
           "isMultiple": true
         },
         {
@@ -2146,7 +2167,11 @@
             "font-size: 16px",
             "text-align: center"
           ],
-          "correctAnswer": [1, 2, 3],
+          "correctAnswer": [
+            1,
+            2,
+            3
+          ],
           "isMultiple": true
         },
         {
@@ -2212,241 +2237,441 @@
         {
           "id": 1,
           "question": "Một máy tính có địa chỉ IP là 10.10.0.100/24. Khi cần quảng bá một gói tin trong mạng, địa chỉ đích được sử dụng là:",
-          "options": ["10.10.0.0", "10.10.0.255", "10.10.255.0", "10.10.255.255"],
+          "options": [
+            "10.10.0.0",
+            "10.10.0.255",
+            "10.10.255.0",
+            "10.10.255.255"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 2,
           "question": "Bước đầu tiên trong quá trình truyền gói tin của bộ định tuyến là gì?",
-          "options": ["Bộ định tuyến nhận gói dữ liệu", "Kiểm tra bảng định tuyến", "Gửi phản hồi ARP", "Kiểm tra IP đích"],
+          "options": [
+            "Bộ định tuyến nhận gói dữ liệu",
+            "Kiểm tra bảng định tuyến",
+            "Gửi phản hồi ARP",
+            "Kiểm tra IP đích"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 3,
           "question": "Kỹ thuật nào sau đây dùng để chuyển đổi từ IPv4 sang IPv6?",
-          "options": ["NAT", "DHCP", "IP tunneling", "ARP"],
+          "options": [
+            "NAT",
+            "DHCP",
+            "IP tunneling",
+            "ARP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 4,
           "question": "Giao thức nào được sử dụng để thông báo lỗi đến nút nguồn?",
-          "options": ["ICMP", "ARP", "RAPR", "DNS"],
+          "options": [
+            "ICMP",
+            "ARP",
+            "RAPR",
+            "DNS"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 5,
           "question": "Kỹ thuật nào cho phép cấu hình port đích luôn chuyển tới nút cụ thể?",
-          "options": ["Ephemeral ports", "Port forwarding", "IP translation", "IP masquerading"],
+          "options": [
+            "Ephemeral ports",
+            "Port forwarding",
+            "IP translation",
+            "IP masquerading"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 6,
           "question": "Kỹ thuật cân bằng lưu lượng trên nhiều IP cho cùng tên miền?",
-          "options": ["Round robin", "CNAME", "Cycling records", "Quad A record"],
+          "options": [
+            "Round robin",
+            "CNAME",
+            "Cycling records",
+            "Quad A record"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 7,
           "question": "Thiết bị nào chuyển tiếp lưu lượng giữa các mạng khác nhau?",
-          "options": ["Switch", "Router", "Client", "Hub"],
+          "options": [
+            "Switch",
+            "Router",
+            "Client",
+            "Hub"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 8,
           "question": "Gói tin IPv6 được phép phân mảnh tại:",
-          "options": ["Nút gửi", "Router trung gian", "Cả hai", "Không được phép"],
+          "options": [
+            "Nút gửi",
+            "Router trung gian",
+            "Cả hai",
+            "Không được phép"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 9,
           "question": "Thành phần nào có chức năng gửi tín hiệu giữa các thiết bị?",
-          "options": ["Điều chế", "Tầng mạng", "Tầng vật lý", "Tầng liên kết dữ liệu"],
+          "options": [
+            "Điều chế",
+            "Tầng mạng",
+            "Tầng vật lý",
+            "Tầng liên kết dữ liệu"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 10,
           "question": "Thành phần cần thiết để thiết lập kết nối không dây?",
-          "options": ["Ethernet Switch", "Wireless Access Point", "Modem", "DSL Splitter"],
+          "options": [
+            "Ethernet Switch",
+            "Wireless Access Point",
+            "Modem",
+            "DSL Splitter"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 11,
           "question": "Vai trò của modem trong mạng máy tính?",
-          "options": ["Chuyển đổi tín hiệu số sang tương tự và ngược lại", "Khuếch đại tín hiệu", "Nén dữ liệu", "Định tuyến gói tin"],
+          "options": [
+            "Chuyển đổi tín hiệu số sang tương tự và ngược lại",
+            "Khuếch đại tín hiệu",
+            "Nén dữ liệu",
+            "Định tuyến gói tin"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 12,
           "question": "Công nghệ KHÔNG thuộc cốt lõi của Internet quay số?",
-          "options": ["PSTN", "Packet Switching", "Modem", "LAN Ethernet"],
+          "options": [
+            "PSTN",
+            "Packet Switching",
+            "Modem",
+            "LAN Ethernet"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 13,
           "question": "Loại cáp mạng phổ biến nhất hiện nay?",
-          "options": ["Cáp nguồn", "Cáp VGA", "Cáp SATA", "Cáp Twisted Pair"],
+          "options": [
+            "Cáp nguồn",
+            "Cáp VGA",
+            "Cáp SATA",
+            "Cáp Twisted Pair"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 14,
           "question": "Thiết bị lọc gói tin tại vùng biên dựa trên IP/Port?",
-          "options": ["Server", "Firewall", "Router", "Switching Hub"],
+          "options": [
+            "Server",
+            "Firewall",
+            "Router",
+            "Switching Hub"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 15,
           "question": "Giao thức ứng dụng bảo mật dữ liệu mặc định?",
-          "options": ["HTTP", "HTTPS", "DNS", "FTP"],
+          "options": [
+            "HTTP",
+            "HTTPS",
+            "DNS",
+            "FTP"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 16,
           "question": "Đơn vị dữ liệu (PDU) tại tầng Giao vận gọi là gì?",
-          "options": ["Frame", "Packet", "Segment", "Bit"],
+          "options": [
+            "Frame",
+            "Packet",
+            "Segment",
+            "Bit"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 17,
           "question": "Giao thức ARP dùng để làm gì?",
-          "options": ["Tìm IP từ MAC", "Tìm MAC từ IP", "Cấp IP tự động", "Phân giải tên miền"],
+          "options": [
+            "Tìm IP từ MAC",
+            "Tìm MAC từ IP",
+            "Cấp IP tự động",
+            "Phân giải tên miền"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 18,
           "question": "Địa chỉ Loopback mặc định trong IPv4?",
-          "options": ["127.0.0.1", "192.168.1.1", "255.255.255.255", "0.0.0.0"],
+          "options": [
+            "127.0.0.1",
+            "192.168.1.1",
+            "255.255.255.255",
+            "0.0.0.0"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 19,
           "question": "Cổng (Port) mặc định của giao thức HTTP là?",
-          "options": ["443", "21", "25", "80"],
+          "options": [
+            "443",
+            "21",
+            "25",
+            "80"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 20,
           "question": "Đặc điểm của giao thức UDP?",
-          "options": ["Có thiết lập kết nối", "Tin cậy cao", "Nhanh, không kiểm soát lỗi", "Bắt tay 3 bước"],
+          "options": [
+            "Có thiết lập kết nối",
+            "Tin cậy cao",
+            "Nhanh, không kiểm soát lỗi",
+            "Bắt tay 3 bước"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 21,
           "question": "Địa chỉ MAC có độ dài bao nhiêu bit?",
-          "options": ["32 bit", "48 bit", "64 bit", "128 bit"],
+          "options": [
+            "32 bit",
+            "48 bit",
+            "64 bit",
+            "128 bit"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 22,
           "question": "Tầng nào trong OSI mã hóa và nén dữ liệu?",
-          "options": ["Tầng Phiên", "Tầng Trình diễn", "Tầng Ứng dụng", "Tầng Giao vận"],
+          "options": [
+            "Tầng Phiên",
+            "Tầng Trình diễn",
+            "Tầng Ứng dụng",
+            "Tầng Giao vận"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 23,
           "question": "Thiết bị Hub hoạt động ở tầng nào của OSI?",
-          "options": ["Tầng Vật lý", "Tầng Liên kết dữ liệu", "Tầng Mạng", "Tầng Giao vận"],
+          "options": [
+            "Tầng Vật lý",
+            "Tầng Liên kết dữ liệu",
+            "Tầng Mạng",
+            "Tầng Giao vận"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 24,
           "question": "Giao thức cấp phát IP tự động?",
-          "options": ["DNS", "DHCP", "ICMP", "SNMP"],
+          "options": [
+            "DNS",
+            "DHCP",
+            "ICMP",
+            "SNMP"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 25,
           "question": "Khoảng cách tối đa của cáp UTP truyền thống?",
-          "options": ["50m", "100m", "500m", "1000m"],
+          "options": [
+            "50m",
+            "100m",
+            "500m",
+            "1000m"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 26,
           "question": "Giao thức dùng để gửi thư điện tử (Email)?",
-          "options": ["POP3", "IMAP", "SMTP", "SNMP"],
+          "options": [
+            "POP3",
+            "IMAP",
+            "SMTP",
+            "SNMP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 27,
           "question": "Kiểu hình mạng (Topology) phổ biến nhất hiện nay?",
-          "options": ["Bus", "Ring", "Star", "Mesh"],
+          "options": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Mesh"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 28,
           "question": "Subnet mask mặc định của địa chỉ lớp C?",
-          "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+          "options": [
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.255.255.255"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 29,
           "question": "Giao thức CSMA/CD dùng để làm gì?",
-          "options": ["Mã hóa", "Định tuyến", "Xử lý xung đột", "Phân giải IP"],
+          "options": [
+            "Mã hóa",
+            "Định tuyến",
+            "Xử lý xung đột",
+            "Phân giải IP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 30,
           "question": "Tầng nào quản lý truy cập môi trường và địa chỉ MAC?",
-          "options": ["Tầng Mạng", "Tầng Liên kết dữ liệu", "Tầng Vật lý", "Tầng Phiên"],
+          "options": [
+            "Tầng Mạng",
+            "Tầng Liên kết dữ liệu",
+            "Tầng Vật lý",
+            "Tầng Phiên"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 31,
           "question": "Độ dài bit của địa chỉ IPv6?",
-          "options": ["32 bit", "48 bit", "128 bit", "256 bit"],
+          "options": [
+            "32 bit",
+            "48 bit",
+            "128 bit",
+            "256 bit"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 32,
           "question": "Miền xung đột (Collision Domain) trên mỗi cổng Switch?",
-          "options": ["1 miền cho tất cả", "Mỗi cổng là 1 miền riêng", "2 cổng chung 1 miền", "Không có miền xung đột"],
+          "options": [
+            "1 miền cho tất cả",
+            "Mỗi cổng là 1 miền riêng",
+            "2 cổng chung 1 miền",
+            "Không có miền xung đột"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 33,
           "question": "Mục đích của tấn công DoS?",
-          "options": ["Đánh cắp pass", "Làm tê liệt hệ thống", "Sửa dữ liệu", "Đọc trộm tin nhắn"],
+          "options": [
+            "Đánh cắp pass",
+            "Làm tê liệt hệ thống",
+            "Sửa dữ liệu",
+            "Đọc trộm tin nhắn"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 34,
           "question": "Tại sao dùng SSH thay vì Telnet?",
-          "options": ["Nhanh hơn", "Có giao diện đẹp", "Mã hóa dữ liệu", "Miễn phí"],
+          "options": [
+            "Nhanh hơn",
+            "Có giao diện đẹp",
+            "Mã hóa dữ liệu",
+            "Miễn phí"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 35,
           "question": "Thiết bị chủ động yêu cầu trong mô hình Client-Server?",
-          "options": ["Server", "Client", "Router", "Firewall"],
+          "options": [
+            "Server",
+            "Client",
+            "Router",
+            "Firewall"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 36,
           "question": "Chức năng của Proxy Server?",
-          "options": ["Tăng CPU", "Trung gian, Cache, Bảo mật", "Thay Router", "Cấp nguồn"],
+          "options": [
+            "Tăng CPU",
+            "Trung gian, Cache, Bảo mật",
+            "Thay Router",
+            "Cấp nguồn"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 37,
           "question": "Lệnh 'ping' sử dụng giao thức nào?",
-          "options": ["TCP", "UDP", "ICMP", "IGMP"],
+          "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "IGMP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 38,
           "question": "Băng tần chính của chuẩn Wi-Fi 802.11ac?",
-          "options": ["2.4 GHz", "5 GHz", "900 MHz", "60 GHz"],
+          "options": [
+            "2.4 GHz",
+            "5 GHz",
+            "900 MHz",
+            "60 GHz"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 39,
           "question": "Router dựa vào thông tin gì để chuyển gói tin?",
-          "options": ["MAC nguồn", "IP đích", "Tên máy", "Kích thước gói"],
+          "options": [
+            "MAC nguồn",
+            "IP đích",
+            "Tên máy",
+            "Kích thước gói"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 40,
           "question": "Công dụng chính của VPN?",
-          "options": ["Tăng tốc mạng", "Tạo kết nối an toàn qua Internet", "Thay Card Wi-Fi", "Quản lý file"],
+          "options": [
+            "Tăng tốc mạng",
+            "Tạo kết nối an toàn qua Internet",
+            "Thay Card Wi-Fi",
+            "Quản lý file"
+          ],
           "correctAnswer": 1
         }
       ]
@@ -2458,254 +2683,1141 @@
         {
           "id": 1,
           "question": "H3 là phần header của tầng nào trong mô hình OSI?",
-          "options": ["Application layer", "Network layer", "Transport layer", "Physical layer"],
+          "options": [
+            "Application layer",
+            "Network layer",
+            "Transport layer",
+            "Physical layer"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 2,
           "question": "H1 là phần header của tầng nào?",
-          "options": ["Data Link layer", "Network layer", "Transport layer", "Application layer"],
+          "options": [
+            "Data Link layer",
+            "Network layer",
+            "Transport layer",
+            "Application layer"
+          ],
           "correctAnswer": 0
         },
         {
           "id": 3,
           "question": "Thành phần có chức năng gửi tín hiệu giữa các thiết bị là tầng nào?",
-          "options": ["Application layer", "Physical layer", "Network layer", "Transport layer"],
+          "options": [
+            "Application layer",
+            "Physical layer",
+            "Network layer",
+            "Transport layer"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 4,
           "question": "Thành phần nào hoạt động tại tầng ứng dụng?",
-          "options": ["Router", "Switch", "Web browser", "NIC"],
+          "options": [
+            "Router",
+            "Switch",
+            "Web browser",
+            "NIC"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 5,
           "question": "Bản ghi DNS loại NS chứa thông tin gì?",
-          "options": ["Địa chỉ IPv4", "Mail server", "Tên authoritative name server", "Địa chỉ MAC"],
+          "options": [
+            "Địa chỉ IPv4",
+            "Mail server",
+            "Tên authoritative name server",
+            "Địa chỉ MAC"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 6,
           "question": "Máy chủ quản lý domain như .com, .edu là loại DNS nào?",
-          "options": ["Root DNS", "Local DNS", "Authoritative DNS", "TLD DNS"],
+          "options": [
+            "Root DNS",
+            "Local DNS",
+            "Authoritative DNS",
+            "TLD DNS"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 7,
           "question": "Máy chủ DNS liên lạc với các DNS khác để trả lời cho host cục bộ là gì?",
-          "options": ["Root DNS", "Local DNS", "TLD DNS", "Authoritative DNS"],
+          "options": [
+            "Root DNS",
+            "Local DNS",
+            "TLD DNS",
+            "Authoritative DNS"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 8,
           "question": "Bản ghi DNS kiểu A chứa thông tin gì?",
-          "options": ["Tên miền", "IPv6 address", "IPv4 address", "Mail server"],
+          "options": [
+            "Tên miền",
+            "IPv6 address",
+            "IPv4 address",
+            "Mail server"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 9,
           "question": "Bản ghi DNS dùng để tìm mail server là loại nào?",
-          "options": ["A", "NS", "CNAME", "MX"],
+          "options": [
+            "A",
+            "NS",
+            "CNAME",
+            "MX"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 10,
           "question": "Mục đích chính của NAT là gì?",
-          "options": ["Tăng tốc mạng", "Mã hóa dữ liệu", "Chia sẻ một IP công cộng cho nhiều thiết bị", "Chuyển IPv6 sang IPv4"],
+          "options": [
+            "Tăng tốc mạng",
+            "Mã hóa dữ liệu",
+            "Chia sẻ một IP công cộng cho nhiều thiết bị",
+            "Chuyển IPv6 sang IPv4"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 11,
           "question": "Kỹ thuật chuyển đổi IPv4 sang IPv6 là gì?",
-          "options": ["NAT", "CIDR", "IP Tunneling", "ARP"],
+          "options": [
+            "NAT",
+            "CIDR",
+            "IP Tunneling",
+            "ARP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 12,
           "question": "Ưu điểm chính của NAT là gì?",
-          "options": ["Tăng băng thông", "Tiết kiệm địa chỉ IP", "Giảm độ trễ", "Tăng bảo mật WiFi"],
+          "options": [
+            "Tăng băng thông",
+            "Tiết kiệm địa chỉ IP",
+            "Giảm độ trễ",
+            "Tăng bảo mật WiFi"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 13,
           "question": "Gói tin DHCP gửi cấu hình cho client là giai đoạn nào?",
-          "options": ["DHCP Discover", "DHCP Offer", "DHCP Request", "DHCP ACK"],
+          "options": [
+            "DHCP Discover",
+            "DHCP Offer",
+            "DHCP Request",
+            "DHCP ACK"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 14,
           "question": "Đặc điểm của TCP socket là gì?",
-          "options": ["Không đảm bảo dữ liệu", "Truyền dữ liệu không thứ tự", "Dịch vụ tin cậy, byte-stream", "Chỉ dùng cho multicast"],
+          "options": [
+            "Không đảm bảo dữ liệu",
+            "Truyền dữ liệu không thứ tự",
+            "Dịch vụ tin cậy, byte-stream",
+            "Chỉ dùng cho multicast"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 15,
           "question": "Giai đoạn Slow Start của TCP Reno có đặc điểm gì?",
-          "options": ["Tăng tuyến tính", "Tăng theo hàm mũ", "Giảm đột ngột", "Giữ nguyên"],
+          "options": [
+            "Tăng tuyến tính",
+            "Tăng theo hàm mũ",
+            "Giảm đột ngột",
+            "Giữ nguyên"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 16,
           "question": "Thành phần TCP đảm bảo dữ liệu đúng thứ tự là gì?",
-          "options": ["Checksum", "ACK", "Sequence Number", "Window Size"],
+          "options": [
+            "Checksum",
+            "ACK",
+            "Sequence Number",
+            "Window Size"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 17,
           "question": "Thành phần nào KHÔNG thuộc TCP header?",
-          "options": ["Source Port", "Destination Port", "Sequence Number", "Destination IP Address"],
+          "options": [
+            "Source Port",
+            "Destination Port",
+            "Sequence Number",
+            "Destination IP Address"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 18,
           "question": "UDP cung cấp dịch vụ truyền tải loại nào?",
-          "options": ["Reliable", "Connection-oriented", "Best effort", "Ordered delivery"],
+          "options": [
+            "Reliable",
+            "Connection-oriented",
+            "Best effort",
+            "Ordered delivery"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 19,
           "question": "Thuật ngữ nào KHÔNG liên quan đến TCP?",
-          "options": ["ACK", "Sequence Number", "Congestion Control", "Network Switch"],
+          "options": [
+            "ACK",
+            "Sequence Number",
+            "Congestion Control",
+            "Network Switch"
+          ],
           "correctAnswer": 3
         },
         {
           "id": 20,
           "question": "Lợi ích chính của CIDR là gì?",
-          "options": ["Tăng tốc Internet", "Giảm độ trễ", "Phân bổ IP hiệu quả", "Tăng bảo mật"],
+          "options": [
+            "Tăng tốc Internet",
+            "Giảm độ trễ",
+            "Phân bổ IP hiệu quả",
+            "Tăng bảo mật"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 21,
           "question": "Tổng số địa chỉ IPv4 là bao nhiêu?",
-          "options": ["2^16", "2^24", "2^32", "2^64"],
+          "options": [
+            "2^16",
+            "2^24",
+            "2^32",
+            "2^64"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 22,
           "question": "IP 140.16.10.123/28 thuộc mạng nào?",
-          "options": ["140.16.10.96/28", "140.16.10.112/28", "140.16.10.128/28", "140.16.10.0/28"],
+          "options": [
+            "140.16.10.96/28",
+            "140.16.10.112/28",
+            "140.16.10.128/28",
+            "140.16.10.0/28"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 23,
           "question": "Địa chỉ mạng của dải /12 là gì?",
-          "options": ["172.16.0.0/12", "172.32.0.0/12", "172.64.0.0/12", "172.0.0.0/12"],
+          "options": [
+            "172.16.0.0/12",
+            "172.32.0.0/12",
+            "172.64.0.0/12",
+            "172.0.0.0/12"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 24,
           "question": "Địa chỉ broadcast của 192.168.10.210/27 là gì?",
-          "options": ["192.168.10.192", "192.168.10.223", "192.168.10.255", "192.168.10.224"],
+          "options": [
+            "192.168.10.192",
+            "192.168.10.223",
+            "192.168.10.255",
+            "192.168.10.224"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 25,
           "question": "Subnet ID của 192.168.8.34 với mask 255.255.0.0 là phần nào?",
-          "options": ["1 octet đầu", "2 octet đầu", "3 octet đầu", "4 octet"],
+          "options": [
+            "1 octet đầu",
+            "2 octet đầu",
+            "3 octet đầu",
+            "4 octet"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 26,
           "question": "Giao thức thông báo lỗi trong IP là gì?",
-          "options": ["ARP", "ICMP", "RIP", "BGP"],
+          "options": [
+            "ARP",
+            "ICMP",
+            "RIP",
+            "BGP"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 27,
           "question": "Giao thức truyền dữ liệu giữa các AS là gì?",
-          "options": ["RIP", "OSPF", "BGP", "ICMP"],
+          "options": [
+            "RIP",
+            "OSPF",
+            "BGP",
+            "ICMP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 28,
           "question": "Kỹ thuật cấu hình port đến nút cụ thể gọi là gì?",
-          "options": ["NAT", "Port forwarding", "Tunneling", "CIDR"],
+          "options": [
+            "NAT",
+            "Port forwarding",
+            "Tunneling",
+            "CIDR"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 29,
           "question": "Giải pháp tạo gần như vô hạn địa chỉ IP công cộng là gì?",
-          "options": ["NAT", "CIDR", "IPv6", "VPN"],
+          "options": [
+            "NAT",
+            "CIDR",
+            "IPv6",
+            "VPN"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 30,
           "question": "IGP được dùng để chia sẻ thông tin trong đâu?",
-          "options": ["Internet", "LAN", "Autonomous System", "WAN"],
+          "options": [
+            "Internet",
+            "LAN",
+            "Autonomous System",
+            "WAN"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 31,
           "question": "Kỹ thuật cân bằng tải DNS phổ biến là gì?",
-          "options": ["NAT", "Round Robin", "ARP", "CIDR"],
+          "options": [
+            "NAT",
+            "Round Robin",
+            "ARP",
+            "CIDR"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 32,
           "question": "Cáp xoắn đôi hỗ trợ Gigabit Ethernet là loại nào?",
-          "options": ["CAT3", "CAT5", "CAT5e", "CAT4"],
+          "options": [
+            "CAT3",
+            "CAT5",
+            "CAT5e",
+            "CAT4"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 33,
           "question": "Vai trò chính của modem là gì?",
-          "options": ["Định tuyến", "Chuyển mạch", "Chuyển đổi số ↔ tương tự", "Mã hóa dữ liệu"],
+          "options": [
+            "Định tuyến",
+            "Chuyển mạch",
+            "Chuyển đổi số ↔ tương tự",
+            "Mã hóa dữ liệu"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 34,
           "question": "Thiết bị cần để thiết lập kết nối không dây là gì?",
-          "options": ["Router", "Switch", "Wireless Access Point", "Modem"],
+          "options": [
+            "Router",
+            "Switch",
+            "Wireless Access Point",
+            "Modem"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 35,
           "question": "Công nghệ KHÔNG thuộc thời Internet quay số?",
-          "options": ["Dial-up", "Modem", "LAN Ethernet", "PSTN"],
+          "options": [
+            "Dial-up",
+            "Modem",
+            "LAN Ethernet",
+            "PSTN"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 36,
           "question": "Địa chỉ không đổi khi kết nối sang mạng khác là gì?",
-          "options": ["IP address", "MAC address", "Subnet mask", "Gateway"],
+          "options": [
+            "IP address",
+            "MAC address",
+            "Subnet mask",
+            "Gateway"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 37,
           "question": "Mục đích chính của VPN là gì?",
-          "options": ["Tăng tốc mạng", "Truy cập từ xa an toàn", "Giảm chi phí", "Cân bằng tải"],
+          "options": [
+            "Tăng tốc mạng",
+            "Truy cập từ xa an toàn",
+            "Giảm chi phí",
+            "Cân bằng tải"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 38,
           "question": "Giao thức truyền file an toàn là gì?",
-          "options": ["FTP", "HTTP", "FTPS", "TFTP"],
+          "options": [
+            "FTP",
+            "HTTP",
+            "FTPS",
+            "TFTP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 39,
           "question": "Thiết bị chuyển tiếp gói tin dựa trên IP đích là gì?",
-          "options": ["Hub", "Switch", "Router", "Repeater"],
+          "options": [
+            "Hub",
+            "Switch",
+            "Router",
+            "Repeater"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 40,
           "question": "Giao thức ánh xạ IP sang MAC là gì?",
-          "options": ["DNS", "ICMP", "ARP", "RARP"],
+          "options": [
+            "DNS",
+            "ICMP",
+            "ARP",
+            "RARP"
+          ],
           "correctAnswer": 2
         },
         {
           "id": 41,
           "question": "Trong OSI, nén và mã hóa dữ liệu thuộc tầng nào?",
-          "options": ["Application", "Presentation", "Session", "Transport"],
+          "options": [
+            "Application",
+            "Presentation",
+            "Session",
+            "Transport"
+          ],
           "correctAnswer": 1
         },
         {
           "id": 42,
           "question": "PDU của tầng Network gọi là gì?",
-          "options": ["Frame", "Segment", "Packet", "Bit"],
+          "options": [
+            "Frame",
+            "Segment",
+            "Packet",
+            "Bit"
+          ],
           "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "title": "Tư tưởng Hồ Chí Minh - Câu hỏi trắc nghiệm",
+      "subject": "Tư tưởng Hồ Chí Minh",
+      "questions": [
+        {
+          "id": 51,
+          "question": "Ai chủ trì hội nghị hợp nhất 3 tổ chức cộng sản của nước ta?",
+          "options": [
+            "Trần Phú",
+            "Lê Hồng Phong",
+            "Trịnh Đình Cửu",
+            "Nguyễn Ái Quốc"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 52,
+          "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa đế quốc?",
+          "options": [
+            "Ph. Ăngghen",
+            "C.Mác",
+            "V.I.Lênin",
+            "Hồ Chí Minh"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 53,
+          "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa thực dân?",
+          "options": [
+            "Ph. Ăngghen",
+            "V.I.Lênin",
+            "C.Mác",
+            "Hồ Chí Minh"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 54,
+          "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa tư bản?",
+          "options": [
+            "C.Mác",
+            "Ph. Ăngghen",
+            "V.I.Lênin",
+            "Hồ Chí Minh"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 55,
+          "question": "Ai soạn thảo 'Chánh cương vắn tắt', 'sách lược vắn tắt', 'chương trình, điều lệ vắn tắt của Đảng'?",
+          "options": [
+            "Nguyễn Ái Quốc",
+            "Trần Phú",
+            "Lê Hồng Phong",
+            "Trịnh Đình Cửu"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 56,
+          "question": "Bác Hồ tham gia sáng lập Đảng Cộng sản Pháp và trở thành người Cộng sản Việt Nam đầu tiên năm nào?",
+          "options": [
+            "Năm 1921",
+            "Năm 1920",
+            "Năm 1918",
+            "Năm 1919"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 57,
+          "question": "Bác Hồ về nước ngày, tháng, năm nào?",
+          "options": [
+            "19/12/1941",
+            "28/1/1941",
+            "12/8/1942",
+            "28/1/1942"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 58,
+          "question": "Bản chất của chủ nghĩa tư bản 'là một con đỉa có 1 cái vòi bám vào giai cấp vô sản ở chính quốc và một cái vòi khác bám vào giai cấp vô sản ở thuộc địa...' câu nói đó trích từ tác phẩm nào của Nguyễn Ái Quốc?",
+          "options": [
+            "Bản án chế độ thực dân Pháp",
+            "V.I.Lênin và các dân tộc phương Đông",
+            "Con rồng tre",
+            "Đường Kách mệnh"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 59,
+          "question": "Bản 'Yêu sách của nhân dân An Nam' gửi đến Hội nghị Véc xây được Nguyễn Tất Thành ký tên là:",
+          "options": [
+            "Pon Thành",
+            "Hồ Chí Minh",
+            "Nguyễn Ái Quốc",
+            "Văn Ba"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 60,
+          "question": "Báo Le Paria (Người Cùng khổ) do Nguyễn Ái Quốc đồng sáng lập, ra số đầu tiên khi nào?",
+          "options": [
+            "1/4/1921",
+            "30/12/1920",
+            "1/4/1922",
+            "1/4/1923"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 61,
+          "question": "Bộ môn Tư tưởng Hồ Chí Minh có 6 nhiệm vụ cần phải làm rõ... Nhiệm vụ còn lại là gì?",
+          "options": [
+            "Làm rõ tư tưởng kinh tế của Hồ Chí Minh",
+            "Làm rõ tư tưởng ngoại giao của Hồ Chí Minh",
+            "Làm rõ tư tưởng quân sự của Hồ Chí Minh",
+            "Xác định rõ các giai đoạn hình thành, phát triển tư tưởng Hồ Chí Minh"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 62,
+          "question": "Bộ môn tư tưởng Hồ Chí Minh có mấy nhiệm vụ khi nghiên cứu tư tưởng Hồ Chí Minh?",
+          "options": [
+            "5 nhiệm vụ",
+            "7 nhiệm vụ",
+            "6 nhiệm vụ",
+            "4 nhiệm vụ"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 63,
+          "question": "Các bài giảng của Nguyễn Ái Quốc tại các lớp huấn luyện cán bộ được Bộ Tuyên truyền của Hội Liên hiệp các dân tộc bị áp bức tập hợp lại và xuất bản thành tác phẩm nào?",
+          "options": [
+            "Tuyên Ngôn Độc lập",
+            "Đường cách mệnh",
+            "Sửa đổi lề lối làm việc",
+            "Bản án chế độ thực dân Pháp"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 64,
+          "question": "Cách mạng giải phóng dân tộc giành thắng lợi đồng thời với thắng lợi cách mạng vô sản ở chính quốc:",
+          "options": [
+            "Đúng",
+            null,
+            "Sai",
+            null
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 65,
+          "question": "Cách mạng giải phóng dân tộc là sự nghiệp đoàn kết của:",
+          "options": [
+            "Toàn dân trên cơ sở liên minh công nông",
+            "Giai cấp công nhân và nông dân",
+            "Giai cấp nhân dân lao động",
+            "Giai cấp công nhân"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 66,
+          "question": "Cách mạng giải phóng dân tộc muốn giành được thắng lợi phải:",
+          "options": [
+            "Cả hai đáp án trên đều đúng",
+            "Kết hợp lực lượng chính trị với lực lượng vũ trang",
+            "Cả hai đáp án trên đều sai",
+            "Thực hiện bằng con đường bạo lực"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 67,
+          "question": "Cách mạng giải phóng dân tộc muốn giành được thắng lợi phải:",
+          "options": [
+            "Dựa vào sự đoàn kết quốc tế",
+            "Dựa vào sự thắng lợi của cách mạng ở các nước thuộc địa khác",
+            "Tiến hành chủ động và sáng tạo",
+            "Dựa vào sự thắng lợi của cách mạng vô sản ở chính quốc"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 68,
+          "question": "Cách mạng giải phóng dân tộc ở thuộc địa có khả năng giành được thắng lợi trước cách mạng vô sản ở chính quốc.",
+          "options": [
+            "Sai",
+            null,
+            "Đúng",
+            null
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 69,
+          "question": "Cách mạng giải phóng dân tộc trong thời đại mới phải do Đảng Cộng sản lãnh đạo để:",
+          "options": [
+            "Đáng thay giai cấp công nhân giành chính quyền về tay nhân dân",
+            "Đoàn kết với vô sản và các dân tộc bị áp bức trên thế giới",
+            "Giác ngộ, tổ chức, tập hợp dân chúng; đoàn kết với vô sản thế giới",
+            "Lập ra chính quyền của dân, do dân, vì dân"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 70,
+          "question": "Cách mạng tháng Mười Nga diễn ra năm nào?",
+          "options": [
+            "1917",
+            "1915",
+            "1918",
+            "1916"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 71,
+          "question": "Cách thức Hồ Chí Minh tiếp thu tinh hoa văn hóa nhân loại - kể cả chủ nghĩa Mác - Lênin - như thế nào?",
+          "options": [
+            "Có chọn lọc, phê phán, kế thừa và phát triển",
+            "Sao y bản chính",
+            "Loại bỏ hết các tư tưởng phong kiến, tư sản",
+            "Loại bỏ hết các tư tưởng tôn giáo"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 72,
+          "question": "Các lực lượng thực hiện giải phóng dân tộc, giải phóng giai cấp, giải phóng con người theo tư tưởng Hồ Chí Minh là:",
+          "options": [
+            "Tất cả các phương án đều đúng",
+            "Các lực lượng cách mạng",
+            "Đảng Cộng sản",
+            "Khối đại đoàn kết dân tộc nòng cốt là liên minh công - nông - trí thức"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 73,
+          "question": "Các sự kiện sau đây là điều kiện chính trị góp phần hình thành tư tưởng Hồ Chí Minh, sự kiện nào thuộc về yếu tố thời đại?",
+          "options": [
+            "Mười năm đầu thế kỷ XX, phong trào yêu nước bị đàn áp, khó khăn nhất",
+            "Các phong trào chống Pháp của các sỹ phu phong kiến thất bại",
+            "Cuộc đấu tranh giải phóng dân tộc đầu thế kỷ XX gắn với giai cấp vô sản chính quốc",
+            "Các phong trào vũ trang chống Pháp cuối thế kỷ XIX thất bại"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 74,
+          "question": "Các yếu tố nào sau dẫn đến sự ra đời của Đảng cộng sản Việt Nam?",
+          "options": [
+            "Phong trào yêu nước, phong trào cộng sản và công nhân quốc tế",
+            "Chủ nghĩa Mác - Lênin, phong trào cộng sản và công nhân quốc tế",
+            "Phong trào công nhân, chủ nghĩa Mác - Lênin",
+            "Chủ nghĩa Mác - Lênin, phong trào công nhân và phong trào yêu nước"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 75,
+          "question": "Câu 'Dù hi sinh tới đâu, dù phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết giành cho được độc lập' được Chủ tịch Hồ Chí Minh viết trong thời gian:",
+          "options": [
+            "Tháng 8 năm 1945",
+            "Tháng 8 năm 1946",
+            "Tháng 8 năm 1939",
+            "Tháng 2 năm 1930"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 76,
+          "question": "Câu nhận xét: 'Tư tưởng chỉ đạo của Người vẫn mãi mãi soi sáng cuộc đấu tranh cho tới khi tất cả bọn xâm lược và bọn áp bức bị đánh bại hoàn toàn' đề cập đến vị lãnh tụ nào?",
+          "options": [
+            "Hồ Chí Minh",
+            "Fidel Castro",
+            "Mao Trạch Đông",
+            "Lênin"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 77,
+          "question": "Chí sĩ yêu nước Phan Bội Châu khởi xướng phong trào nào sau đây?",
+          "options": [
+            "Đông kinh nghĩa thục",
+            "Đông du",
+            "Chống đi phu, chống thu thuế",
+            "Duy tân"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 78,
+          "question": "Hồ Chí Minh đã dùng hình tượng nào dưới đây để chỉ sự bóc lột của chủ nghĩa tư bản?",
+          "options": [
+            "Con bạch tuộc",
+            "Con đỉa hai vòi",
+            "Con chim đại bàng",
+            "Con muỗi"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 79,
+          "question": "Văn kiện Đại hội XI của Đảng chỉ rõ: Tư tưởng Hồ Chí Minh [......] cho cuộc đấu tranh của nhân dân là giành thắng lợi, là [......] to lớn của Đảng và dân tộc ta.",
+          "options": [
+            "Soi đường; tài sản tinh thần",
+            "Dẫn đường; tài sản tinh thần",
+            "Mở đường; tài sản tinh thần",
+            "Chỉ đường; tài sản tinh thần"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 80,
+          "question": "Đại hội IX của Đảng đã xác định tư tưởng Hồ Chí Minh 'là [......] của Đảng và dân tộc ta'",
+          "options": [
+            "Cẩm nang",
+            "Tài sản tinh thần to lớn",
+            "Đường lối",
+            "Tài sản quý báu"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 81,
+          "question": "Theo tư tưởng Hồ Chí Minh: 'Toàn quốc đồng bào hãy đứng dậy [......] mà tự giải phóng cho ta'",
+          "options": [
+            "Đem sức ta",
+            "Dựa vào sự giúp đỡ quốc tế",
+            "Dựa vào sự đoàn kết toàn dân",
+            "Dưới sự lãnh đạo của Đảng"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 82,
+          "question": "Theo tư tưởng Hồ Chí Minh: 'Toàn thể dân tộc Việt Nam quyết đem [......] để giữ vững quyền tự do, độc lập ấy'",
+          "options": [
+            "Tất cả tinh thần và lực lượng, tính mạng và của cải",
+            "Toàn bộ của cải",
+            "Tất cả tinh thần và lực lượng",
+            "Toàn bộ sức lực"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 83,
+          "question": "Theo tư tưởng Hồ Chí Minh: 'Tôi chỉ có một ham muốn, ham muốn tột bậc, là làm sao cho nước ta được [......], dân ta được hoàn toàn tự do...'",
+          "options": [
+            "Giải phóng",
+            "Hoàn toàn độc lập",
+            "Thắng lợi",
+            "Nhanh chóng độc lập"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 84,
+          "question": "Tháng 7 năm 1920, Hồ Chí Minh đọc tác phẩm [......] của Lênin.",
+          "options": [
+            "Sơ thảo lần thứ nhất về Luận cương về các vấn đề thuộc địa",
+            "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa",
+            "Sơ thảo lần thứ nhất về Luận cương về các vấn đề dân tộc",
+            "Tác phẩm 'Làm gì'"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 85,
+          "question": "Theo Hồ Chí Minh: 'Muốn cứu nước và [......] không con đường nào khác con đường [......]'.",
+          "options": [
+            "Giải phóng dân tộc; cách mạng vô sản",
+            "Giải phóng dân tộc; cách mạng tư sản",
+            "Giành độc lập, tự do; cách mạng văn hóa",
+            "Giành độc lập; cách mạng vô sản"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 86,
+          "question": "Theo tư tưởng Hồ Chí Minh: 'Muốn người ta giúp cho thì trước hết mình phải [......]'",
+          "options": [
+            "Kêu gọi sự giúp đỡ",
+            "Giúp người ta trước",
+            "Tự cố gắng đứng dậy",
+            "Tự giúp lấy mình đã"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 87,
+          "question": "Trong Cương lĩnh Chính trị đầu tiên của Đảng đã xác định phương hướng chiến lược là: 'làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới [......]'.",
+          "options": [
+            "Chủ nghĩa xã hội",
+            "Thời kỳ quá độ lên chủ nghĩa xã hội",
+            "Chủ nghĩa tư bản",
+            "Xã hội cộng sản"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 88,
+          "question": "'Dân ta có một lòng nồng nàn yêu nước... nhấn chìm tất cả lũ bán nước và cướp nước' được trích từ tác phẩm nào của Hồ Chí Minh?",
+          "options": [
+            "Lời kêu gọi toàn quốc kháng chiến",
+            "Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng",
+            "Tuyên ngôn Độc lập",
+            "Diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ III"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 89,
+          "question": "'Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch...' Câu nói trên được nêu trong văn kiện nào?",
+          "options": [
+            "Diễn văn kỷ niệm 100 năm ngày sinh Hồ Chí Minh",
+            "Lời kêu gọi BCH Trung ương Đảng ngày 3/9/1969",
+            "Điếu văn của BCH Trung ương Đảng đọc tại lễ truy điệu ngày 9/9/1969",
+            "Diễn văn kỷ niệm 80 năm ngày sinh Hồ Chí Minh"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 90,
+          "question": "'Đảng lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng...' Quan điểm trên được khẳng định lần đầu tại Đại hội mấy?",
+          "options": [
+            "Đại hội VIII",
+            "Đại hội V",
+            "Đại hội VII",
+            "Đại hội VI"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 91,
+          "question": "Thuật ngữ Tư tưởng Hồ Chí Minh được Đảng ta chính thức sử dụng bắt đầu từ bao giờ?",
+          "options": [
+            "Từ năm 1990",
+            "Từ năm 1969",
+            "Từ năm 1991",
+            "Từ năm 1986"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 92,
+          "question": "Chọn phương án trả lời đúng nhất cho tư tưởng Hồ Chí Minh?",
+          "options": [
+            "Là kết quả vận dụng sáng tạo chủ nghĩa Mác - Lênin",
+            "Là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin",
+            "Là kết quả của sự phát triển sáng tạo chủ nghĩa Mác - Lênin",
+            "Là kết quả của sự sáng tạo chủ nghĩa Mác - Lênin"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 93,
+          "question": "Chọn phương án trả lời đúng với tư tưởng Hồ Chí Minh về cách mạng thuộc địa:",
+          "options": [
+            "Phải phụ thuộc vào thắng lợi của chính quốc",
+            "Có khả năng nổ ra và giành được thắng lợi trước chính quốc",
+            "Tất cả các phương án trên đều sai",
+            "Thắng lợi đồng thời với chính quốc"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 94,
+          "question": "Giai đoạn 1921 đến 1930 trong quá trình hình thành tư tưởng Hồ Chí Minh là:",
+          "options": [
+            "Thời kỳ nghiên cứu, khảo sát thực tế",
+            "Thời kỳ hình thành tư tưởng yêu nước",
+            "Thời kỳ hình thành cơ bản con đường cách mạng Việt Nam",
+            "Thời kỳ vượt qua khó khăn, kiên trì con đường đã chọn"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 95,
+          "question": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến vào thời điểm nào?",
+          "options": [
+            "Ngày 25/11/1946",
+            "Ngày 20/12/1946",
+            "Đêm ngày 19/12/1946",
+            "Đêm ngày 18/9/1946"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 96,
+          "question": "Chủ trương cầu ngoại viện, dùng bạo lực để khôi phục độc lập dân tộc là của ai?",
+          "options": [
+            "Tôn Thất Thuyết",
+            "Phan Châu Trinh",
+            "Phan Bội Châu",
+            "Hàm Nghi"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 97,
+          "question": "Chủ trương 'ỷ pháp cầu tiến bộ', khai thông dân trí, nâng cao dân khí là quan điểm của ai?",
+          "options": [
+            "Tôn Thất Thuyết",
+            "Hàm Nghi",
+            "Phan Châu Trinh",
+            "Phan Bội Châu"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 98,
+          "question": "Có 6 nguyên tắc phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh. Quan điểm còn lại là gì?",
+          "options": [
+            "Quan điểm toàn diện và hệ thống",
+            "Quan điểm phân tích và tổng hợp",
+            "Quan điểm kế thừa và phát triển",
+            "Quan điểm vận dụng phương pháp liên ngành"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 99,
+          "question": "Có mấy phương pháp cụ thể khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+          "options": [
+            "3 phương pháp",
+            "5 phương pháp",
+            "4 phương pháp",
+            "2 phương pháp"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 100,
+          "question": "'Công nông là gốc của cách mệnh, còn học trò, nhà buồn nhỏ, điền chủ nhỏ là bầu bạn cách mệnh của công nông' trích từ tác phẩm nào?",
+          "options": [
+            "Thư gửi ban hành chính các kỳ",
+            "Thư gửi đồng bào Nam bộ",
+            "Sửa đổi để làm việc",
+            "Đường cách mệnh"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 101,
+          "question": "Câu 'Công nông là gốc của cách mệnh...' được Nguyễn Ái Quốc đề cập đến điều gì?",
+          "options": [
+            "Phương pháp cách mạng",
+            "Nhiệm vụ của cách mạng",
+            "Lực lượng cách mạng",
+            "Mục tiêu của cách mạng"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 102,
+          "question": "Cơ quan ngôn luận của tổ chức Việt Nam Thanh niên cách mạng đồng chí hội là tờ báo:",
+          "options": [
+            "Thanh niên",
+            "Lao động",
+            "Người cùng khổ",
+            "Nhân đạo"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 103,
+          "question": "Cơ sở lý luận nào có vai trò quyết định tới việc hình thành tư tưởng Hồ Chí Minh?",
+          "options": [
+            "Giá trị truyền thống dân tộc Việt Nam",
+            "Giá trị văn hóa phương Tây",
+            "Chủ nghĩa Mác - Lênin",
+            "Giá trị văn hóa phương Đông"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 104,
+          "question": "Cuộc cách mạng nào được coi là 'mở ra trước mắt họ thời đại cách mạng chống đế quốc, thời đại giải phóng dân tộc'?",
+          "options": [
+            "Công xã Pari",
+            "Cách mạng Tháng Mười Nga",
+            "Cuộc đấu tranh giành độc lập của Mỹ",
+            "Đại cách mạng tư sản Pháp"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 105,
+          "question": "Cuộc vận động 'Học tập và làm theo tấm gương đạo đức Hồ Chí Minh' được phát động cho đối tượng nào?",
+          "options": [
+            "Toàn thể đảng viên",
+            "Trong toàn đảng và hệ thống chính trị",
+            "Toàn cán bộ công chức",
+            "Công nhân, nông dân và trí thức"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 106,
+          "question": "Cuối thế kỷ XIX - đầu thể kỷ XX, trong xã hội Việt Nam tồn tại mâu thuẫn nào?",
+          "options": [
+            "Toàn dân tộc với thực dân Pháp",
+            "Tất cả các phương án đều đúng",
+            "Công nhân với tư sản",
+            "Nông dân với địa chủ"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": 107,
+          "question": "Cuốn 'Đường Cách mệnh' tập hợp các bài giảng của Nguyễn Ái Quốc được xuất bản tại đâu?",
+          "options": [
+            "Liên xô",
+            "Việt Nam",
+            "Trung Quốc",
+            "Pháp"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": 108,
+          "question": "Dưới đây là tóm tắt một đoạn trong chánh cương vắn tắt... Hỏi: đoạn nào thể hiện 'con đường mới của phong trào cứu nước'?",
+          "options": [
+            "Làm cách mạng tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản",
+            "Chỉ có đại địa chủ có thế lực",
+            "Nông nghiệp khủng hoảng",
+            "Tư bản bản xứ bị Pháp ngăn trở"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": 109,
+          "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc ở Việt Nam phải dựa trên lực lượng nào?",
+          "options": [
+            "Giai cấp công nhân",
+            "Liên minh nông dân và địa chủ",
+            "Liên minh công nhân với tư sản",
+            "Lực lượng đại đoàn kết toàn dân"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 110,
+          "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc phải dựa trên lực lượng nào?",
+          "options": [
+            "Giai cấp tư sản",
+            "Giai cấp công nhân",
+            "Giai cấp nông dân",
+            "Khối đại đoàn kết toàn dân tộc"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": 111,
+          "question": "Theo Hồ Chí Minh, chế độ chính trị mà chúng ta xây dựng là chế độ:",
+          "options": [
+            "Do giai cấp công nhân làm chủ",
+            "Do nhân dân làm chủ",
+            "Do giai cấp công nông làm chủ",
+            "Do nhân dân lao động làm chủ"
+          ],
+          "correctAnswer": 1
         }
       ]
     }

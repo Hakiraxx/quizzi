@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "file": "data.json",
+      "type": "builtin"
+    },
+    {
+      "file": "tutuonghcm.json",
+      "title": "Tư tưởng Hồ Chí Minh",
+      "subject": "Câu hỏi trắc nghiệm Tư tưởng Hồ Chí Minh",
+      "type": "external"
+    },
+    {
+      "file": "tutuonghcmc12.json",
+      "title": "Ôn tập Tư tưởng HCM c1-2",
+      "subject": "Câu hỏi trắc nghiệm Tư tưởng Hồ Chí Minh chương 1-2",
+      "type": "external"
+    },
+    {
+      "file": "tutuonghcmv2.json",
+      "title": "Tư tưởng HCM v2",
+      "subject": "Câu hỏi trắc nghiệm Tư tưởng Hồ Chí Minh (bộ 2)",
+      "type": "external"
+    },
+    {
+      "file": "tutuonghcmc5.json",
+      "title": "Tư tưởng HCM Chương 5",
+      "subject": "Câu hỏi trắc nghiệm Tư tưởng Hồ Chí Minh - Chương 5",
+      "type": "external"
+    }
+  ]
+}

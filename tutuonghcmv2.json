@@ -1,0 +1,608 @@
+[
+  {
+    "question": "Ai chủ trì hội nghị hợp nhất 3 tổ chức cộng sản của nước ta?",
+    "choose": {
+      "a": "Trịnh Đình Cửu",
+      "b": "Trần Phú",
+      "c": "Nguyễn Ái Quốc",
+      "d": "Lê Hồng Phong"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa đế quốc?",
+    "choose": {
+      "a": "C.Mác",
+      "b": "Ph. Ăngghen",
+      "c": "V.I.Lênin",
+      "d": "Hồ Chí Minh"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa thực dân?",
+    "choose": {
+      "a": "C.Mác",
+      "b": "Ph. Ăngghen",
+      "c": "V.I.Lênin",
+      "d": "Hồ Chí Minh"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Ai là người bàn nhiều về cuộc đấu tranh chống chủ nghĩa tư bản?",
+    "choose": {
+      "a": "C.Mác",
+      "b": "Ph. Ăngghen",
+      "c": "V.I.Lênin",
+      "d": "Hồ Chí Minh"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Ai soạn thảo 'Chánh cương vắn tắt', 'sách lược vắn tắt', 'chương trình, điều lệ vắn tắt của Đảng'?",
+    "choose": {
+      "a": "Nguyễn Ái Quốc",
+      "b": "Trịnh Đình Cửu",
+      "c": "Trần Phú",
+      "d": "Lê Hồng Phong"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Bác Hồ tham gia sáng lập Đảng Cộng sản Pháp và trở thành người Cộng sản Việt Nam đầu tiên năm nào?",
+    "choose": {
+      "a": "Năm 1918",
+      "b": "Năm 1919",
+      "c": "Năm 1920",
+      "d": "Năm 1921"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Bác Hồ về nước ngày, tháng, năm nào?",
+    "choose": {
+      "a": "28/1/1941",
+      "b": "28/1/1942",
+      "c": "12/8/1942",
+      "d": "19/12/1941"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Bản chất của chủ nghĩa tư bản 'là một con đỉa có 1 cái vòi bám vào giai cấp vô sản ở chính quốc và một cái vòi khác bám vào giai cấp vô sản ở thuộc địa...' câu nói đó trích từ tác phẩm nào của Nguyễn Ái Quốc?",
+    "choose": {
+      "a": "Con rồng tre",
+      "b": "Bản án chế độ thực dân Pháp",
+      "c": "Đường Kách mệnh",
+      "d": "V.I.Lênin và các dân tộc phương Đông"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Bản 'Yêu sách của nhân dân An Nam' gửi đến Hội nghị Véc xây được Nguyễn Tất Thành ký tên là:",
+    "choose": {
+      "a": "Pon Thành",
+      "b": "Văn Ba",
+      "c": "Hồ Chí Minh",
+      "d": "Nguyễn Ái Quốc"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Báo Le Paria (Người Cùng khổ) do Nguyễn Ái Quốc đồng sáng lập, ra số đầu tiên khi nào?",
+    "choose": {
+      "a": "30/12/1920",
+      "b": "1/4/1921",
+      "c": "1/4/1922",
+      "d": "1/4/1923"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Bộ môn Tư tưởng Hồ Chí Minh có 6 nhiệm vụ cần phải làm rõ... Nhiệm vụ còn lại là gì?",
+    "choose": {
+      "a": "Làm rõ tư tưởng kinh tế của Hồ Chí Minh",
+      "b": "Làm rõ tư tưởng ngoại giao của Hồ Chí Minh",
+      "c": "Làm rõ tư tưởng quân sự của Hồ Chí Minh",
+      "d": "Xác định rõ các giai đoạn hình thành, phát triển tư tưởng Hồ Chí Minh"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Bộ môn tư tưởng Hồ Chí Minh có mấy nhiệm vụ khi nghiên cứu tư tưởng Hồ Chí Minh?",
+    "choose": {
+      "a": "4 nhiệm vụ",
+      "b": "5 nhiệm vụ",
+      "c": "6 nhiệm vụ",
+      "d": "7 nhiệm vụ"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Các bài giảng của Nguyễn Ái Quốc tại các lớp huấn luyện cán bộ được Bộ Tuyên truyền của Hội Liên hiệp các dân tộc bị áp bức tập hợp lại và xuất bản thành tác phẩm nào?",
+    "choose": {
+      "a": "Bản án chế độ thực dân Pháp",
+      "b": "Đường cách mệnh",
+      "c": "Sửa đổi lề lối làm việc",
+      "d": "Tuyên Ngôn Độc lập"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc giành thắng lợi đồng thời với thắng lợi cách mạng vô sản ở chính quốc:",
+    "choose": {
+      "a": "Đúng",
+      "b": "Sai"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc là sự nghiệp đoàn kết của:",
+    "choose": {
+      "a": "Giai cấp công nhân",
+      "b": "Giai cấp công nhân và nông dân",
+      "c": "Giai cấp nhân dân lao động",
+      "d": "Toàn dân trên cơ sở liên minh công nông"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc muốn giành được thắng lợi phải:",
+    "choose": {
+      "a": "Thực hiện bằng con đường bạo lực",
+      "b": "Kết hợp lực lượng chính trị với lực lượng vũ trang",
+      "c": "Cả hai đáp án trên đều sai",
+      "d": "Cả hai đáp án trên đều đúng"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc muốn giành được thắng lợi phải:",
+    "choose": {
+      "a": "Tiến hành chủ động và sáng tạo",
+      "b": "Dựa vào sự thắng lợi của cách mạng ở các nước thuộc địa khác",
+      "c": "Dựa vào sự thắng lợi của cách mạng vô sản ở chính quốc",
+      "d": "Dựa vào sự đoàn kết quốc tế"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc ở thuộc địa có khả năng giành được thắng lợi trước cách mạng vô sản ở chính quốc.",
+    "choose": {
+      "a": "Đúng",
+      "b": "Sai"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc trong thời đại mới phải do Đảng Cộng sản lãnh đạo để:",
+    "choose": {
+      "a": "Giác ngộ, tổ chức, tập hợp dân chúng; đoàn kết với vô sản thế giới",
+      "b": "Đoàn kết với vô sản và các dân tộc bị áp bức trên thế giới",
+      "c": "Đáng thay giai cấp công nhân giành chính quyền về tay nhân dân",
+      "d": "Lập ra chính quyền của dân, do dân, vì dân"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Cách mạng tháng Mười Nga diễn ra năm nào?",
+    "choose": {
+      "a": "1915",
+      "b": "1916",
+      "c": "1917",
+      "d": "1918"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Cách thức Hồ Chí Minh tiếp thu tinh hoa văn hóa nhân loại - kể cả chủ nghĩa Mác - Lênin - như thế nào?",
+    "choose": {
+      "a": "Sao y bản chính",
+      "b": "Có chọn lọc, phê phán, kế thừa và phát triển",
+      "c": "Loại bỏ hết các tư tưởng phong kiến, tư sản",
+      "d": "Loại bỏ hết các tư tưởng tôn giáo"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Các lực lượng thực hiện giải phóng dân tộc, giải phóng giai cấp, giải phóng con người theo tư tưởng Hồ Chí Minh là:",
+    "choose": {
+      "a": "Đảng Cộng sản",
+      "b": "Khối đại đoàn kết dân tộc nòng cốt là liên minh công - nông - trí thức",
+      "c": "Các lực lượng cách mạng",
+      "d": "Tất cả các phương án đều đúng"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Các sự kiện sau đây là điều kiện chính trị góp phần hình thành tư tưởng Hồ Chí Minh, sự kiện nào thuộc về yếu tố thời đại?",
+    "choose": {
+      "a": "Các phong trào vũ trang chống Pháp cuối thế kỷ XIX thất bại",
+      "b": "Các phong trào chống Pháp của các sỹ phu phong kiến thất bại",
+      "c": "Mười năm đầu thế kỷ XX, phong trào yêu nước bị đàn áp, khó khăn nhất",
+      "d": "Cuộc đấu tranh giải phóng dân tộc đầu thế kỷ XX gắn với giai cấp vô sản chính quốc"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Các yếu tố nào sau dẫn đến sự ra đời của Đảng cộng sản Việt Nam?",
+    "choose": {
+      "a": "Chủ nghĩa Mác - Lênin, phong trào cộng sản và công nhân quốc tế",
+      "b": "Phong trào công nhân, chủ nghĩa Mác - Lênin",
+      "c": "Phong trào yêu nước, phong trào cộng sản và công nhân quốc tế",
+      "d": "Chủ nghĩa Mác - Lênin, phong trào công nhân và phong trào yêu nước"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Câu 'Dù hi sinh tới đâu, dù phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết giành cho được độc lập' được Chủ tịch Hồ Chí Minh viết trong thời gian:",
+    "choose": {
+      "a": "Tháng 2 năm 1930",
+      "b": "Tháng 8 năm 1939",
+      "c": "Tháng 8 năm 1945",
+      "d": "Tháng 8 năm 1946"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Câu nhận xét: 'Tư tưởng chỉ đạo của Người vẫn mãi mãi soi sáng cuộc đấu tranh cho tới khi tất cả bọn xâm lược và bọn áp bức bị đánh bại hoàn toàn' đề cập đến vị lãnh tụ nào?",
+    "choose": {
+      "a": "Lênin",
+      "b": "Hồ Chí Minh",
+      "c": "Mao Trạch Đông",
+      "d": "Fidel Castro"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Chí sĩ yêu nước Phan Bội Châu khởi xướng phong trào nào sau đây?",
+    "choose": {
+      "a": "Đông du",
+      "b": "Đông kinh nghĩa thục",
+      "c": "Chống đi phu, chống thu thuế",
+      "d": "Duy tân"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Hồ Chí Minh đã dùng hình tượng nào dưới đây để chỉ sự bóc lột của chủ nghĩa tư bản?",
+    "choose": {
+      "a": "Con bạch tuộc",
+      "b": "Con chim đại bàng",
+      "c": "Con đỉa hai vòi",
+      "d": "Con muỗi"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Văn kiện Đại hội XI của Đảng chỉ rõ: Tư tưởng Hồ Chí Minh [......] cho cuộc đấu tranh của nhân dân là giành thắng lợi, là [......] to lớn của Đảng và dân tộc ta.",
+    "choose": {
+      "a": "Mở đường; tài sản tinh thần",
+      "b": "Soi đường; tài sản tinh thần",
+      "c": "Chỉ đường; tài sản tinh thần",
+      "d": "Dẫn đường; tài sản tinh thần"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Đại hội IX của Đảng đã xác định tư tưởng Hồ Chí Minh 'là [......] của Đảng và dân tộc ta'",
+    "choose": {
+      "a": "Cẩm nang",
+      "b": "Đường lối",
+      "c": "Tài sản quý báu",
+      "d": "Tài sản tinh thần to lớn"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh: 'Toàn quốc đồng bào hãy đứng dậy [......] mà tự giải phóng cho ta'",
+    "choose": {
+      "a": "Dựa vào sự giúp đỡ quốc tế",
+      "b": "Dựa vào sự đoàn kết toàn dân",
+      "c": "Dưới sự lãnh đạo của Đảng",
+      "d": "Đem sức ta"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh: 'Toàn thể dân tộc Việt Nam quyết đem [......] để giữ vững quyền tự do, độc lập ấy'",
+    "choose": {
+      "a": "Tất cả tinh thần và lực lượng",
+      "b": "Toàn bộ sức lực",
+      "c": "Tất cả tinh thần và lực lượng, tính mạng và của cải",
+      "d": "Toàn bộ của cải"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh: 'Tôi chỉ có một ham muốn, ham muốn tột bậc, là làm sao cho nước ta được [......], dân ta được hoàn toàn tự do...'",
+    "choose": {
+      "a": "Nhanh chóng độc lập",
+      "b": "Thắng lợi",
+      "c": "Hoàn toàn độc lập",
+      "d": "Giải phóng"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Tháng 7 năm 1920, Hồ Chí Minh đọc tác phẩm [......] của Lênin.",
+    "choose": {
+      "a": "Tác phẩm 'Làm gì'",
+      "b": "Sơ thảo lần thứ nhất về Luận cương về các vấn đề dân tộc",
+      "c": "Sơ thảo lần thứ nhất về các vấn đề dân tộc và thuộc địa",
+      "d": "Sơ thảo lần thứ nhất về Luận cương về các vấn đề thuộc địa"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Theo Hồ Chí Minh: 'Muốn cứu nước và [......] không con đường nào khác con đường [......]'.",
+    "choose": {
+      "a": "Giải phóng dân tộc; cách mạng vô sản",
+      "b": "Giải phóng dân tộc; cách mạng tư sản",
+      "c": "Giành độc lập; cách mạng vô sản",
+      "d": "Giành độc lập, tự do; cách mạng văn hóa"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Theo tư tưởng Hồ Chí Minh: 'Muốn người ta giúp cho thì trước hết mình phải [......]'",
+    "choose": {
+      "a": "Giúp người ta trước",
+      "b": "Tự cố gắng đứng dậy",
+      "c": "Tự giúp lấy mình đã",
+      "d": "Kêu gọi sự giúp đỡ"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Trong Cương lĩnh Chính trị đầu tiên của Đảng đã xác định phương hướng chiến lược là: 'làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới [......]'.",
+    "choose": {
+      "a": "Chủ nghĩa tư bản",
+      "b": "Xã hội cộng sản",
+      "c": "Chủ nghĩa xã hội",
+      "d": "Thời kỳ quá độ lên chủ nghĩa xã hội"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "'Dân ta có một lòng nồng nàn yêu nước... nhấn chìm tất cả lũ bán nước và cướp nước' được trích từ tác phẩm nào của Hồ Chí Minh?",
+    "choose": {
+      "a": "Tuyên ngôn Độc lập",
+      "b": "Lời kêu gọi toàn quốc kháng chiến",
+      "c": "Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng",
+      "d": "Diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ III"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "'Dân tộc ta, nhân dân ta, non sông đất nước ta đã sinh ra Hồ Chủ tịch...' Câu nói trên được nêu trong văn kiện nào?",
+    "choose": {
+      "a": "Lời kêu gọi BCH Trung ương Đảng ngày 3/9/1969",
+      "b": "Điếu văn của BCH Trung ương Đảng đọc tại lễ truy điệu ngày 9/9/1969",
+      "c": "Diễn văn kỷ niệm 80 năm ngày sinh Hồ Chí Minh",
+      "d": "Diễn văn kỷ niệm 100 năm ngày sinh Hồ Chí Minh"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "'Đảng lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng...' Quan điểm trên được khẳng định lần đầu tại Đại hội mấy?",
+    "choose": {
+      "a": "Đại hội V",
+      "b": "Đại hội VI",
+      "c": "Đại hội VII",
+      "d": "Đại hội VIII"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Thuật ngữ Tư tưởng Hồ Chí Minh được Đảng ta chính thức sử dụng bắt đầu từ bao giờ?",
+    "choose": {
+      "a": "Từ năm 1969",
+      "b": "Từ năm 1986",
+      "c": "Từ năm 1990",
+      "d": "Từ năm 1991"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Chọn phương án trả lời đúng nhất cho tư tưởng Hồ Chí Minh?",
+    "choose": {
+      "a": "Là kết quả vận dụng sáng tạo chủ nghĩa Mác - Lênin",
+      "b": "Là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin",
+      "c": "Là kết quả của sự phát triển sáng tạo chủ nghĩa Mác - Lênin",
+      "d": "Là kết quả của sự sáng tạo chủ nghĩa Mác - Lênin"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Chọn phương án trả lời đúng với tư tưởng Hồ Chí Minh về cách mạng thuộc địa:",
+    "choose": {
+      "a": "Thắng lợi đồng thời với chính quốc",
+      "b": "Phải phụ thuộc vào thắng lợi của chính quốc",
+      "c": "Có khả năng nổ ra và giành được thắng lợi trước chính quốc",
+      "d": "Tất cả các phương án trên đều sai"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Giai đoạn 1921 đến 1930 trong quá trình hình thành tư tưởng Hồ Chí Minh là:",
+    "choose": {
+      "a": "Thời kỳ nghiên cứu, khảo sát thực tế",
+      "b": "Thời kỳ hình thành tư tưởng yêu nước",
+      "c": "Thời kỳ hình thành cơ bản con đường cách mạng Việt Nam",
+      "d": "Thời kỳ vượt qua khó khăn, kiên trì con đường đã chọn"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến vào thời điểm nào?",
+    "choose": {
+      "a": "Đêm ngày 18/9/1946",
+      "b": "Ngày 20/12/1946",
+      "c": "Đêm ngày 19/12/1946",
+      "d": "Ngày 25/11/1946"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Chủ trương cầu ngoại viện, dùng bạo lực để khôi phục độc lập dân tộc là của ai?",
+    "choose": {
+      "a": "Hàm Nghi",
+      "b": "Tôn Thất Thuyết",
+      "c": "Phan Bội Châu",
+      "d": "Phan Châu Trinh"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Chủ trương 'ỷ pháp cầu tiến bộ', khai thông dân trí, nâng cao dân khí là quan điểm của ai?",
+    "choose": {
+      "a": "Hàm Nghi",
+      "b": "Tôn Thất Thuyết",
+      "c": "Phan Bội Châu",
+      "d": "Phan Châu Trinh"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Có 6 nguyên tắc phương pháp luận khi nghiên cứu tư tưởng Hồ Chí Minh. Quan điểm còn lại là gì?",
+    "choose": {
+      "a": "Quan điểm toàn diện và hệ thống",
+      "b": "Quan điểm vận dụng phương pháp liên ngành",
+      "c": "Quan điểm phân tích và tổng hợp",
+      "d": "Quan điểm kế thừa và phát triển"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Có mấy phương pháp cụ thể khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+    "choose": {
+      "a": "2 phương pháp",
+      "b": "3 phương pháp",
+      "c": "4 phương pháp",
+      "d": "5 phương pháp"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "'Công nông là gốc của cách mệnh, còn học trò, nhà buồn nhỏ, điền chủ nhỏ là bầu bạn cách mệnh của công nông' trích từ tác phẩm nào?",
+    "choose": {
+      "a": "Thư gửi ban hành chính các kỳ",
+      "b": "Thư gửi đồng bào Nam bộ",
+      "c": "Sửa đổi để làm việc",
+      "d": "Đường cách mệnh"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Câu 'Công nông là gốc của cách mệnh...' được Nguyễn Ái Quốc đề cập đến điều gì?",
+    "choose": {
+      "a": "Phương pháp cách mạng",
+      "b": "Lực lượng cách mạng",
+      "c": "Nhiệm vụ của cách mạng",
+      "d": "Mục tiêu của cách mạng"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Cơ quan ngôn luận của tổ chức Việt Nam Thanh niên cách mạng đồng chí hội là tờ báo:",
+    "choose": {
+      "a": "Người cùng khổ",
+      "b": "Nhân đạo",
+      "c": "Thanh niên",
+      "d": "Lao động"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Cơ sở lý luận nào có vai trò quyết định tới việc hình thành tư tưởng Hồ Chí Minh?",
+    "choose": {
+      "a": "Giá trị văn hóa phương Đông",
+      "b": "Giá trị văn hóa phương Tây",
+      "c": "Chủ nghĩa Mác - Lênin",
+      "d": "Giá trị truyền thống dân tộc Việt Nam"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Cuộc cách mạng nào được coi là 'mở ra trước mắt họ thời đại cách mạng chống đế quốc, thời đại giải phóng dân tộc'?",
+    "choose": {
+      "a": "Đại cách mạng tư sản Pháp",
+      "b": "Cuộc đấu tranh giành độc lập của Mỹ",
+      "c": "Công xã Pari",
+      "d": "Cách mạng Tháng Mười Nga"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Cuộc vận động 'Học tập và làm theo tấm gương đạo đức Hồ Chí Minh' được phát động cho đối tượng nào?",
+    "choose": {
+      "a": "Toàn cán bộ công chức",
+      "b": "Công nhân, nông dân và trí thức",
+      "c": "Trong toàn đảng và hệ thống chính trị",
+      "d": "Toàn thể đảng viên"
+    },
+    "ans": "c"
+  },
+  {
+    "question": "Cuối thế kỷ XIX - đầu thể kỷ XX, trong xã hội Việt Nam tồn tại mâu thuẫn nào?",
+    "choose": {
+      "a": "Nông dân với địa chủ",
+      "b": "Công nhân với tư sản",
+      "c": "Toàn dân tộc với thực dân Pháp",
+      "d": "Tất cả các phương án đều đúng"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Cuốn 'Đường Cách mệnh' tập hợp các bài giảng của Nguyễn Ái Quốc được xuất bản tại đâu?",
+    "choose": {
+      "a": "Pháp",
+      "b": "Liên xô",
+      "c": "Việt Nam",
+      "d": "Trung Quốc"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Dưới đây là tóm tắt một đoạn trong chánh cương vắn tắt... Hỏi: đoạn nào thể hiện 'con đường mới của phong trào cứu nước'?",
+    "choose": {
+      "a": "Tư bản bản xứ bị Pháp ngăn trở",
+      "b": "Nông nghiệp khủng hoảng",
+      "c": "Chỉ có đại địa chủ có thế lực",
+      "d": "Làm cách mạng tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản"
+    },
+    "ans": "d"
+  },
+  {
+    "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc ở Việt Nam phải dựa trên lực lượng nào?",
+    "choose": {
+      "a": "Lực lượng đại đoàn kết toàn dân",
+      "b": "Liên minh công nhân với tư sản",
+      "c": "Giai cấp công nhân",
+      "d": "Liên minh nông dân và địa chủ"
+    },
+    "ans": "a"
+  },
+  {
+    "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc phải dựa trên lực lượng nào?",
+    "choose": {
+      "a": "Giai cấp công nhân",
+      "b": "Khối đại đoàn kết toàn dân tộc",
+      "c": "Giai cấp tư sản",
+      "d": "Giai cấp nông dân"
+    },
+    "ans": "b"
+  },
+  {
+    "question": "Theo Hồ Chí Minh, chế độ chính trị mà chúng ta xây dựng là chế độ:",
+    "choose": {
+      "a": "Do nhân dân lao động làm chủ",
+      "b": "Do nhân dân làm chủ",
+      "c": "Do giai cấp công nhân làm chủ",
+      "d": "Do giai cấp công nông làm chủ"
+    },
+    "ans": "b"
+  }
+]

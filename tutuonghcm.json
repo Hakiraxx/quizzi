@@ -1,0 +1,562 @@
+﻿[
+  {
+    "question": "Tư tưởng Hồ Chí Minh đã chỉ ra nội dung sau đây?",
+    "choose": { "a": "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam.", "b": "Hệ thống quan điểm về cách mạng thế giới.", "c": "Hệ thống quan điểm về quá trình xây dựng chủ nghĩa xã hội.", "d": "Hệ thống quan điểm về Đảng Cộng sản Việt Nam." },
+    "ans": "a"
+  },
+  {
+    "question": "Đối tượng nghiên cứu của Tư tưởng Hồ Chí Minh là gì?",
+    "choose": { "a": "Hệ thống quan điểm lý luận về cách mạng Việt Nam.", "b": "Hệ thống quan điểm được vận động thực tiễn.", "c": "Hệ thống xã hội về quá trình xây dựng chủ nghĩa xã hội.", "d": "Hệ thống quan điểm toàn diện sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam và được vận động trong thực tiễn." },
+    "ans": "d"
+  },
+  {
+    "question": "Có mấy phương pháp cụ thể khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+    "choose": { "a": "Có 2 phương pháp", "b": "Có 3 phương pháp", "c": "Có 4 phương pháp", "d": "Có 5 phương pháp" },
+    "ans": "c"
+  },
+  {
+    "question": "Luận điểm về định nghĩa Tư tưởng Hồ Chí Minh được nêu ra tại Văn kiện Đại hội lần thứ mấy của Đảng?",
+    "choose": { "a": "Văn kiện Đại hội IX", "b": "Văn kiện Đại hội VII", "c": "Văn kiện Đại hội X", "d": "Văn kiện Đại hội VIII" },
+    "ans": "b"
+  },
+  {
+    "question": "Khái niệm tư tưởng Hồ Chí Minh được Đảng ta chính thức sử dụng vào thời gian nào?",
+    "choose": { "a": "Năm 2001", "b": "Năm 1991", "c": "Năm 1996", "d": "Năm 1986" },
+    "ans": "b"
+  },
+  {
+    "question": "Khái niệm Tư tưởng Hồ Chí Minh được Đảng Cộng sản Việt Nam nêu ra hoàn chỉnh nhất đến nay tại Đại hội lần thứ mấy?",
+    "choose": { "a": "Đại hội XI năm 2011", "b": "Đại hội X năm 2006", "c": "Đại hội XII năm 2016", "d": "Đại hội XIII năm 2021" },
+    "ans": "a"
+  },
+  {
+    "question": "Khái niệm Tư tưởng Hồ Chí Minh bao gồm mấy nội dung cốt lõi?",
+    "choose": { "a": "4 nội dung", "b": "3 nội dung", "c": "5 nội dung", "d": "2 nội dung" },
+    "ans": "b"
+  },
+  {
+    "question": "Cơ sở phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là gì?",
+    "choose": { "a": "Dựa trên cơ sở lý luận.", "b": "Dựa trên cơ sở bản thân các quan điểm của Hồ Chí Minh.", "c": "Dựa trên cơ sở thế giới quan, phương pháp luận Mác-Lênin.", "d": "Không có đáp án nào đúng." },
+    "ans": "c"
+  },
+  {
+    "question": "Nguyên tắc thống nhất giữa tính Đảng và tính khoa học có nghĩa là gì?",
+    "choose": { "a": "Tính Đảng là lập trường giai cấp công nhân; Tính khoa học là đảm bảo tính khách quan.", "b": "Tính Đảng là sự trung thành tuyệt đối.", "c": "Tính khoa học là nghiên cứu tỉ mỉ lý thuyết.", "d": "Tất cả đều sai" },
+    "ans": "a"
+  },
+  {
+    "question": "Đối tượng nghiên cứu tư tưởng Hồ Chí Minh?",
+    "choose": { "a": "Hệ thống quan điểm lý luận...", "b": "Hệ thống tư tưởng lý luận của Người...", "c": "Hệ thống tư tưởng quá trình hiện thực hóa...", "d": "Hệ thống quan điểm toàn diện sâu sắc về cách mạng Việt Nam và quá trình hiện thực hóa quan điểm đó." },
+    "ans": "d"
+  },
+  {
+    "question": "Học tập tư tưởng Hồ Chí Minh có ý nghĩa như thế nào đối với sinh viên?",
+    "choose": { "a": "Nâng cao năng lực tư duy lý luận", "b": "Rèn luyện phong cách làm việc", "c": "Giáo dục đạo đức cách mạng", "d": "Tất cả các phương án trên" },
+    "ans": "d"
+  },
+  {
+    "question": "Nguyễn Tất Thành ra đi tìm đường cứu nước tại đâu? Thời gian nào?",
+    "choose": { "a": "2/6/1911 Sài Gòn.", "b": "4/6/1911 Bến Nhà Rồng.", "c": "6/5/1911 Bến cảng Nhà Rồng.", "d": "5/6/1911 Bến cảng Nhà Rồng" },
+    "ans": "d"
+  },
+  {
+    "question": "Giá trị truyền thống nào là cơ sở quan trọng nhất giúp Hồ Chí Minh xây dựng hệ thống quan điểm?",
+    "choose": { "a": "Chủ nghĩa nhân văn.", "b": "Chủ nghĩa yêu nước.", "c": "Tinh thần đoàn kết.", "d": "Truyền thống cần cù." },
+    "ans": "b"
+  },
+  {
+    "question": "Giai đoạn vượt qua khó khăn thử thách, giữ vững đường lối cách mạng đúng đắn là giai đoạn nào?",
+    "choose": { "a": "Trước 1911", "b": "1911-1920", "c": "1920-1930", "d": "1930-1941" },
+    "ans": "d"
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh có ý nghĩa như thế nào đối với cách mạng Việt Nam?",
+    "choose": { "a": "Mở ra con đường giải phóng", "b": "Góp phần đấu tranh thế giới", "c": "Là nền tảng tư tưởng và kim chỉ nan cho hành động của Đảng và cách mạng Việt Nam." },
+    "ans": "c"
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh được hình thành qua mấy giai đoạn?",
+    "choose": { "a": "3 giai đoạn", "b": "4 giai đoạn", "c": "5 giai đoạn", "d": "6 giai đoạn" },
+    "ans": "c"
+  },
+  {
+    "question": "Nguyễn Ái Quốc gửi Bản yêu sách của nhân dân An Nam tới Hội nghị Vécxây vào thời gian nào?",
+    "choose": { "a": "6/1917", "b": "6/1918", "c": "6/1920", "d": "6/1919" },
+    "ans": "d"
+  },
+  {
+    "question": "Tư tưởng Hồ Chí Minh được hình thành dựa trên cơ sở nào?",
+    "choose": { "a": "Cơ sở thực tiễn", "b": "Cơ sở lý luận", "c": "Nhân tố chủ quan", "d": "Cả 3 phương án trên" },
+    "ans": "d"
+  },
+  {
+    "question": "Hồ Chí Minh tiếp thu những tư tưởng nào trong văn hóa phương Đông?",
+    "choose": { "a": "Nho giáo, Phật giáo", "b": "Phật giáo, Lão giáo", "c": "Ấn Độ, Trung Quốc", "d": "Giá trị văn hóa Nho giáo, Phật giáo, Lão giáo và tư tưởng tiến bộ Ấn Độ, Trung Quốc." },
+    "ans": "d"
+  },
+  {
+    "question": "Hồ Chí Minh có tiếp thu tư tưởng các cuộc cách mạng tư sản (Pháp, Mỹ) hay không?",
+    "choose": { "a": "Có.", "b": "Không." },
+    "ans": "a"
+  },
+  {
+    "question": "Cơ sở khẳng định đến năm 1930 tư tưởng Hồ Chí Minh được hình thành cơ bản?",
+    "choose": { "a": "Hội nghị hợp nhất các tổ chức cộng sản", "b": "Người tìm thấy con đường cứu nước qua Luận cương Lênin", "c": "Sự ra đời của Đảng và các văn kiện: Chánh cương vắn tắt, Sách lược vắn tắt.", "d": "Việc Người về nước trực tiếp lãnh đạo." },
+    "ans": "c"
+  },
+  {
+    "question": "Ưu điểm lớn nhất của chủ nghĩa Mác đối với Hồ Chí Minh là gì?",
+    "choose": { "a": "Phương pháp làm việc biện chứng", "b": "Giải phóng dân tộc thuộc địa.", "c": "Đấu tranh tự do", "d": "Chống phong kiến" },
+    "ans": "a"
+  },
+  {
+    "question": "Định nghĩa đầy đủ nhất về Tư tưởng Hồ Chí Minh được nêu ở Đại hội lần thứ mấy?",
+    "choose": { "a": "Đại hội XI", "b": "Đại hội X." },
+    "ans": "a"
+  },
+  {
+    "question": "Thuật ngữ 'tư tưởng Hồ Chí Minh' được dùng theo nghĩa nào?",
+    "choose": { "a": "Lãnh tụ", "b": "Giai cấp", "c": "Một hệ thống quan điểm lý luận", "d": "Nhóm người" },
+    "ans": "c"
+  },
+  {
+    "question": "Khái niệm Tư tưởng Hồ Chí Minh chỉ ra nội dung nào?",
+    "choose": { "a": "Về Đảng", "b": "Về thế giới", "c": "Về CNXH", "d": "Hệ thống quan điểm toàn diện sâu sắc về vấn đề cơ bản của cách mạng Việt Nam." },
+    "ans": "d"
+  },
+  {
+    "question": "Luận điểm: 'Đảng lấy chủ nghĩa Mác-Lênin và tư tưởng Hồ Chí Minh làm nền tảng' nêu ở Đại hội mấy?",
+    "choose": { "a": "X", "b": "VII", "c": "IX", "d": "VIII" },
+    "ans": "b"
+  },
+  {
+    "question": "Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là?",
+    "choose": { "a": "Mác-Lênin", "b": "Duy vật lịch sử", "c": "Duy vật biện chứng", "d": "Thế giới quan và phương pháp luận Mác - Lênin." },
+    "ans": "d"
+  },
+  {
+    "question": "Vị trí tư tưởng Hồ Chí Minh trong hệ thống tư tưởng Đảng?",
+    "choose": { "a": "Quan trọng", "b": "Rất quan trọng", "c": "Một bộ phận", "d": "Nền tảng tư tưởng, kim chỉ nam cho hành động." },
+    "ans": "d"
+  },
+  {
+    "question": "Mục đích tư tưởng Hồ Chí Minh là gì?",
+    "choose": { "a": "Giải phóng dân tộc", "b": "Giải phóng xã hội", "c": "Nước nhà độc lập, nhân dân tự do, hạnh phúc", "d": "Xây dựng nước Việt Nam giàu mạnh." },
+    "ans": "c"
+  },
+  {
+    "question": "Ý nghĩa học môn Tư tưởng Hồ Chí Minh đối với sinh viên?",
+    "choose": { "a": "Cách mạng VN", "b": "Nâng cao tư duy lý luận và giáo dục đạo đức cách mạng", "c": "Hiểu biết cách mạng thế giới.", "d": "Hiểu biết xã hội" },
+    "ans": "b"
+  },
+  {
+    "question": "Phương pháp quan trọng khi nghiên cứu tư tưởng HCM?",
+    "choose": { "a": "Logic", "b": "Thực tiễn", "c": "Phân tích văn bản kết hợp thực tiễn", "d": "Phương pháp văn bản." },
+    "ans": "c"
+  },
+  {
+    "question": "Tính đảng trong nghiên cứu tư tưởng HCM đòi hỏi?",
+    "choose": { "a": "Quan điểm Đảng", "b": "Cương lĩnh", "c": "Lập trường giai cấp công nhân", "d": "Đứng trên lập trường giai cấp công nhân và quan điểm của Đảng." },
+    "ans": "d"
+  },
+  {
+    "question": "'Có kinh nghiệm mà không có lý luận...' HCM nói về?",
+    "choose": { "a": "Thực tiễn", "b": "Thống nhất lý luận-thực tiễn", "c": "Vai trò lý luận", "d": "Căn bệnh lý luận suông." },
+    "ans": "d "
+  },
+  {
+    "question": "Theo HCM học chủ nghĩa Mác-Lênin để làm gì?",
+    "choose": { "a": "Để tìm phương pháp cách mạng", "b": "Nâng cao trình độ", "c": "Giải quyết vấn đề cụ thể", "d": "Học thuộc các luận điểm." },
+    "ans": "a"
+  },
+  {
+    "question": "Đặc điểm thế giới cuối XIX đầu XX?",
+    "choose": { "a": "Chủ nghĩa tư bản chuyển từ tự do cạnh tranh sang đế quốc chủ nghĩa", "b": "Chủ nghĩa tư bản ra đời.", "c": "Hệ thống CNXH hình thành", "d": "Chủ nghĩa cộng sản ra đời" },
+    "ans": "a"
+  },
+  {
+    "question": "Giá trị văn hóa phương Tây HCM tiếp thu?",
+    "choose": { "a": "Nho giáo", "b": "Tư tưởng nhân quyền, dân quyền của CM Pháp/Mỹ", "c": "Vị tha Phật giáo.", "d": "Tam dân" },
+    "ans": "b"
+  },
+  {
+    "question": "Cách mạng tháng Mười Nga diễn ra năm nào?",
+    "choose": { "a": "1918", "b": "1917", "c": "1915", "d": "1916" },
+    "ans": "b"
+  },
+  {
+    "question": "HCM tiếp thu giá trị cốt lõi nào trong CM Pháp 1789?",
+    "choose": { "a": "Tự do - Bình đẳng - Bác ái", "b": "Quyền sống, mưu cầu hạnh phúc.", "c": "Bình đẳng", "d": "Dân chủ" },
+    "ans": "a"
+  },
+  {
+    "question": "Phan Bội Châu khởi xướng phong trào nào?",
+    "choose": { "a": "Đông kinh nghĩa thục", "b": "Duy tân", "c": "Đông du", "d": "Chống đi phu." },
+    "ans": "c"
+  },
+  {
+    "question": "Cơ sở lý luận có vai trò quyết định bước ngoặt về chất của tư tưởng HCM?",
+    "choose": { "a": "Văn hóa phương Đông", "b": "Chủ nghĩa Mác-Lênin", "c": "Giá trị truyền thống dân tộc." },
+    "ans": "b"
+  },
+  {
+    "question": "HCM đọc Sơ thảo lần thứ nhất Luận cương của Lênin vào khi nào?",
+    "choose": { "a": "7/1921", "b": "12/1921", "c": "12/1920", "d": "7/1920" },
+    "ans": "d"
+  },
+  {
+    "question": "Thời kỳ trước 1911 có ý nghĩa gì?",
+    "choose": { "a": "Tiếp cận Mác-Lênin", "b": "Vượt qua thử thách", "c": "Tìm đường cứu nước", "d": "Hình thành tư tưởng yêu nước và chí hướng cứu nước." },
+    "ans": "d"
+  },
+  {
+    "question": "Nguyễn Ái Quốc hoạt động tại Quảng Châu (Trung Quốc) thời gian nào?",
+    "choose": { "a": "1921-1923", "b": "1927-1930", "c": "1924-1927", "d": "1923-1924" },
+    "ans": "c"
+  },
+  {
+    "question": "Nguyễn Tất Thành bắt đầu lấy tên Nguyễn Ái Quốc khi nào?",
+    "choose": { "a": "18/6/1920", "b": "18/6/1918", "c": "18/6/1917", "d": "18/6/1919" },
+    "ans": "d"
+  },
+  {
+    "question": "'Luận cương của Lênin làm tôi rất cảm động...' trích từ tác phẩm nào?",
+    "choose": { "a": "Con đường dẫn tôi đến chủ nghĩa Lênin", "b": "Cách mạng tháng 10", "c": "Lênin vĩ đại.", "d": "Đời hoạt động" },
+    "ans": "a"
+  },
+  {
+    "question": "'Chủ nghĩa chân chính nhất là chủ nghĩa Lênin' được viết trong tác phẩm?",
+    "choose": { "a": "Con đường...", "b": "Đường Kách mệnh", "c": "CM Tháng 10", "d": "Hồ Chủ Tịch" },
+    "ans": "b"
+  },
+  {
+    "question": "Đảng Cộng sản Việt Nam chính thức dùng khái niệm tư tưởng HCM tại Đại hội mấy?",
+    "choose": { "a": "Đại hội VI", "b": "Đại hội VIII", "c": "Đại hội VII", "d": "Đại hội IX" },
+    "ans": "c"
+  },
+  {
+    "question": "Mâu thuẫn cơ bản nhất trong xã hội Việt Nam dưới ách thống trị của Pháp là?",
+    "choose": { "a": "Công nhân và Tư bản", "b": "Nông dân và Địa chủ", "c": "Dân tộc Việt Nam và Thực dân Pháp", "d": "Toàn thể dân tộc VN và Thực dân Pháp xâm lược cùng tay sai." },
+    "ans": "d"
+  },
+  {
+    "question": "Nhân tố chủ quan quan trọng nhất hình thành tư tưởng HCM?",
+    "choose": { "a": "Bối cảnh lịch sử", "b": "Gia đình", "c": "Truyền thống quê hương", "d": "Khả năng tư duy, trí tuệ và đạo đức Hồ Chí Minh." },
+    "ans": "d"
+  },
+  {
+    "question": "Hội nghị thành lập Đảng 1930 diễn ra tại đâu?",
+    "choose": { "a": "Hương Cảng, Trung Quốc", "b": "Quảng Châu, Trung Quốc", "c": "Đông Bắc, Thái Lan", "d": "Cao Bằng, Việt Nam" },
+    "ans": "a"
+  },
+  {
+    "question": "Sự ra đời Đảng CSVN (1930) có ý nghĩa gì?",
+    "choose": { "a": "Chấm dứt khủng hoảng về đường lối cứu nước", "b": "Chỉ ra con đường xây dựng chủ nghĩa xã hội.", "c": "Cách mạng vô sản thắng lợi", "d": "Chấm dứt phong kiến" },
+    "ans": "a"
+  },
+  {
+    "question": "Tác phẩm 'Bản án chế độ thực dân Pháp' xuất bản lần đầu năm nào?",
+    "choose": { "a": "1923", "b": "1927", "c": "1925", "d": "1921" },
+    "ans": "c"
+  },
+  {
+    "question": "Cách mạng giải phóng dân tộc muốn thắng lợi phải?",
+    "choose": { "a": "Dựa vào tư sản", "b": "Dựa vào chính quốc", "c": "Đi theo con đường cách mạng vô sản", "d": "Dựa vào sự giúp đỡ bên ngoài." },
+    "ans": "c"
+  },
+  {
+    "question": "Theo HCM, độc lập dân tộc phải gắn với?",
+    "choose": { "a": "Tự do", "b": "Quyền con người", "c": "Hạnh phúc", "d": "Tự do và hạnh phúc của nhân dân." },
+    "ans": "d"
+  },
+  {
+    "question": "Lực lượng nòng cốt của CM giải phóng dân tộc là?",
+    "choose": { "a": "Trí thức", "b": "Liên minh Công - Nông", "c": "Tư sản dân tộc", "d": "Toàn dân" },
+    "ans": "b"
+  },
+  {
+    "question": "Đặc điểm lớn nhất của thời kỳ quá độ lên CNXH ở VN là?",
+    "choose": { "a": "Phong kiến", "b": "Tư bản", "c": "Từ một nước nông nghiệp lạc hậu tiến thẳng lên CNXH không kinh qua giai đoạn TBCN", "d": "Phát triển đi lên chủ nghĩa xã hội." },
+    "ans": "c"
+  },
+  {
+    "question": "Mối quan hệ dân tộc và CNXH theo HCM là?",
+    "choose": { "a": "Tách biệt", "b": "Độc lập dân tộc là cơ sở, tiền đề để xây dựng CNXH", "c": "CNXH là cơ sở giành độc lập", "d": "Đảm bảo quá trình" },
+    "ans": "b"
+  },
+  {
+    "question": "Mục tiêu chiến lược xuyên suốt mà HCM lựa chọn?",
+    "choose": { "a": "Độc lập dân tộc", "b": "Gắn liền CNXH", "c": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội", "d": "Giải phóng giai cấp" },
+    "ans": "c"
+  },
+  {
+    "question": "Tính chất của nền văn hóa xã hội chủ nghĩa theo HCM?",
+    "choose": { "a": "Dân tộc", "b": "Khoa học", "c": "Đại chúng", "d": "Dân tộc, khoa học và đại chúng." },
+    "ans": "d"
+  },
+  {
+    "question": "Vận dụng độc lập gắn liền CNXH cần thực hiện?",
+    "choose": { "a": "Tự hào dân tộc", "b": "Hợp tác quốc tế", "c": "Phát huy truyền thống yêu nước dân tộc.", "d": "Kiên định mục tiêu độc lập dân tộc và CNXH" },
+    "ans": "d"
+  },
+  {
+    "question": "Bản yêu sách gửi đến Hội nghị Vécxây (1919) gồm bao nhiêu điểm?",
+    "choose": { "a": "8 điểm", "b": "6 điểm", "c": "9 điểm", "d": "7 điểm" },
+    "ans": "a"
+  },
+  {
+    "question": "Nội dung độc lập dân tộc theo HCM bao gồm?",
+    "choose": { "a": "Độc lập, thống nhất, toàn vẹn lãnh thổ", "b": "Thống nhất", "c": "Toàn vẹn lãnh thổ", "d": "Độc lập hoàn toàn" },
+    "ans": "a"
+  },
+  {
+    "question": "Sáng tạo của HCM về mối quan hệ giữa CM thuộc địa và CM chính quốc?",
+    "choose": { "a": "Chủ động", "b": "Phụ thuộc", "c": "Cách mạng thuộc địa có thể giành thắng lợi trước cách mạng ở chính quốc.", "d": "Sáng tạo" },
+    "ans": "c"
+  },
+  {
+    "question": "Phương pháp đúng đắn của CM giải phóng dân tộc là?",
+    "choose": { "a": "Bạo lực cách mạng kết hợp đấu tranh chính trị và vũ trang", "b": "Hòa bình cách mạng.", "c": "Đàm phán ngoại giao", "d": "Nhân nhượng" },
+    "ans": "a"
+  },
+  {
+    "question": "Động lực quan trọng nhất để xây dựng CNXH là?",
+    "choose": { "a": "Kinh tế", "b": "Khoa học kỹ thuật", "c": "Nguồn lực con người (nhân dân)", "d": "Vốn đầu tư" },
+    "ans": "c"
+  },
+  {
+    "question": "Chủ thể chính trong xây dựng CNXH là?",
+    "choose": { "a": "Nhân dân", "b": "Đảng", "c": "Chính phủ", "d": "Công nhân" },
+    "ans": "a"
+  },
+  {
+    "question": "Đảng Cộng sản Việt Nam ra đời là sự kết hợp của?",
+    "choose": { "a": "Mác - Lênin và phong trào công nhân", "b": "Mác - Lênin và phong trào yêu nước", "c": "Phong trào công nhân và phong trào yêu nước", "d": "Chủ nghĩa Mác-Lênin, phong trào công nhân và phong trào yêu nước." },
+    "ans": "d"
+  },
+  {
+    "question": "Đảng Cộng sản Việt Nam là Đảng của?",
+    "choose": { "a": "Giai cấp công nhân, của nhân dân lao động và của dân tộc Việt Nam.", "b": "Riêng giai cấp công nhân", "c": "Nông dân", "d": "Trí thức" },
+    "ans": "a"
+  },
+  {
+    "question": "HCM nhấn mạnh: Đảng muốn vững phải có?",
+    "choose": { "a": "Quân đội mạnh", "b": "Chủ nghĩa làm cốt (chủ nghĩa Mác-Lênin)", "c": "Nhiều đảng viên", "d": "Kinh tế mạnh" },
+    "ans": "b"
+  },
+  {
+    "question": "Bản chất của Nhà nước Việt Nam mới là?",
+    "choose": { "a": "Nhà nước dân chủ tư sản", "b": "Nhà nước chuyên chính vô sản", "c": "Nhà nước của dân, do dân, vì dân dựa trên nền tảng liên minh Công-Nông-Trí", "d": "Nhà nước phong kiến" },
+    "ans": "c"
+  },
+  {
+    "question": "Cơ chế vận hành quyền lực Nhà nước là?",
+    "choose": { "a": "Tập quyền quân chủ", "b": "Tam quyền phân lập", "c": "Quyền lực là thống nhất, có sự phân công, phối hợp giữa Lập pháp - Hành pháp - Tư pháp", "d": "Hành pháp cao nhất" },
+    "ans": "c"
+  },
+  {
+    "question": "Nhà nước của dân theo HCM có nghĩa là?",
+    "choose": { "a": "Chăm lo cho dân", "b": "Tất cả mọi quyền lực trong nhà nước và xã hội đều thuộc về nhân dân", "c": "Dân phục vụ nhà nước", "d": "Nhà nước điều hành dân" },
+    "ans": "b"
+  },
+  {
+    "question": "Đặc điểm hàng đầu của Nhà nước pháp quyền theo HCM là?",
+    "choose": { "a": "Sử dụng đạo đức", "b": "Quản lý xã hội bằng pháp luật và thượng tôn pháp luật", "c": "Do nhân dân bầu ra.", "d": "Chống tham nhũng" },
+    "ans": "b"
+  },
+  {
+    "question": "Nền tảng tư tưởng và kim chỉ nan hành động của Đảng ta là?",
+    "choose": { "a": "Chủ nghĩa Mác – Lênin và Tư tưởng Hồ Chí Minh." },
+    "ans": "a"
+  },
+  {
+    "question": "Tên Đảng được thành lập vào tháng 2/1930 là?",
+    "choose": { "a": "Đảng Cộng sản Đông Dương", "b": "Đảng Cộng sản Việt Nam", "c": "Đảng Lao động Việt Nam", "d": "An Nam Cộng sản Đảng" },
+    "ans": "b"
+  },
+  {
+    "question": "Bản chất giai cấp công nhân của Nhà nước thống nhất với?",
+    "choose": { "a": "Tính nhân dân và tính dân tộc", "b": "Quyền lợi cá nhân", "c": "Tính quốc tế", "d": "Sự lãnh đạo của cá nhân" },
+    "ans": "a"
+  },
+  {
+    "question": "Đặc trưng kinh tế của CNXH theo HCM là?",
+    "choose": { "a": "Sở hữu tư nhân", "b": "Sở hữu tập thể toàn bộ", "c": "Sở hữu công cộng về tư liệu sản xuất chủ yếu", "d": "Kinh tế thị trường tự do" },
+    "ans": "c"
+  },
+  {
+    "question": "Lực lượng lãnh đạo cách mạng giải phóng dân tộc là?",
+    "choose": { "a": "Giai cấp nông dân", "b": "Giai cấp tư sản dân tộc", "c": "Giai cấp công nhân thông qua Đảng Cộng sản", "d": "Tầng lớp trí thức" },
+    "ans": "c"
+  },
+  {
+    "question": "Trong CM giải phóng dân tộc, HCM chủ trương dùng hình thức bạo lực nào?",
+    "choose": { "a": "Chỉ đấu tranh vũ trang", "b": "Chỉ đấu tranh chính trị", "c": "Kết hợp đấu tranh chính trị và đấu tranh vũ trang", "d": "Chủ nghĩa khủng bố" },
+    "ans": "c"
+  },
+  {
+    "question": "Mối quan hệ giữa CM thuộc địa và CM vô sản ở chính quốc là?",
+    "choose": { "a": "Phụ thuộc hoàn toàn", "b": "Bình đẳng, hỗ trợ nhau, CM thuộc địa có thể thắng trước", "c": "Độc lập hoàn toàn", "d": "Không liên quan" },
+    "ans": "b"
+  },
+  {
+    "question": "Theo HCM, công nông là?",
+    "choose": { "a": "Lực lượng đông đảo", "b": "Giai cấp lãnh đạo", "c": "Gốc của cách mạng", "d": "Đồng minh duy nhất" },
+    "ans": "c"
+  },
+  {
+    "question": "Con đường cách mạng mà HCM đã lựa chọn sau khi đọc Luận cương Lênin là?",
+    "choose": { "a": "Cách mạng dân chủ tư sản", "b": "Cải cách hiến pháp", "c": "Cách mạng vô sản", "d": "Phong trào dân tộc chủ nghĩa" },
+    "ans": "c"
+  },
+  {
+    "question": "Mục tiêu về chính trị của CNXH là?",
+    "choose": { "a": "Dân là chủ và nhân dân làm chủ", "b": "Tăng cường bộ máy công an", "c": "Đảng quản lý mọi thứ", "d": "Cấm đoán tư nhân" },
+    "ans": "a"
+  },
+  {
+    "question": "Đặc điểm của thời kỳ quá độ theo HCM là?",
+    "choose": { "a": "Ngắn ngủi", "b": "Dễ dàng", "c": "Cuộc đấu tranh gay go giữa cái cũ đang suy tàn và cái mới đang nảy nở", "d": "Ổn định ngay lập tức" },
+    "ans": "c"
+  },
+  {
+    "question": "Vì sao HCM cho rằng Cách mạng tháng Mười Nga là cách mạng 'đến nơi'?",
+    "choose": { "a": "Vì nó triệt để, giải phóng hoàn toàn người lao động", "b": "Vì nó giàu có", "c": "Vì nó nổ ra ở châu Âu", "d": "Vì có quân đội mạnh" },
+    "ans": "a"
+  },
+  {
+    "question": "Điều kiện quyết định để độc lập dân tộc gắn liền với CNXH là?",
+    "choose": { "a": "Sự lãnh đạo của Đảng Cộng sản", "b": "Sự giúp đỡ quốc tế", "c": "Tài nguyên thiên nhiên", "d": "Vũ khí hiện đại" },
+    "ans": "a"
+  },
+  {
+    "question": "'Không có con đường nào khác để cứu nước ngoài con đường cách mạng vô sản' được khẳng định khi nào?",
+    "choose": { "a": "Sau khi đọc Luận cương Lênin", "b": "Khi đi Pháp", "c": "Khi ở Mỹ", "d": "Năm 1945" },
+    "ans": "a"
+  },
+  {
+    "question": "HCM đánh giá CM Mỹ (1776) và CM Pháp (1789) là những cuộc cách mạng?",
+    "choose": { "a": "Thành công hoàn toàn", "b": "Cách mạng không đến nơi (không triệt để)", "c": "Cách mạng vô sản", "d": "Cách mạng tôn giáo" },
+    "ans": "b"
+  },
+  {
+    "question": "'Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc' trích từ?",
+    "choose": { "a": "Tuyên ngôn độc lập", "b": "Lời kêu gọi toàn quốc kháng chiến (1946)", "c": "Bản án chế độ thực dân Pháp", "d": "Đường Kách mệnh" },
+    "ans": "b"
+  },
+  {
+    "question": "'Tôi chỉ có một sự ham muốn, ham muốn tột bậc...' HCM nói vào thời gian nào?",
+    "choose": { "a": "1945", "b": "1954", "c": "1960", "d": "Tháng 1 năm 1946" },
+    "ans": "d"
+  },
+  {
+    "question": "Đảng lấy học thuyết nào làm nền tảng tư tưởng?",
+    "choose": { "a": "Nho giáo", "b": "Chủ nghĩa thực dụng", "c": "Chủ nghĩa Mác – Lênin.", "d": "Tam dân" },
+    "ans": "c"
+  },
+  {
+    "question": "'Đảng ta là đạo đức, là văn minh' có nghĩa là?",
+    "choose": { "a": "Đảng chỉ lo đạo đức", "b": "Đảng đại diện cho lương tri, tiến bộ và lợi ích của dân tộc", "c": "Đảng tách rời nhà nước", "d": "Đảng là hội nhóm" },
+    "ans": "b"
+  },
+  {
+    "question": "Theo HCM, Đảng lãnh đạo giống như?",
+    "choose": { "a": "Người cầm lái con thuyền cách mạng", "b": "Người lái đò", "c": "Chỉ huy quân sự", "d": "Người giám sát" },
+    "ans": "a"
+  },
+  {
+    "question": "Mục đích cao nhất của Đảng là?",
+    "choose": { "a": "Vì quyền lợi của Đảng", "b": "Giải phóng dân tộc, giải phóng giai cấp, giải phóng con người.", "c": "Giành ghế trong chính phủ", "d": "Phát triển kinh tế tư nhân" },
+    "ans": "b"
+  },
+  {
+    "question": "Nguyên tắc tổ chức cơ bản nhất của Đảng là?",
+    "choose": { "a": "Tập trung dân chủ", "b": "Tự phê bình", "c": "Kỷ luật nghiêm minh", "d": "Đoàn kết thống nhất" },
+    "ans": "a"
+  },
+  {
+    "question": "Quốc hội khóa I nước Việt Nam Dân chủ Cộng hòa họp kỳ đầu tiên khi nào?",
+    "choose": { "a": "6/1/1946", "b": "2/3/1946", "c": "3/2/1946", "d": "19/12/1946" },
+    "ans": "b"
+  },
+  {
+    "question": "Những căn bệnh 'giặc nội xâm' được HCM nhắc đến là?",
+    "choose": { "a": "Tham ô, lãng phí, quan liêu", "b": "Cậy thế, hủ hóa", "c": "Tư túng, chia rẽ", "d": "Tất cả phương án trên" },
+    "ans": "d"
+  },
+  {
+    "question": "Vũ khí sắc bén để Đảng luôn trong sạch là?",
+    "choose": { "a": "Xử phạt", "b": "Thanh tra", "c": "Tự phê bình và phê bình", "d": "Thay thế nhân sự" },
+    "ans": "c"
+  },
+  {
+    "question": "Xây dựng nhà nước pháp quyền theo HCM là xây dựng nhà nước?",
+    "choose": { "a": "Hợp hiến và hợp pháp", "b": "Chỉ dùng pháp luật", "c": "Không dùng đạo đức", "d": "Nhà nước quân đội" },
+    "ans": "a"
+  },
+  {
+    "question": "Tại Đại hội II (1951), Đảng đổi tên là gì?",
+    "choose": { "a": "Đảng Lao động Việt Nam", "b": "Đảng Cộng sản Việt Nam", "c": "Đảng Cộng sản Đông Dương", "d": "Đảng Nhân dân Cách mạng" },
+    "ans": "a"
+  },
+  {
+    "question": "Sự kết hợp Mác-Lênin với phong trào công nhân và phong trào yêu nước thể hiện?",
+    "choose": { "a": "Quy luật ra đời của Đảng Cộng sản Việt Nam", "b": "Nhiệm vụ của Đảng", "c": "Sức mạnh của Đảng", "d": "Bản chất quốc tế" },
+    "ans": "a"
+  },
+  {
+    "question": "Tên Đảng Lao động Việt Nam được sử dụng trong giai đoạn nào?",
+    "choose": { "a": "1930 - 1945", "b": "1951 - 1976", "c": "1945 - 1951", "d": "1976 đến nay" },
+    "ans": "b"
+  },
+  {
+    "question": "Câu nói 'Đảng ta là đạo đức, là văn minh' nằm trong tác phẩm?",
+    "choose": { "a": "Di chúc", "b": "Đường Kách mệnh", "c": "Diễn văn kỷ niệm 30 năm thành lập Đảng (1960)", "d": "Báo cáo chính trị" },
+    "ans": "c"
+  },
+  {
+    "question": "Độc lập dân tộc theo HCM không thể tách rời với?",
+    "choose": { "a": "Sự giàu có", "b": "Quyền lực", "c": "Sự thống nhất và toàn vẹn lãnh thổ", "d": "Sự giúp đỡ quốc tế" },
+    "ans": "c"
+  },
+  {
+    "question": "Nhiệm vụ hàng đầu của thời kỳ quá độ lên CNXH là?",
+    "choose": { "a": "Phát triển văn hóa", "b": "Xây dựng nền tảng vật chất kỹ thuật cho CNXH", "c": "Nhiệm vụ chính trị.", "d": "Cải cách hành chính" },
+    "ans": "b"
+  },
+  {
+    "question": "Đặc trưng về quan hệ xã hội trong CNXH theo HCM là?",
+    "choose": { "a": "Công bằng, dân chủ, không còn áp bức bóc lột", "b": "Bình quân chủ nghĩa", "c": "Tự do tuyệt đối", "d": "Không có chính phủ" },
+    "ans": "a"
+  },
+  {
+    "question": "HCM nêu ra bao nhiêu nguyên tắc xây dựng CNXH trong thời kỳ quá độ?",
+    "choose": { "a": "3", "b": "4", "c": "5", "d": "2" },
+    "ans": "b"
+  },
+  {
+    "question": "Con người mới xã hội chủ nghĩa cần có đặc điểm gì?",
+    "choose": { "a": "Có tinh thần làm chủ xã hội", "b": "Có đạo đức cách mạng cần, kiệm, liêm, chính", "c": "Có kiến thức khoa học kỹ thuật", "d": "Tất cả phương án trên" },
+    "ans": "d"
+  },
+  {
+    "question": "Câu 'Công nông là gốc cách mệnh' được trích từ tác phẩm nào?",
+    "choose": { "a": "Bản án chế độ thực dân Pháp", "b": "Đường Kách mệnh", "c": "Chánh cương vắn tắt", "d": "Sách lược vắn tắt" },
+    "ans": "b"
+  },
+  {
+    "question": "Vì sao HCM cho rằng nọc độc của con rắn tư bản nằm ở các thuộc địa?",
+    "choose": { "a": "Vì thuộc địa là nơi cung cấp nguyên liệu, nhân công và thị trường sống còn cho CNĐQ", "b": "Vì thuộc địa đông người hơn", "c": "Vì thuộc địa dễ đánh hơn", "d": "Vì chính quốc quá mạnh" },
+    "ans": "a"
+  },
+  {
+    "question": "Tính đến năm 1969, Chủ tịch Hồ Chí Minh đã ký lệnh công bố bao nhiêu đạo luật?",
+    "choose": { "a": "12 đạo luật", "b": "10 đạo luật", "c": "16 đạo luật", "d": "14 đạo luật" },
+    "ans": "c"
+  },
+  {
+    "question": "Theo lý luận Mác-Lênin, CNXH là giai đoạn nào của hình thái KT-XH cộng sản chủ nghĩa?",
+    "choose": { "a": "Giai đoạn cao", "b": "Giai đoạn giữa", "c": "Giai đoạn cuối", "d": "Giai đoạn thấp" },
+    "ans": "d"
+  }
+]

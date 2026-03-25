@@ -1,0 +1,282 @@
+[
+  {
+    "quest": "Luận điểm: \"Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam...\" được nêu tại văn kiện Đại hội lần thứ mấy của Đảng?",
+    "choose": ["Văn kiện Đại hội VII", "Văn kiện Đại hội IX", "Văn kiện Đại hội VIII", "Văn kiện Đại hội X"],
+    "anss": "Văn kiện Đại hội IX"
+  },
+  {
+    "quest": "Khái niệm tư tưởng Hồ Chí Minh được Đảng ta chính thức sử dụng vào thời gian nào?",
+    "choose": ["Năm 1991", "Năm 1930", "Năm 1969", "Năm 1945"],
+    "anss": "Năm 1991"
+  },
+  {
+    "quest": "\"Hình thành tư tưởng yêu nước và chí hướng tìm đường cứu nước mới\" thuộc giai đoạn nào trong quá trình hình thành và phát triển tư tưởng HCM?",
+    "choose": ["Năm 1920 - 1930", "Trước năm 1911", "Năm 1930 - 1941", "Năm 1911 - 1920"],
+    "anss": "Trước năm 1911"
+  },
+  {
+    "quest": "Nguyễn Tất Thành lên tàu Amiral Latouche-Tréville để ra đi tìm đường cứu nước tại đâu? Vào thời gian nào?",
+    "choose": ["2/6/1911 tại Sài Gòn", "6/5/1911 tại Bến cảng Nhà Rồng", "5/6/1911 tại Bến cảng Nhà Rồng", "4/6/1911 tại Bến cảng Nhà Rồng"],
+    "anss": "5/6/1911 tại Bến cảng Nhà Rồng"
+  },
+  {
+    "quest": "\"Hình thành tư tưởng cứu nước, giải phóng dân tộc Việt Nam theo con đường cách mạng vô sản\" thuộc giai đoạn nào?",
+    "choose": ["Năm 1930 - 1941", "Trước năm 1911", "Năm 1920 - 1930", "Năm 1911 - 1920"],
+    "anss": "Năm 1911 - 1920"
+  },
+  {
+    "quest": "\"Hình thành những nội dung cơ bản tư tưởng về cách mạng Việt Nam\" thuộc giai đoạn nào?",
+    "choose": ["Năm 1920 - 1930", "Năm 1930 - 1941", "Trước năm 1911", "Năm 1911 - 1920"],
+    "anss": "Năm 1920 - 1930"
+  },
+  {
+    "quest": "\"Tư tưởng Hồ Chí Minh tiếp tục phát triển, soi sáng cho sự nghiệp cách mạng của Đảng và nhân dân ta\" thuộc giai đoạn nào?",
+    "choose": ["Năm 1930 - 1941", "Năm 1920 - 1930", "Năm 1941 - 1969", "Năm 1911 - 1920"],
+    "anss": "Năm 1941 - 1969"
+  },
+  {
+    "quest": "Giai đoạn nào là thời kỳ \"thử thách, giữ vững định hướng cách mạng\"?",
+    "choose": ["Năm 1930 - 1941", "Năm 1920 - 1930", "Trước năm 1911", "Năm 1911 - 1920"],
+    "anss": "Năm 1930 - 1941"
+  },
+  {
+    "quest": "Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn độc lập vào ngày tháng năm nào?",
+    "choose": ["1/9/1945", "2/9/1946", "1/9/1946", "2/9/1945"],
+    "anss": "2/9/1945"
+  },
+  {
+    "quest": "Mục tiêu và con đường cách mạng trong Cương lĩnh chính trị đầu tiên của Đảng là gì?",
+    "choose": ["Chấm dứt cuộc khủng hoảng về đường lối cứu nước", "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản", "Đẩy mạnh hoạt động chính trị; tổ chức; chuẩn bị thành lập Đảng", "Tích cực sử dụng báo chí Pháp lên án chủ nghĩa thực dân"],
+    "anss": "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản"
+  },
+  {
+    "quest": "Giá trị truyền thống nào là cơ sở quan trọng nhất giúp Hồ Chí Minh xây dựng hệ thống quan điểm của mình?",
+    "choose": ["Tinh thần đoàn kết, gắn kết cộng đồng", "Chủ nghĩa nhân văn của dân tộc", "Chủ nghĩa yêu nước", "Truyền thống cần cù, yêu lao động"],
+    "anss": "Chủ nghĩa yêu nước"
+  },
+  {
+    "quest": "Cơ sở lý luận nào có vai trò quyết định tới việc hình thành tư tưởng Hồ Chí Minh?",
+    "choose": ["Giá trị truyền thống của dân tộc Việt Nam", "Giá trị văn hóa phương Đông", "Giá trị văn hóa phương Tây", "Chủ nghĩa Mác - Lênin"],
+    "anss": "Chủ nghĩa Mác - Lênin"
+  },
+  {
+    "quest": "Khái niệm Tư tưởng Hồ Chí Minh đã chỉ ra nội dung nào sau đây?",
+    "choose": ["Hệ thống quan điểm về cách mạng thế giới", "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam", "Hệ thống quan điểm về Đảng Cộng sản Việt Nam", "Hệ thống quan điểm về quá trình xây dựng chủ nghĩa xã hội"],
+    "anss": "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam"
+  },
+  {
+    "quest": "Khái niệm tư tưởng HCM bao gồm mấy nội dung?",
+    "choose": ["4", "2", "5", "3"],
+    "anss": "3"
+  },
+  {
+    "quest": "Đối tượng nghiên cứu của Tư tưởng Hồ Chí Minh là gì?",
+    "choose": ["Hệ thống quan điểm được vận động trong thực tiễn", "Hệ thống quan điểm về quá trình xây dựng chủ nghĩa xã hội", "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam và hệ thống quan điểm đó được vận động trong thực tiễn", "Hệ thống quan điểm lý luận về cách mạng Việt Nam"],
+    "anss": "Hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam và hệ thống quan điểm đó được vận động trong thực tiễn"
+  },
+  {
+    "quest": "Có mấy phương pháp cụ thể khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+    "choose": ["4", "3", "5", "2"],
+    "anss": "5"
+  },
+  {
+    "quest": "Học tập môn Tư tưởng Hồ Chí Minh có ý nghĩa như thế nào đối với sinh viên?",
+    "choose": ["Góp phần nâng cao hiểu biết xã hội", "Góp phần nâng cao hiểu biết về cách mạng Việt Nam", "Góp phần nâng cao hiểu biết về cách mạng thế giới", "Góp phần nâng cao năng lực tư duy lý luận"],
+    "anss": "Góp phần nâng cao năng lực tư duy lý luận"
+  },
+  {
+    "quest": "Tư tưởng Hồ Chí Minh có ý nghĩa như thế nào đối với cách mạng Việt Nam?",
+    "choose": ["Góp phần nâng cao hiểu biết xã hội", "Là nền tảng tư tưởng và kim chỉ nam hành động cho cách mạng Việt Nam", "Mở ra con đường hợp tác quốc tế", "Mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc"],
+    "anss": "Là nền tảng tư tưởng và kim chỉ nam hành động cho cách mạng Việt Nam"
+  },
+  {
+    "quest": "Tư tưởng Hồ Chí Minh có ý nghĩa như thế nào đối với sự phát triển tiến bộ của nhân loại?",
+    "choose": ["Đưa cách mạng giải phóng dân tộc Việt Nam đến thắng lợi", "Giúp Đảng, nhân dân ta nhận thức đúng vấn đề lớn liên quan đến bảo vệ độc lập dân tộc", "Là nền tảng tư tưởng và kim chỉ nam hành động cho cách mạng Việt Nam", "Mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc gắn với sự tiến bộ xã hội"],
+    "anss": "Mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc gắn với sự tiến bộ xã hội"
+  },
+  {
+    "quest": "Giai đoạn vượt qua khó khăn thử thách, giữ vững đường lối, phương pháp cách mạng Việt Nam đúng đắn, sáng tạo là giai đoạn nào?",
+    "choose": ["Giai đoạn 1930 - 1941", "Giai đoạn 1911 - 1920", "Trước năm 1911", "Giai đoạn 1920 - 1930"],
+    "anss": "Giai đoạn 1930 - 1941"
+  },
+  {
+    "quest": "Trong sự hình thành và phát triển tư tưởng Hồ Chí Minh, thời kỳ trước năm 1911 có ý nghĩa như thế nào?",
+    "choose": ["Thời kỳ tìm đường cứu nước", "Thời kỳ hình thành tư tưởng yêu nước và chí hướng cứu nước", "Thời kỳ tiếp cận với chủ nghĩa Mác - Lênin", "Thời kỳ vượt qua khó khăn thử thách"],
+    "anss": "Thời kỳ hình thành tư tưởng yêu nước và chí hướng cứu nước"
+  },
+  {
+    "quest": "Luận điểm: \"Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng chủ nghĩa chân chính nhất, chắc chắn nhất, cách mệnh nhất là chủ nghĩa Lênin\" được thể hiện trong tác phẩm nào?",
+    "choose": ["Con đường dẫn tôi đến với chủ nghĩa Lênin", "Cách mạng Tháng Mười và con đường giải phóng dân tộc", "Đời hoạt động của Hồ Chủ tịch", "Đường Kách mệnh"],
+    "anss": "Đường Kách mệnh"
+  },
+  {
+    "quest": "Luận điểm: \"Toàn Đảng, toàn dân ta đoàn kết phấn đấu, xây dựng một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh...\" được thể hiện trong tác phẩm nào?",
+    "choose": ["Con đường dẫn tôi đến với chủ nghĩa Lênin", "Di chúc", "Đường Kách mệnh", "Cách mạng Tháng Mười và con đường giải phóng dân tộc"],
+    "anss": "Di chúc"
+  },
+  {
+    "quest": "Cơ sở lý luận nào có vai trò quyết định tới việc hình thành tư tưởng Hồ Chí Minh?",
+    "choose": ["Giá trị truyền thống của dân tộc Việt Nam", "Giá trị văn hóa phương Đông", "Chủ nghĩa Mác - Lênin", "Giá trị văn hóa phương Tây"],
+    "anss": "Chủ nghĩa Mác - Lênin"
+  },
+  {
+    "quest": "Tư tưởng Hồ Chí Minh được hình thành và phát triển qua mấy giai đoạn?",
+    "choose": ["3", "5", "6", "4"],
+    "anss": "5"
+  },
+  {
+    "quest": "Nguyễn Ái Quốc gửi \"Bản yêu sách của nhân dân An Nam\" tới Hội nghị Véc-xây vào thời gian nào?",
+    "choose": ["6/1919", "6/1916", "6/1917", "6/1920"],
+    "anss": "6/1919"
+  },
+  {
+    "quest": "Luận điểm: \"Đảng lấy chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng, kim chỉ nam cho hành động\" được nêu ra tại Văn kiện Đại hội lần thứ mấy?",
+    "choose": ["Đại hội IX", "Đại hội VII", "Đại hội X", "Đại hội VIII"],
+    "anss": "Đại hội VII"
+  },
+  {
+    "quest": "Luận điểm: \"Tư tưởng Hồ Chí Minh là kết quả sự vận dụng sáng tạo chủ nghĩa Mác Lênin trong điều kiện cụ thể của nước ta...\" được nêu ra tại Văn kiện Đại hội lần thứ mấy?",
+    "choose": ["Đại hội VII", "Đại hội IX", "Đại hội X", "Đại hội VIII"],
+    "anss": "Đại hội IX"
+  },
+  {
+    "quest": "Thuật ngữ \"tư tưởng Hồ Chí Minh\" được dùng theo nghĩa nào?",
+    "choose": ["Là tư tưởng của một cá nhân", "Là tư tưởng của một giai cấp, một dân tộc", "Là tư tưởng của một nhóm người", "Là tư tưởng của một lãnh tụ"],
+    "anss": "Là tư tưởng của một giai cấp, một dân tộc"
+  },
+  {
+    "quest": "Khái niệm tư tưởng HCM: \"...là tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta...\" được nêu ra tại Đại hội lần thứ mấy?",
+    "choose": ["Đại hội VIII", "Đại hội XI", "Đại hội IX", "Đại hội X"],
+    "anss": "Đại hội XI"
+  },
+  {
+    "quest": "Nội dung cơ bản của Hồ Chí Minh về hợp tác quốc tế là?",
+    "choose": ["Việt Nam muốn làm bạn với tất cả mọi nước dân chủ, không gây thù oán với một ai", "Không kết giao với bất kỳ nước nào", "Trở thành một bộ phận cấu thành nền tảng tinh thần vững chắc", "Khẳng định hợp tác quốc tế là xu thế yếu của thời đại"],
+    "anss": "Việt Nam muốn làm bạn với tất cả mọi nước dân chủ, không gây thù oán với một ai"
+  },
+  {
+    "quest": "Phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là gì?",
+    "choose": ["Chủ nghĩa duy vật lịch sử", "Chủ nghĩa duy vật biện chứng", "Chủ nghĩa Mác - Lênin và phương pháp luận của chính Hồ Chí Minh", "Chủ nghĩa Mác - Lênin"],
+    "anss": "Chủ nghĩa Mác - Lênin và phương pháp luận của chính Hồ Chí Minh"
+  },
+  {
+    "quest": "Tư tưởng Hồ Chí Minh có vị trí như thế nào trong hệ thống tư tưởng Đảng Cộng sản Việt Nam?",
+    "choose": ["Là một bộ phận trong hệ thống tư tưởng", "Là bộ phận quan trọng trong hệ thống tư tưởng", "Là bộ phận nền tảng, kim chỉ nam cho hành động của Đảng", "Là bộ phận rất quan trọng"],
+    "anss": "Là bộ phận nền tảng, kim chỉ nam cho hành động của Đảng"
+  },
+  {
+    "quest": "Mục đích của tư tưởng Hồ Chí Minh là gì?",
+    "choose": ["Xây dựng nước Việt Nam hòa bình, thống nhất", "Xây dựng nước Việt Nam giàu mạnh", "Giải phóng xã hội", "Giải phóng dân tộc"],
+    "anss": "Giải phóng dân tộc"
+  },
+  {
+    "quest": "Một trong những phương pháp quan trọng khi nghiên cứu tư tưởng Hồ Chí Minh là?",
+    "choose": ["Phương pháp phân tích văn bản", "Phương pháp nghiên cứu hoạt động thực tiễn của Hồ Chí Minh", "Phương pháp phân tích văn bản kết hợp nghiên cứu hoạt động thực tiễn", "Phương pháp logic"],
+    "anss": "Phương pháp phân tích văn bản kết hợp nghiên cứu hoạt động thực tiễn"
+  },
+  {
+    "quest": "Có bao nhiêu nguyên tắc và quan điểm phương pháp luận trong nghiên cứu tư tưởng HCM?",
+    "choose": ["3", "5", "4", "2"],
+    "anss": "5"
+  },
+  {
+    "quest": "Tính đảng trong nguyên tắc phương pháp luận nghiên cứu tư tưởng Hồ Chí Minh là gì?",
+    "choose": ["Đứng trên lập trường giai cấp công nhân, quán triệt Cương lĩnh, đường lối của Đảng", "Đứng trên lập trường giai cấp công nhân", "Đứng trên quan điểm chủ nghĩa Mác - Lênin", "Đứng trên quan điểm, đường lối của Đảng"],
+    "anss": "Đứng trên lập trường giai cấp công nhân, quán triệt Cương lĩnh, đường lối của Đảng"
+  },
+  {
+    "quest": "Luận điểm: \"Có kinh nghiệm mà không có lý luận, cũng như một mắt sáng, một mắt mờ\" nói lên điều gì?",
+    "choose": ["Nhấn mạnh vai trò của lý luận", "Chỉ ra căn bệnh lý luận suông", "Nhấn mạnh sự thống nhất giữa lý luận và thực tiễn", "Nhấn mạnh vai trò của thực tiễn"],
+    "anss": "Nhấn mạnh sự thống nhất giữa lý luận và thực tiễn"
+  },
+  {
+    "quest": "Theo Hồ Chí Minh, học chủ nghĩa Mác- Lênin là để làm gì?",
+    "choose": ["Để phân tích và giải quyết các vấn đề cụ thể của cách mạng Việt Nam", "Để có phương pháp làm việc khoa học", "Học thuộc các luận điểm lý luận", "Để nâng cao trình độ bản thân"],
+    "anss": "Để phân tích và giải quyết các vấn đề cụ thể của cách mạng Việt Nam"
+  },
+  {
+    "quest": "Cách mạng tháng Mười Nga diễn ra năm nào?",
+    "choose": ["1915", "1917", "1916", "1918"],
+    "anss": "1917"
+  },
+  {
+    "quest": "Khi thực dân Pháp xâm lược Việt Nam, mâu thuẫn cơ bản chi phối đời sống xã hội lúc bấy giờ là mâu thuẫn nào?",
+    "choose": ["Mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược", "Mâu thuẫn giữa nông dân và địa chủ phong kiến", "Mâu thuẫn giữa công nhân và tư sản", "Mâu thuẫn giữa công nhân, nông dân và thực dân Pháp"],
+    "anss": "Mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược"
+  },
+  {
+    "quest": "Cơ sở hình thành tư tưởng HCM gồm những cơ sở nào?",
+    "choose": ["Cơ sở thực tiễn, cơ sở lý luận, nhân tố chủ quan HCM", "Nhân tố chủ quan HCM, cơ sở thực tiễn", "Cơ sở thực tiễn, cơ sở lý luận", "Cơ sở lý luận, nhân tố chủ quan HCM"],
+    "anss": "Cơ sở thực tiễn, cơ sở lý luận, nhân tố chủ quan HCM"
+  },
+  {
+    "quest": "Đặc điểm nổi bật của thực tiễn thế giới cuối thế kỷ XIX đầu thế kỷ XX là gì?",
+    "choose": ["Chủ nghĩa xã hội trở thành hệ thống thế giới", "Chủ nghĩa tư bản ra đời", "Chủ nghĩa cộng sản ra đời", "Chủ nghĩa tư bản phát triển sang giai đoạn đế quốc chủ nghĩa"],
+    "anss": "Chủ nghĩa tư bản phát triển sang giai đoạn đế quốc chủ nghĩa"
+  },
+  {
+    "quest": "Hồ Chí Minh đã tiếp thu được giá trị tư tưởng nào sau đây trong Đại cách mạng Pháp 1789?",
+    "choose": ["Tự do - Bình đẳng - Bác ái", "Quyền sống, quyền mưu cầu hạnh phúc", "Quyền bình đẳng", "Quyền dân chủ"],
+    "anss": "Tự do - Bình đẳng - Bác ái"
+  },
+  {
+    "quest": "Đối với Hồ Chí Minh, ưu điểm lớn nhất trong chủ nghĩa Mác - Lênin là gì?",
+    "choose": ["Đấu tranh vì tự do, dân chủ", "Chống phong kiến", "Giải phóng các dân tộc thuộc địa", "Phương pháp làm việc biện chứng"],
+    "anss": "Phương pháp làm việc biện chứng"
+  },
+  {
+    "quest": "Luận điểm: \"Luận cương của Lênin làm cho tôi rất cảm động, phấn khởi... Đây là cái cần thiết cho chúng ta...\" trích từ tác phẩm nào?",
+    "choose": ["Con đường dẫn tôi đến với chủ nghĩa Lênin", "Lênin vĩ đại", "Đời hoạt động của Hồ Chủ tịch", "Cách mạng Tháng Mười và con đường giải phóng dân tộc"],
+    "anss": "Con đường dẫn tôi đến với chủ nghĩa Lênin"
+  },
+  {
+    "quest": "Chí sĩ yêu nước Phan Bội Châu khởi xướng phong trào nào sau đây?",
+    "choose": ["Đông du", "Duy tân", "Đông kinh nghĩa thục", "Chống đi phu, chống thu thuế"],
+    "anss": "Đông du"
+  },
+  {
+    "quest": "Giá trị văn hóa phương Tây được Hồ Chí Minh tiếp thu góp phần hình thành tư tưởng của Người là:",
+    "choose": ["Tư tưởng dân chủ và cách mạng trong cách mạng Pháp và cách mạng Mỹ", "Những mặt tích cực của Nho Giáo", "Tư tưởng vị tha của Phật giáo", "Chủ nghĩa Tam dân của Tôn Trung Sơn"],
+    "anss": "Tư tưởng dân chủ và cách mạng trong cách mạng Pháp và cách mạng Mỹ"
+  },
+  {
+    "quest": "Một trong những nhân tố chủ quan hình thành nên tư tưởng Hồ Chí Minh là?",
+    "choose": ["Khả năng tư duy và trí tuệ Hồ Chí Minh", "Bối cảnh lịch sử Việt Nam cuối thế kỷ XIX", "Gia đình và quê hương Hồ Chí Minh", "Giá trị truyền thống dân tộc"],
+    "anss": "Khả năng tư duy và trí tuệ Hồ Chí Minh"
+  },
+  {
+    "quest": "Đầu năm 1930, tại Hương Cảng, Hồ Chí Minh chủ trì Hội nghị hợp nhất thành lập tổ chức nào?",
+    "choose": ["Hội Liên hiệp các dân tộc bị áp bức", "Hội Liên hiệp thuộc địa", "Hội Việt Nam cách mạng thanh niên", "Đặng Cộng sản Việt Nam"],
+    "anss": "Đặng Cộng sản Việt Nam"
+  },
+  {
+    "quest": "Hồ Chí Minh đọc Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và thuộc địa của Lênin vào thời gian nào?",
+    "choose": ["7/1920", "7/1921", "12/1920", "12/1921"],
+    "anss": "7/1920"
+  },
+  {
+    "quest": "Nguyễn Ái Quốc hoạt động tại Quảng Châu, Trung Quốc vào thời gian nào?",
+    "choose": ["1923 - 1924", "1927 - 1930", "1924 - 1927", "1921 - 1923"],
+    "anss": "1924 - 1927"
+  },
+  {
+    "quest": "Nguyễn Tất Thành lấy tên Nguyễn Ái Quốc vào thời gian nào?",
+    "choose": ["18/6/1919", "18/6/1917", "18/6/1918", "18/6/1920"],
+    "anss": "18/6/1919"
+  },
+  {
+    "quest": "Sự ra đời của Đảng Cộng sản Việt Nam với Cương lĩnh chính trị đầu tiên có ý nghĩa như thế nào?",
+    "choose": ["Chấm dứt cuộc khủng hoảng về đường lối cứu nước", "Chỉ ra con đường xây dựng chủ nghĩa xã hội", "Chấm dứt chế độ phong kiến Việt Nam", "Tìm thấy con đường cách mạng vô sản"],
+    "anss": "Chấm dứt cuộc khủng hoảng về đường lối cứu nước"
+  },
+  {
+    "quest": "Tác phẩm \"Bản án chế độ thực dân Pháp\" của Hồ Chí Minh được xuất bản năm nào?",
+    "choose": ["1927", "1925", "1923", "1921"],
+    "anss": "1925"
+  },
+  {
+    "quest": "Thời kỳ hình thành những nội dung cơ bản tư tưởng về cách mạng Việt Nam là thời kỳ nào?",
+    "choose": ["Trước năm 1911", "Thời kỳ 1920 - 1930", "Thời kỳ 1930 - 1941", "Thời kỳ 1911 - 1920"],
+    "anss": "Thời kỳ 1920 - 1930"
+  }
+]

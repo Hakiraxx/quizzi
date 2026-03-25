@@ -443,6 +443,8 @@
         let randomizedQuestions = [];
         let wrongQuestionsIndices = [];
         let isRetryMode = false;
+        let noRandomize = false;
+        let questionOptionOrders = {};
 
         // Get quiz ID from URL
         function getQuizId() {
@@ -460,22 +462,108 @@
             return shuffled;
         }
 
+        // Get file param from URL
+        function getFileParam() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('file');
+        }
+
+        // Convert tutuonghcm format to standard format
+        function convertTutuongFormat(data) {
+            return data.map((item, index) => {
+                const keys = Object.keys(item.choose);
+                const options = keys.map(k => item.choose[k]);
+                const correctIndex = keys.indexOf(item.ans);
+                return {
+                    id: index + 1,
+                    question: item.question,
+                    options: options,
+                    correctAnswer: correctIndex
+                };
+            });
+        }
+
+        // Convert chosse format (array + uppercase ans) to standard format
+        function convertChosseFormat(data) {
+            const ansMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
+            return data.map((item, index) => {
+                return {
+                    id: index + 1,
+                    question: item.question,
+                    options: item.chosse,
+                    correctAnswer: ansMap[item.ans.toUpperCase()] || 0
+                };
+            });
+        }
+
+        // Pre-compute option orders for consistent display
+        function initOptionOrders() {
+            questionOptionOrders = {};
+            randomizedQuestions.forEach(q => {
+                const optionsWithIndices = q.options.map((option, index) => ({
+                    text: option,
+                    originalIndex: index
+                }));
+                questionOptionOrders[q.id] = noRandomize ? optionsWithIndices : shuffleArray(optionsWithIndices);
+            });
+        }
+
         // Load quiz data
         async function loadQuizData() {
             try {
-                const response = await fetch('data.json');
-                const data = await response.json();
-                quizData = data.quizzes;
-                currentQuizIndex = getQuizId();
-                
-                if (currentQuizIndex >= quizData.length) {
+                const fileParam = getFileParam();
+
+                if (fileParam) {
+                    const response = await fetch(fileParam);
+                    const data = await response.json();
+
+                    let questions;
+                    let title = 'Quiz';
+                    let subject = 'Câu hỏi trắc nghiệm';
+
+                    // Try to get title from manifest
+                    try {
+                        const manifestResponse = await fetch('quizzes-manifest.json');
+                        const manifest = await manifestResponse.json();
+                        const entry = manifest.quizzes.find(q => q.file === fileParam);
+                        if (entry) {
+                            title = entry.title || title;
+                            subject = entry.subject || subject;
+                        }
+                    } catch (e) {}
+
+                    if (Array.isArray(data) && data.length > 0 && data[0].chosse) {
+                        questions = convertChosseFormat(data);
+                    } else if (Array.isArray(data) && data.length > 0 && data[0].choose) {
+                        questions = convertTutuongFormat(data);
+                    } else {
+                        questions = data;
+                    }
+
+                    quizData = [{
+                        title: title,
+                        subject: 'Câu hỏi trắc nghiệm',
+                        questions: questions
+                    }];
                     currentQuizIndex = 0;
+                    noRandomize = true;
+                    randomizedQuestions = [...questions];
+                } else {
+                    const response = await fetch('data.json');
+                    const data = await response.json();
+                    quizData = data.quizzes;
+                    currentQuizIndex = getQuizId();
+
+                    if (currentQuizIndex >= quizData.length) {
+                        currentQuizIndex = 0;
+                    }
+
+                    noRandomize = false;
+                    randomizedQuestions = shuffleArray(quizData[currentQuizIndex].questions);
                 }
-                
-                // Randomize questions
-                randomizedQuestions = shuffleArray(quizData[currentQuizIndex].questions);
+
+                initOptionOrders();
                 isRetryMode = false;
-                
                 displayQuestion();
             } catch (error) {
                 console.error('Lỗi tải dữ liệu:', error);
@@ -518,14 +606,11 @@
                 optionsContainer.appendChild(hintDiv);
             }
             
-            // Create array of options with their indices
-            const optionsWithIndices = question.options.map((option, index) => ({
+            // Use pre-stored option order (consistent across navigation)
+            const shuffledOptions = questionOptionOrders[question.id] || question.options.map((option, index) => ({
                 text: option,
                 originalIndex: index
             }));
-            
-            // Shuffle options
-            const shuffledOptions = [...optionsWithIndices].sort(() => Math.random() - 0.5);
             
             shuffledOptions.forEach((optionData, displayIndex) => {
                 const optionDiv = document.createElement('div');
@@ -573,17 +658,9 @@
                 optionsContainer.appendChild(optionDiv);
             });
             
-            // Add confirm button for multiple choice
-            if (isMultiple) {
-                const confirmBtnContainer = document.createElement('div');
-                confirmBtnContainer.style.marginTop = '15px';
-                const confirmBtn = document.createElement('button');
-                confirmBtn.className = 'btn-confirm';
-                confirmBtn.id = 'confirmBtn';
-                confirmBtn.textContent = 'Xác nhận đáp án';
-                confirmBtn.onclick = () => confirmMultipleAnswer(question);
-                confirmBtnContainer.appendChild(confirmBtn);
-                optionsContainer.appendChild(confirmBtnContainer);
+            // If already answered, show feedback
+            if (!isMultiple && userAnswers[question.id] !== undefined) {
+                showAnswerFeedback(question);
             }
             
             // Update buttons
@@ -592,50 +669,65 @@
             document.getElementById('nextBtn').textContent = isLastQuestion ? 'Kết thúc' : 'Câu tiếp →';
         }
 
-        // Select an answer (for single choice)
-        function selectAnswer(optionIndex, questionId) {
-            userAnswers[questionId] = optionIndex;
-            
-            // Show feedback
-            const question = randomizedQuestions[currentQuestionIndex];
-            const isCorrect = optionIndex === question.correctAnswer;
-            
-            // Disable all options after selecting
+        // Show correct/incorrect feedback on options and lock them
+        function showAnswerFeedback(question) {
+            const userAnswer = userAnswers[question.id];
             const options = document.querySelectorAll('.option');
             options.forEach(option => {
-                option.classList.add('disabled');
-                option.classList.remove('selected');
+                // Clear previous feedback
+                option.classList.remove('correct', 'incorrect');
+                const oldFeedback = option.querySelector('.feedback-icon');
+                if (oldFeedback) oldFeedback.remove();
+
                 const input = option.querySelector('input');
+                const val = parseInt(input.value);
+
+                if (val === question.correctAnswer) {
+                    option.classList.add('correct');
+                    const fb = document.createElement('span');
+                    fb.className = 'feedback-icon';
+                    fb.style.color = '#4caf50';
+                    fb.textContent = '✓';
+                    option.appendChild(fb);
+                } else if (val === userAnswer) {
+                    option.classList.add('incorrect');
+                    const fb = document.createElement('span');
+                    fb.className = 'feedback-icon';
+                    fb.style.color = '#f44336';
+                    fb.textContent = '✗';
+                    option.appendChild(fb);
+                }
+
+                // Lock option
+                option.classList.add('disabled');
                 input.disabled = true;
             });
-            
-            // Highlight the selected option
-            const selectedOption = document.querySelector(`input[value="${optionIndex}"]`).parentElement;
-            if (isCorrect) {
-                selectedOption.classList.add('correct');
-                const feedback = document.createElement('span');
-                feedback.className = 'feedback-icon';
-                feedback.style.color = '#4caf50';
-                feedback.textContent = '✓';
-                selectedOption.appendChild(feedback);
-            } else {
-                selectedOption.classList.add('incorrect');
-                const feedback = document.createElement('span');
-                feedback.className = 'feedback-icon';
-                feedback.style.color = '#f44336';
-                feedback.textContent = '✗';
-                selectedOption.appendChild(feedback);
-                
-                // Show correct answer in green
-                const correctIndex = question.correctAnswer;
-                const correctOption = document.querySelector(`input[value="${correctIndex}"]`).parentElement;
-                correctOption.classList.add('correct');
-                const correctFeedback = document.createElement('span');
-                correctFeedback.className = 'feedback-icon';
-                correctFeedback.style.color = '#4caf50';
-                correctFeedback.textContent = '✓';
-                correctOption.appendChild(correctFeedback);
-            }
+        }
+
+        // Select an answer (for single choice)
+        function selectAnswer(optionIndex, questionId) {
+            // If already answered, do nothing (locked)
+            if (userAnswers[questionId] !== undefined) return;
+
+            userAnswers[questionId] = optionIndex;
+
+            const question = randomizedQuestions[currentQuestionIndex];
+
+            // Update visual selection
+            const options = document.querySelectorAll('.option');
+            options.forEach(option => {
+                option.classList.remove('selected');
+                const input = option.querySelector('input');
+                if (parseInt(input.value) === optionIndex) {
+                    option.classList.add('selected');
+                    input.checked = true;
+                } else {
+                    input.checked = false;
+                }
+            });
+
+            // Show correct/incorrect feedback and lock
+            showAnswerFeedback(question);
         }
 
         // Toggle answer for multiple choice questions
@@ -884,13 +976,17 @@
             });
             
             // Shuffle the wrong questions
-            randomizedQuestions = shuffleArray(randomizedQuestions);
+            if (!noRandomize) {
+                randomizedQuestions = shuffleArray(randomizedQuestions);
+            }
             
             // Reset for retry
             currentQuestionIndex = 0;
             userAnswers = {};
             wrongQuestionsIndices = [];
             isRetryMode = true;
+            
+            initOptionOrders();
             
             // Switch back to quiz screen
             document.getElementById('resultsScreen').classList.remove('active');

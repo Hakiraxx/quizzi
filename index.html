@@ -139,12 +139,38 @@
     <script>
         let quizData = [];
 
-        // Load quiz data
+        // Load quiz data from manifest
         async function loadQuizData() {
             try {
-                const response = await fetch('data.json');
-                const data = await response.json();
-                quizData = data.quizzes;
+                // Load manifest file
+                const manifestResponse = await fetch('quizzes-manifest.json');
+                const manifest = await manifestResponse.json();
+
+                quizData = [];
+
+                for (const entry of manifest.quizzes) {
+                    try {
+                        const response = await fetch(entry.file);
+                        const data = await response.json();
+
+                        if (entry.type === 'builtin' && data.quizzes) {
+                            // data.json format: { quizzes: [...] }
+                            data.quizzes.forEach(q => quizData.push(q));
+                        } else {
+                            // External JSON files (tutuonghcm, etc.)
+                            const questionCount = Array.isArray(data) ? data.length : (data.questions ? data.questions.length : 0);
+                            quizData.push({
+                                title: entry.title || entry.file,
+                                subject: entry.subject || 'Câu hỏi trắc nghiệm',
+                                file: entry.file,
+                                questionCount: questionCount
+                            });
+                        }
+                    } catch (e) {
+                        console.error(`Lỗi tải ${entry.file}:`, e);
+                    }
+                }
+
                 displayQuizzes();
             } catch (error) {
                 console.error('Lỗi tải dữ liệu:', error);
@@ -159,10 +185,14 @@
             
             quizData.forEach((quiz, index) => {
                 const card = document.createElement('a');
-                card.href = `quiz.html?id=${index}`;
+                if (quiz.file) {
+                    card.href = `quiz.html?file=${quiz.file}`;
+                } else {
+                    card.href = `quiz.html?id=${index}`;
+                }
                 card.className = 'quiz-card';
                 
-                const questionCount = quiz.questions.length;
+                const questionCount = quiz.questionCount || quiz.questions.length;
                 card.innerHTML = `
                     <h3>${quiz.title}</h3>
                     <p>${quiz.subject}</p>

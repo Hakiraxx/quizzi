@@ -4,6 +4,7 @@ let currentQuestionIndex = 0;
 let userAnswers = {};
 let isAnswered = false;
 let shuffledQuestions = []; // Mảng lưu câu hỏi đã xáo trộn
+let shuffledOptionsMap = {}; // Lưu thứ tự đáp án đã xáo trộn cho mỗi câu hỏi
 
 // Load quiz data
 async function loadQuizData() {
@@ -48,10 +49,20 @@ function startQuiz(quizIndex) {
     currentQuestionIndex = 0;
     userAnswers = {};
     isAnswered = false;
+    shuffledOptionsMap = {};
     
     // Xáo trộn câu hỏi để không trùng lặp và mỗi câu chỉ xuất hiện 1 lần
     const quiz = quizData[currentQuizIndex];
     shuffledQuestions = [...quiz.questions].sort(() => Math.random() - 0.5);
+    
+    // Xáo trộn đáp án cho mỗi câu hỏi (chỉ 1 lần)
+    shuffledQuestions.forEach(question => {
+        const optionsWithIndices = question.options.map((option, index) => ({
+            text: option,
+            originalIndex: index
+        }));
+        shuffledOptionsMap[question.id] = [...optionsWithIndices].sort(() => Math.random() - 0.5);
+    });
     
     switchScreen('quizScreen');
     displayQuestion();
@@ -74,18 +85,12 @@ function displayQuestion() {
     const progress = (questionNumber / totalQuestions) * 100;
     document.getElementById('progressFill').style.width = progress + '%';
     
-    // Display options (randomized order during quiz)
+    // Display options (thứ tự đã xáo trộn từ lúc bắt đầu quiz)
     const optionsContainer = document.getElementById('optionsContainer');
     optionsContainer.innerHTML = '';
     
-    // Create array of options with their indices
-    const optionsWithIndices = question.options.map((option, index) => ({
-        text: option,
-        originalIndex: index
-    }));
-    
-    // Shuffle options
-    const shuffledOptions = [...optionsWithIndices].sort(() => Math.random() - 0.5);
+    // Sử dụng thứ tự đáp án đã xáo trộn sẵn
+    const shuffledOptions = shuffledOptionsMap[question.id];
     
     shuffledOptions.forEach((optionData, displayIndex) => {
         const optionDiv = document.createElement('div');
